@@ -712,7 +712,7 @@ def page_html(meta, content, articles=()):
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<meta name="theme-color" content="#16100D">
+<meta name="theme-color" content="#2E241F">
 <script>try{{if(localStorage.getItem("tema")==="light")document.documentElement.dataset.theme="light"}}catch(e){{}}</script>
 <title>{E(title)}</title>
 <meta name="description" content="{E(desc)}">
@@ -758,7 +758,7 @@ def page_html(meta, content, articles=()):
 </footer>
 <script>(function(){{var b=document.querySelector(".theme-toggle");if(!b)return;var r=document.documentElement;
 function lbl(){{b.setAttribute("aria-label",r.dataset.theme==="light"?"Cambiar a modo oscuro":"Cambiar a modo claro")}}lbl();
-b.addEventListener("click",function(){{var l=r.dataset.theme!=="light";if(l)r.dataset.theme="light";else delete r.dataset.theme;
+b.addEventListener("click",function(){{r.classList.add("theme-anim");b.classList.add("spin");setTimeout(function(){{b.classList.remove("spin")}},180);clearTimeout(window._ta);window._ta=setTimeout(function(){{r.classList.remove("theme-anim")}},400);var l=r.dataset.theme!=="light";if(l)r.dataset.theme="light";else delete r.dataset.theme;
 try{{localStorage.setItem("tema",l?"light":"dark")}}catch(e){{}}lbl()}})}})();</script>
 </body>
 </html>"""

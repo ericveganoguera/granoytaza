@@ -3,11 +3,11 @@
 /* Modo oscuro por defecto; el claro se activa con data-theme="light" */
 :root {
   color-scheme: dark;
-  --paper: #16100D; --panel: #221813; --ink: #F3EADF; --muted: #B4A698; --line: #3A2D25;
+  --paper: #2E241F; --panel: #3A2E27; --ink: #F5EDE3; --muted: #C2B4A6; --line: #4D3F36;
   --cherry: #B3232F; --cherry-dark: #921B26; --link: #F2848B; --link-hover: #F8AEB3; --leaf: #9FB27F; --caramel: #E2B57A;
   --p-espresso: #E9C6C1; --p-superautomatica: #C9D4E3; --p-molinillo: #D5CAE4; --p-cafe: #E2CDAE;
   --p-italiana: #C9D8C2; --p-filtro: #E8DBAE; --p-accesorio: #D0D6DA;
-  --band: #2C201A; --band-ink: #F3EADF; --band-muted: #C9BCAF;
+  --band: #45372F; --band-ink: #F5EDE3; --band-muted: #C9BCAF;
   --r1: #E2B57A; --r2: #C99A5B; --r4: #F3EADF;
   --measure: 68ch; --radius: 22px;
   --serif: "Young Serif", Georgia, serif; --sans: "Public Sans", system-ui, sans-serif;
@@ -250,3 +250,14 @@ h1, h2, h3 { text-wrap: balance; }
 .theme-toggle .sun { display: none; }
 :root[data-theme="light"] .theme-toggle .sun { display: inline; }
 :root[data-theme="light"] .theme-toggle .moon { display: none; }
+
+/* Transición rápida al cambiar de modo (solo durante el cambio) */
+html.theme-anim, html.theme-anim *, html.theme-anim *::before, html.theme-anim *::after {
+  transition: background-color .35s ease, color .35s ease, border-color .35s ease, fill .35s ease, stroke .35s ease, box-shadow .35s ease !important;
+}
+.theme-toggle svg { transition: transform .35s ease; }
+.theme-toggle.spin svg { transform: rotate(180deg) scale(.6); }
+@media (prefers-reduced-motion: reduce) {
+  html.theme-anim, html.theme-anim * { transition: none !important; }
+  .theme-toggle svg { transition: none; }
+}
