@@ -186,6 +186,69 @@ def entry_cards(pages, limit=None):
     return f'<ul class="ecards">{"".join(items)}</ul>'
 
 
+def excerpt(p, limit=620):
+    """Resumen largo en texto plano: entradilla + primeros párrafos del artículo, cortado en una frase."""
+    parts = [p.get("lede") or p.get("summary") or ""]
+    body = re.sub(r"<!--.*?-->", "", p.get("body_md", ""), flags=re.S)
+    body = re.sub(r"^:::.*?^:::", "", body, flags=re.S | re.M)
+    for block in re.split(r"\n\s*\n", body):
+        b = block.strip()
+        if not b or b[0] in "#|<-*>!" or b[:2].rstrip(".").isdigit():
+            continue
+        b = re.sub(r"\[([^\]]+)\]\([^)]*\)", r"\1", b)
+        b = re.sub(r"[*_`]", "", b).replace("\n", " ")
+        if b.endswith(":"):
+            continue
+        parts.append(b)
+        if sum(len(x) for x in parts) > limit:
+            break
+    text = " ".join(x for x in parts if x)
+    if len(text) > limit:
+        cut = text[:limit]
+        dot = cut.rfind(". ")
+        text = cut[:dot + 1] if dot > limit * .5 else cut.rsplit(" ", 1)[0] + "…"
+    return text
+
+
+def story_rows(pages, limit=None):
+    """Artículos de lectura (blog): ilustración a un lado y resumen largo al otro, alternando."""
+    rows = []
+    for i, p in enumerate(pages[:limit] if limit else pages):
+        t = tema_of(p)
+        rows.append(
+            f'<article class="story{" flip" if i % 2 else ""}">'
+            f'<a class="story-art cat-{t}" href="{link(p["slug"])}" tabindex="-1" aria-hidden="true">{icon(t)}</a>'
+            f'<div class="story-text"><p class="kind">{SECTIONS[p["section"]]["item"]} · {fecha_es(p.get("updated"))}</p>'
+            f'<h3><a href="{link(p["slug"])}">{E(p["title"])}</a></h3>'
+            f'<p class="story-sum">{E(excerpt(p))}</p>'
+            f'<p><a class="ghost" href="{link(p["slug"])}">Seguir leyendo</a></p></div></article>')
+    return f'<div class="stories">{"".join(rows)}</div>'
+
+
+def review_rows(pages, limit=None):
+    """Reseñas: filas horizontales con nota y veredicto, distintas de las tarjetas de compra."""
+    rows = []
+    for p in (pages[:limit] if limit else pages):
+        t = tema_of(p)
+        prod = BYID.get(p.get("producto")) or {}
+        nota = p.get("nota")
+        stars = ""
+        if nota:
+            n = int(float(nota))
+            stars = f'<span class="stars" aria-label="Mi nota: {nota} de 5">{"★" * n}{"☆" * (5 - n)}</span>'
+        mine = '<span class="badge-mine">La uso en casa</span>' if prod.get("propio") else '<span class="badge-an">Análisis</span>'
+        ver = p.get("veredicto") or p.get("summary", "")
+        if len(ver) > 260:
+            ver = ver[:260].rsplit(" ", 1)[0] + "…"
+        rows.append(
+            f'<li class="rrow"><a href="{link(p["slug"])}">'
+            f'<span class="rthumb cat-{t}">{icon(t)}</span>'
+            f'<span class="rbody"><span class="rmeta">{mine}{stars}</span>'
+            f'<strong>{E(p["title"])}</strong><span class="sum">{E(ver)}</span></span>'
+            f'<span class="rgo" aria-hidden="true">→</span></a></li>')
+    return f'<ul class="rrows">{"".join(rows)}</ul>'
+
+
 def price_html(p):
     d = p.get("api") or {}
     if d.get("precio_texto"):
@@ -598,12 +661,12 @@ def home_html(meta, articles):
 
 <section class="band">
   <div class="band-head"><h2>Reseñas.</h2><a class="more" href="{link('resenas')}">Ver todas las reseñas</a></div>
-  {entry_cards(resenas, 3)}
+  {review_rows(resenas, 3)}
 </section>
 
 <section class="band">
   <div class="band-head"><h2>Del blog.</h2><a class="more" href="{link('blog')}">Ver todo el blog</a></div>
-  {entry_cards(blog, 3)}
+  {story_rows(blog, 3)}
 </section>
 
 {igband}
@@ -790,7 +853,7 @@ def main():
             key = meta["section_key"]
             items = [p for p in articles if p["section"] == key]
             items = sorted(items, key=lambda p: p.get("order", 99)) if key == "guias" else by_date(items)
-            content = entry_cards(items) if items else '<p class="empty">Todavía no hay entradas en este apartado.</p>'
+            content = (story_rows(items) if key == 'blog' else review_rows(items) if key == 'resenas' else entry_cards(items)) if items else '<p class="empty">Todavía no hay entradas en este apartado.</p>'
         repl = {
             "{{CATALOGO}}": catalog_html,
             "{{DESTACADOS}}": lambda: '<ul class="pgrid featured">' + "".join(
