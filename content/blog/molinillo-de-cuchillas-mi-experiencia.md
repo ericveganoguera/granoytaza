@@ -22,10 +22,9 @@ Por eso decidí comprar un molinillo y pasarme al café en grano. El cambio se n
 
 Uso un [molinillo eléctrico de cuchillas SHARDOR](amazon-dp:B099WNLCCT). Es barato y cumple su función: moler el grano en el momento.
 
-Para ser sincero, hay que conocer sus límites. Un molinillo de cuchillas no "muele" como uno de muelas, sino que trocea el grano. Por eso las partículas salen de tamaños distintos, y con el espresso eso se nota más que con otros métodos:
+**Cómo lo uso:** siempre en la opción de molienda más fina, la de espresso, que es la que necesita mi cafetera. Probé también las moliendas más gruesas y se nota bien la diferencia de grosor entre una y otra, así que el selector hace su trabajo. Lo que no puedo decirte es qué tal quedan en una cafetera italiana, de filtro o en una prensa francesa, porque yo solo lo he usado con mi cafetera espresso.
 
-- **Para cafetera italiana, filtro o prensa francesa:** cumple bien.
-- **Para espresso:** funciona, sobre todo con cafeteras de filtro presurizado como la mía, que perdonan una molienda menos uniforme. Aun así, un molinillo de muelas da un resultado más regular.
+Para ser sincero, hay que conocer sus límites. Un molinillo de cuchillas no "muele" como uno de muelas, sino que trocea el grano, así que las partículas salen de tamaños menos uniformes. Con mi cafetera, que tiene filtro presurizado y perdona una molienda menos regular, el resultado es bueno. Aun así, si te tomas el espresso en serio, un molinillo de muelas da una molienda más uniforme.
 
 Aun con estas limitaciones, un café recién molido con un molinillo de cuchillas me sabe muchísimo mejor que el café de paquete abierto hace días.
 

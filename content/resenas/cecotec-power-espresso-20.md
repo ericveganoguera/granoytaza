@@ -33,7 +33,7 @@ Así preparo un café con leche cada mañana:
 
 1. Enciendo la cafetera para que vaya calentando.
 2. Pongo la leche en el [espumador]({{base}}/productos/?q=burnnove) y le doy al botón.
-3. Mientras, muelo el grano con mi [molinillo]({{base}}/blog/molinillo-de-cuchillas-mi-experiencia/), lo pongo en el portafiltro, lo remuevo con unas varillas finas para que no queden grumos y lo prenso con un prensador.
+3. Mientras, muelo el grano con mi [molinillo]({{base}}/blog/molinillo-de-cuchillas-mi-experiencia/) en la molienda más fina, lo pongo en el portafiltro, lo remuevo con unas varillas finas para que no queden grumos y lo prenso con un prensador.
 4. Extraigo el café y le añado la leche, que para entonces ya está lista.
 
 Todo junto lleva unos pocos minutos. Es más tiempo que con una cápsula, pero el resultado no tiene comparación.
