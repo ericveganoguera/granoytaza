@@ -14,3 +14,9 @@ contact_email: "contacto@granoytaza.es"
 url: "https://granoytaza.es"
 baseurl: ""
 lang: "es-ES"
+
+# Barra de aviso de la parte superior (déjalo vacío para ocultarla)
+aviso:
+  texto: "Black Friday, 27 de noviembre: las cafeteras y molinillos que merece la pena vigilar."
+  boton: "Ver la guía"
+  enlace: "guias/black-friday-cafeteras"
