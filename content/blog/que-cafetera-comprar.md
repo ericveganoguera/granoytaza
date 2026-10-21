@@ -5,10 +5,7 @@ description: "Italiana, de cápsulas, de goteo, de brazo o superautomática: dif
 lede: "Siete tipos de cafetera comparados por sabor, comodidad y coste por taza, para que sepas cuál encaja con cómo tomas el café."
 summary: "Italiana, cápsulas, goteo, brazo o superautomática: cuál encaja con cómo tomas el café."
 layout: article
-kind: info
-kindlabel: "Para empezar"
-section: "Guías básicas"
-order: 0
+section: blog
 updated: 2026-10-21
 ---
 
@@ -44,12 +41,12 @@ Un cono como el [Hario V60](amazon:Hario+V60+02) cuesta poco y saca un café muy
 
 Son las dos opciones para tomar espresso de verdad en casa. La de brazo da el techo de calidad más alto, pero hay que aprender a moler, dosificar y prensar. La superautomática lo hace todo sola y cada taza sale igual. Tienes ambas guías:
 
-- [Las mejores cafeteras espresso de brazo]({{base}}/mejores-cafeteras-espresso/)
-- [Las mejores cafeteras superautomáticas]({{base}}/mejores-cafeteras-superautomaticas/)
+- [Las mejores cafeteras espresso de brazo]({{base}}/guias/mejores-cafeteras-espresso/)
+- [Las mejores cafeteras superautomáticas]({{base}}/guias/mejores-cafeteras-superautomaticas/)
 
 ## Mi recomendación según tu caso
 
-- **Tomas café solo y quieres gastar lo mínimo:** italiana y un [molinillo manual]({{base}}/mejores-molinillos-de-cafe/).
+- **Tomas café solo y quieres gastar lo mínimo:** italiana y un [molinillo manual]({{base}}/guias/mejores-molinillos-de-cafe/).
 - **En casa sois varios y cada uno lo toma distinto:** superautomática con sistema de leche automático.
 - **Te apetece aprender y disfrutar del proceso:** cafetera de brazo con un buen molinillo.
 - **Solo quieres algo rápido para las mañanas:** cápsulas, asumiendo el coste por taza.

@@ -5,7 +5,7 @@ description: "Qué cafetera superautomática comprar según tu presupuesto y cu�
 lede: "Café en grano recién molido con un botón. Cinco superautomáticas que merecen la pena, y cómo elegir según cuánta leche tomas en casa."
 summary: "Café en grano con un botón: qué modelo elegir según tu presupuesto y cuánta leche tomas."
 layout: article
-section: "Cafeteras"
+section: guias
 order: 2
 updated: 2026-10-21
 ---
@@ -88,7 +88,7 @@ contras: ["Precio alto", "Consumibles de limpieza de marca", "Grupo no extraíbl
 
 ### ¿Superautomática o cafetera de brazo?
 
-La superautomática gana en comodidad y constancia: cada café sale igual sin pensar. La de brazo, con un buen molinillo, da un espresso mejor, pero exige práctica y unos minutos por taza. Lo comparo con más detalle en [qué cafetera comprar]({{base}}/que-cafetera-comprar/).
+La superautomática gana en comodidad y constancia: cada café sale igual sin pensar. La de brazo, con un buen molinillo, da un espresso mejor, pero exige práctica y unos minutos por taza. Lo comparo con más detalle en [qué cafetera comprar]({{base}}/blog/que-cafetera-comprar/).
 
 ### ¿Cada cuánto hay que limpiarla?
 
