@@ -538,6 +538,11 @@ def page_html(meta, content):
 <meta property="og:url" content="{canonical}">
 <meta property="og:site_name" content="{CFG['title']}">
 <meta property="og:locale" content="es_ES">
+<meta property="og:image" content="{CFG['url']}{CFG['baseurl'].rstrip('/')}/og.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="Grano y Taza: guías y reseñas reales para hacer buen café en casa">
+<meta name="twitter:card" content="summary_large_image">
 {'<meta name="robots" content="noindex">' if meta.get('noindex') else ''}
 <link rel="icon" href="{BASE}/favicon.svg" type="image/svg+xml">
 <link rel="preconnect" href="https://fonts.googleapis.com">
