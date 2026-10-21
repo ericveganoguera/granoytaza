@@ -1,6 +1,6 @@
 # Configuración principal de Grano y Taza
 # Cambia aquí tu ID de Afiliados de Amazon (acaba en -21). Se aplica a todos los enlaces.
-amazon_tag: "eveno29-21"
+amazon_tag: "granoytaza-21"
 amazon_domain: "www.amazon.es"
 
 title: "Grano y Taza"
