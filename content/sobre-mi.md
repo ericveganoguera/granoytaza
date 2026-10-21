@@ -10,7 +10,7 @@ Soy Eric y escribo Grano y Taza desde la provincia de Barcelona.
 
 En casa somos dos y el café con leche de la mañana es sagrado: uno al día entre semana y un par cada uno los fines de semana. Lo preparo con una cafetera de brazo, la [Cecotec Power Espresso 20]({{base}}/resenas/cecotec-power-espresso-20/), que uso desde hace un año. Antes tuve durante unos dos años una CREATE Thera Retro, hasta que se rompió; cuento las diferencias en la [comparativa entre las dos]({{base}}/guias/cecotec-power-espresso-20-vs-create-thera-retro/).
 
-Hace tiempo dejé el café molido de paquete y empecé a moler el grano en casa. Fue la mejora más grande que he hecho en mi café, y lo explico en [por qué empecé a moler el café en casa]({{base}}/blog/molinillo-de-cuchillas-mi-experiencia/). También pasé una temporada intentando hacer arte latte con el vaporizador de la cafetera, hasta que entendí sus límites y me pasé a un espumador eléctrico.
+Hace tiempo dejé el café molido de paquete y empecé a moler el grano en casa. Fue la mejora más grande que he hecho en mi café, y lo explico en [por qué empecé a moler el café en casa]({{base}}/blog/molinillo-de-cuchillas-mi-experiencia/).
 
 <!-- FOTO: tu rincón de café. -->
 

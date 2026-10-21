@@ -41,7 +41,7 @@ El único problema que he notado es que, haciendo dos cafés a la vez, una salid
 
 ## En qué se parecen
 
-Las dos son cafeteras de brazo de entrada, con un precio parecido, filtros presurizados que perdonan errores de molienda y vaporizador para la leche. Las dos admiten café molido y monodosis ESE, y con ninguna de las dos he conseguido hacer arte latte con el vaporizador; yo acabé usando un [espumador eléctrico]({{base}}/productos/?q=burnnove) con ambas.
+Las dos son cafeteras de brazo de entrada, con un precio parecido, filtros presurizados que perdonan errores de molienda y vaporizador para la leche. Las dos admiten café molido y monodosis ESE. Para la leche, con ambas acabé usando un [espumador eléctrico]({{base}}/productos/?q=burnnove), porque es más práctico: trabaja solo mientras preparo el café.
 
 ## ¿Cuál compraría hoy?
 

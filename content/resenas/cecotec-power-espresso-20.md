@@ -59,8 +59,6 @@ Todo junto lleva unos pocos minutos. Es más tiempo que con una cápsula, pero e
 
 **No caben vasos altos.** El espacio bajo el portafiltro es justo para tazas normales. Si te gustan los latte macchiato en vaso alto, tendrás que usar una taza y pasarlo después.
 
-**La espuma del vaporizador.** Durante un tiempo intenté montar la leche con el vaporizador para dibujar en la taza como un barista, y yo no lo he conseguido: la espuma sale abundante y algo gruesa, buena para un capuchino. Otros compradores están contentos con ella, así que puede ser cuestión de práctica. Al final me pasé a un espumador eléctrico, que es mucho más práctico porque trabaja solo mientras preparo el café.
-
 ## Lo que dicen otros compradores
 
 Para saber si mi experiencia es la normal, he revisado opiniones de compradores en varias tiendas. En general la nota es buena: un 4,1 de 5 en Amazon con casi 15.000 valoraciones, un 4,3 de 5 en PcComponentes con más de 600 opiniones (el 90 % la recomendaría) y un 4 de 5 en FNAC.
