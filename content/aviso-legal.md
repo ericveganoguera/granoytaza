@@ -11,7 +11,7 @@ En cumplimiento de la Ley 34/2002, de Servicios de la Sociedad de la Informació
 - **Titular:** Èric Vega Noguera
 - **NIF:** 77750642Q
 - **Domicilio:** Guifre el Pelos 5-7 3B - 08242 Manresa, Barcelona, España
-- **Email de contacto:** ericveganoguera@gmail.com
+- **Email de contacto:** contacto@granoytaza.es
 
 ## Objeto
 

@@ -6,7 +6,7 @@ noindex: true
 
 # Política de privacidad
 
-**Responsable del tratamiento:** Èric Vega Noguera, NIF 77750642Q, ericveganoguera@gmail.com.
+**Responsable del tratamiento:** Èric Vega Noguera, NIF 77750642Q, contacto@granoytaza.es.
 
 ## Qué datos se recogen
 
@@ -20,4 +20,4 @@ Esta web no tiene formularios, registro de usuarios ni herramientas de analític
 
 ## Tus derechos
 
-Puedes ejercer tus derechos de acceso, rectificación, supresión, oposición, limitación y portabilidad escribiendo a ericveganoguera@gmail.com. Si consideras que no se han atendido correctamente, puedes reclamar ante la Agencia Española de Protección de Datos (aepd.es).
+Puedes ejercer tus derechos de acceso, rectificación, supresión, oposición, limitación y portabilidad escribiendo a contacto@granoytaza.es. Si consideras que no se han atendido correctamente, puedes reclamar ante la Agencia Española de Protección de Datos (aepd.es).

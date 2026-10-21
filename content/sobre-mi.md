@@ -22,4 +22,4 @@ Mi siguiente paso será una superautomática que muela el café ella misma; en e
 
 También comparto mi café en Instagram: [@granoytaza_es](https://www.instagram.com/granoytaza_es/).
 
-Si tienes una duda concreta sobre qué comprar, escríbeme a [ericveganoguera@gmail.com](mailto:ericveganoguera@gmail.com).
+Si tienes una duda concreta sobre qué comprar, escríbeme a [contacto@granoytaza.es](mailto:contacto@granoytaza.es).
