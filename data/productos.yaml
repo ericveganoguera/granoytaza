@@ -294,6 +294,7 @@ productos:
     asin: B0763N7WMP
     propio: true
     resumen: "La cafetera de brazo más vendida de Amazon España: 20 bares, depósito de 1,5 l y vaporizador. Es la que uso a diario."
+    resena: resenas/cecotec-power-espresso-20
 
   - id: create-thera-retro
     nombre: "CREATE Thera Retro"
@@ -306,6 +307,7 @@ productos:
     asin: B0BZ8GMQPR
     propio: true
     resumen: "Cafetera de brazo de estética retro con termómetro frontal y filtro presurizado. Fue mi cafetera anterior."
+    guia: guias/cecotec-power-espresso-20-vs-create-thera-retro
 
   - id: shardor-cg845b
     nombre: "SHARDOR molinillo eléctrico de cuchillas"
@@ -318,6 +320,7 @@ productos:
     asin: B099WNLCCT
     propio: true
     resumen: "Molinillo de cuchillas muy barato. Para italiana o filtro cumple; para espresso, uno de muelas es un salto claro."
+    guia: blog/molinillo-de-cuchillas-mi-experiencia
 
   - id: burnnove-espumador
     nombre: "BURNNOVE espumador de leche"
@@ -329,4 +332,5 @@ productos:
     anadido: 2026-10-21
     asin: B0BRHVDLSX
     propio: true
-    resumen: "Espumador de leche eléctrico y económico para hacer capuchinos sin vaporizador."
+    resumen: "Espumador automático: pones la leche, pulsas y trabaja solo mientras preparas el café. El que uso cada mañana."
+    guia: resenas/cecotec-power-espresso-20
