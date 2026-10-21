@@ -4,6 +4,7 @@ description: "Reseña real de la Cecotec Power Espresso 20 después de un año u
 lede: "Es la cafetera espresso más vendida de Amazon España y la que tengo en casa desde hace un año. Lo que me ha gustado, lo que no, y el único problema que me ha dado."
 summary: "Un año de uso diario: lo bueno, lo malo y el único problema que me ha dado."
 producto: cecotec-power-espresso-20
+nota: 4
 updated: 2026-10-21
 veredicto: "Una cafetera sencilla y con una relación calidad-precio sorprendente para empezar con el espresso y experimentar. Después de un año funciona bien y no ha perdido agua. Eso sí: es ancha, y si te da pereza el ritual de preparar el café cada mañana, una de cápsulas o una superautomática te encajarán mejor."
 pros: ["Relación calidad-precio sorprendente", "Muy sencilla de usar", "Depósito grande (1,5 l) que se quita y pone con facilidad", "Un año sin fugas ni averías"]

@@ -359,6 +359,19 @@ def fecha_es(d):
     return f"{d.day} de {MESES[d.month - 1]} de {d.year}" if hasattr(d, "month") else str(d)
 
 
+def rating_html(nota):
+    """Nota visible (Google exige que la puntuación marcada también se vea en la página)."""
+    if not nota:
+        return ""
+    n = float(nota)
+    full = int(n)
+    half = n - full >= 0.5
+    stars = "★" * full + ("⯪" if half else "") + "☆" * (5 - full - (1 if half else 0))
+    txt = f"{n:g}".replace(".", ",")
+    return (f'<p class="rating"><span class="stars" aria-hidden="true">{stars}</span>'
+            f'<strong>Mi nota: {txt} de 5</strong></p>')
+
+
 def review_box(meta):
     p = BYID.get(meta.get("producto"))
     if not p:
@@ -372,6 +385,7 @@ def review_box(meta):
   <div class="vbody">
     <p class="gama"><span class="roast roast-{p['gama']}" aria-hidden="true"></span>{GAMAS[p['gama']]}{price_html(p)}</p>
     <h2>Veredicto</h2>
+    {rating_html(meta.get('nota'))}
     <p>{E(meta.get('veredicto', ''))}</p>
     <div class="procon"><div><h4>Lo mejor</h4><ul class="pros">{pros}</ul></div>
     <div><h4>A tener en cuenta</h4><ul class="cons">{cons}</ul></div></div>

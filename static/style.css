@@ -252,3 +252,5 @@ a.pimg:hover, a.vimg:hover, a.product-media:hover { filter: brightness(.97); }
 @media (max-width: 420px) { .prose .pgrid.inline { grid-template-columns: 1fr 1fr; gap: .6rem; } .prose .pcard .pname { font-size: 1.02rem; } }
 .pcard { position: relative; }
 .mine { position: absolute; top: .6rem; left: .6rem; margin: 0; background: var(--leaf); color: #fff; font-size: .78rem; font-weight: 700; padding: .2rem .55rem; border-radius: 99px; pointer-events: none; }
+.rating { display: flex; align-items: center; gap: .6rem; margin: 0 0 .75rem; }
+.stars { color: var(--r1); font-size: 1.35rem; letter-spacing: .1em; line-height: 1; }
