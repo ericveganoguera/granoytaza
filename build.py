@@ -712,6 +712,8 @@ def page_html(meta, content, articles=()):
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="theme-color" content="#16100D">
+<script>try{{if(localStorage.getItem("tema")==="light")document.documentElement.dataset.theme="light"}}catch(e){{}}</script>
 <title>{E(title)}</title>
 <meta name="description" content="{E(desc)}">
 <link rel="canonical" href="{canonical}">
@@ -739,7 +741,7 @@ def page_html(meta, content, articles=()):
 {aviso}
 <header class="site-head">
   <a class="brand" href="{link('')}"><svg viewBox="0 0 32 32" aria-hidden="true"><ellipse cx="16" cy="16" rx="10" ry="13" transform="rotate(30 16 16)"/><path d="M11 6c6 6-2 14 4 20"/></svg>{CFG['title']}</a>
-  <nav aria-label="Apartados"><ul>{nav}{ig_link}</ul></nav>
+  <nav aria-label="Apartados"><ul>{nav}{ig_link}<li><button class="theme-toggle" type="button" aria-label="Cambiar a modo claro" title="Modo claro / oscuro"><svg class="moon" viewBox="0 0 24 24" aria-hidden="true"><path d="M20 14.5A8 8 0 1 1 9.5 4a6.5 6.5 0 0 0 10.5 10.5z"/></svg><svg class="sun" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="4"/><path d="M12 2v2M12 20v2M4.9 4.9l1.4 1.4M17.7 17.7l1.4 1.4M2 12h2M20 12h2M4.9 19.1l1.4-1.4M17.7 6.3l1.4-1.4"/></svg></button></li></ul></nav>
 </header>
 <main id="contenido">{main}</main>
 <footer class="site-foot">
@@ -754,6 +756,10 @@ def page_html(meta, content, articles=()):
   </ul>
   <p>© {dt.date.today().year} {CFG['title']}</p>
 </footer>
+<script>(function(){{var b=document.querySelector(".theme-toggle");if(!b)return;var r=document.documentElement;
+function lbl(){{b.setAttribute("aria-label",r.dataset.theme==="light"?"Cambiar a modo oscuro":"Cambiar a modo claro")}}lbl();
+b.addEventListener("click",function(){{var l=r.dataset.theme!=="light";if(l)r.dataset.theme="light";else delete r.dataset.theme;
+try{{localStorage.setItem("tema",l?"light":"dark")}}catch(e){{}}lbl()}})}})();</script>
 </body>
 </html>"""
 
