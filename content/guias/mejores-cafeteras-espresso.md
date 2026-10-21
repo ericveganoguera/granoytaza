@@ -5,7 +5,7 @@ description: "Qué cafetera espresso de brazo comprar para casa según tu presup
 lede: "Seis cafeteras de brazo (portafiltro) que tienen sentido en 2026, ordenadas por presupuesto, y qué cambia de verdad al subir de precio."
 summary: "De la primera cafetera de brazo a una máquina para toda la vida, ordenadas por presupuesto."
 layout: article
-section: "Cafeteras"
+section: guias
 order: 1
 updated: 2026-10-21
 ---
@@ -27,7 +27,7 @@ updated: 2026-10-21
 
 **Cacillo presurizado o no.** Las cafeteras de entrada traen filtros presurizados: perdonan el café molido de supermercado y siempre dan algo de crema, pero el sabor tiene un techo. Las de gama media usan filtros normales: exigen café recién molido y ajustar la molienda, y a cambio el resultado mejora mucho.
 
-**Necesitarás molinillo** salvo que la cafetera lo lleve integrado. Si tu presupuesto total es ajustado, reparte: una cafetera de entrada con un buen molinillo supera a una cafetera cara con café ya molido. Lo explico en la [guía de molinillos]({{base}}/mejores-molinillos-de-cafe/).
+**Necesitarás molinillo** salvo que la cafetera lo lleve integrado. Si tu presupuesto total es ajustado, reparte: una cafetera de entrada con un buen molinillo supera a una cafetera cara con café ya molido. Lo explico en la [guía de molinillos]({{base}}/guias/mejores-molinillos-de-cafe/).
 
 ## Gama de entrada
 
@@ -97,7 +97,7 @@ contras: ["Precio alto", "Menos control manual", "Ocupa bastante"]
 
 ## ¿Y las cafeteras de cápsulas o las superautomáticas?
 
-Si lo que quieres es pulsar un botón y olvidarte, una cafetera de brazo no es para ti. Mira la [guía de superautomáticas]({{base}}/mejores-cafeteras-superautomaticas/) o la [comparativa de tipos de cafetera]({{base}}/que-cafetera-comprar/).
+Si lo que quieres es pulsar un botón y olvidarte, una cafetera de brazo no es para ti. Mira la [guía de superautomáticas]({{base}}/guias/mejores-cafeteras-superautomaticas/) o la [comparativa de tipos de cafetera]({{base}}/blog/que-cafetera-comprar/).
 
 ## Preguntas frecuentes
 

@@ -1,0 +1,281 @@
+# Catálogo de productos que alimenta la sección "Productos".
+# precio: precio de referencia aproximado en euros. NO se muestra tal cual en la web
+#         (Amazon no permite mostrar precios que no vengan de su API); solo se usa
+#         para filtrar y ordenar, y se muestra como rango ("150–300 €").
+# relevancia: tu puntuación editorial de 1 a 100 (más alto = aparece antes).
+# anadido: fecha en que lo añades al catálogo (para ordenar por "Novedades").
+# buscar: texto de búsqueda en Amazon. Si conoces el ASIN, añade  asin: B0XXXXXXXX
+# guia / resena: ruta de la guía o reseña donde aparece (opcional).
+
+categorias:
+  espresso: "Cafeteras espresso"
+  superautomatica: "Superautomáticas"
+  molinillo: "Molinillos"
+  italiana: "Cafeteras italianas"
+  filtro: "Filtro y prensa"
+  accesorio: "Accesorios"
+
+productos:
+  - id: dedica-ec685
+    nombre: "De'Longhi Dedica EC685"
+    marca: "De'Longhi"
+    categoria: espresso
+    gama: basica
+    precio: 160
+    relevancia: 95
+    anadido: 2026-10-21
+    buscar: "DeLonghi Dedica EC685"
+    resumen: "La cafetera de brazo más compacta para empezar; perdona el café molido de paquete."
+    guia: guias/mejores-cafeteras-espresso
+    resena: resenas/delonghi-dedica-ec685
+
+  - id: stilosa-ec260
+    nombre: "De'Longhi Stilosa EC260"
+    marca: "De'Longhi"
+    categoria: espresso
+    gama: basica
+    precio: 110
+    relevancia: 70
+    anadido: 2026-10-21
+    buscar: "DeLonghi Stilosa EC260"
+    resumen: "La forma más barata de probar el espresso en casa con una marca con servicio técnico."
+    guia: guias/mejores-cafeteras-espresso
+
+  - id: bambino-plus
+    nombre: "Sage Bambino Plus"
+    marca: "Sage"
+    categoria: espresso
+    gama: media
+    precio: 420
+    relevancia: 88
+    anadido: 2026-10-21
+    buscar: "Sage Bambino Plus"
+    resumen: "Monta la leche sola con temperatura y textura a elegir. Lista en segundos."
+    guia: guias/mejores-cafeteras-espresso
+
+  - id: barista-express
+    nombre: "Sage Barista Express"
+    marca: "Sage"
+    categoria: espresso
+    gama: media
+    precio: 700
+    relevancia: 85
+    anadido: 2026-10-21
+    buscar: "Sage Barista Express"
+    resumen: "Cafetera de brazo con molinillo integrado: todo en un solo aparato."
+    guia: guias/mejores-cafeteras-espresso
+
+  - id: gaggia-classic-evo-pro
+    nombre: "Gaggia Classic Evo Pro"
+    marca: "Gaggia"
+    categoria: espresso
+    gama: media
+    precio: 450
+    relevancia: 80
+    anadido: 2026-10-21
+    buscar: "Gaggia Classic Evo Pro"
+    resumen: "Clásico italiano de acero con portafiltro profesional de 58 mm. Para aprender y durar."
+    guia: guias/mejores-cafeteras-espresso
+
+  - id: barista-touch-impress
+    nombre: "Sage Barista Touch Impress"
+    marca: "Sage"
+    categoria: espresso
+    gama: alta
+    precio: 1200
+    relevancia: 75
+    anadido: 2026-10-21
+    buscar: "Sage Barista Touch Impress"
+    resumen: "Te guía en pantalla, prensa el café por ti y monta la leche en automático."
+    guia: guias/mejores-cafeteras-espresso
+
+  - id: magnifica-s
+    nombre: "De'Longhi Magnifica S"
+    marca: "De'Longhi"
+    categoria: superautomatica
+    gama: basica
+    precio: 300
+    relevancia: 92
+    anadido: 2026-10-21
+    buscar: "DeLonghi Magnifica S ECAM22.110"
+    resumen: "La superautomática de referencia por precio: grano recién molido con dos botones."
+    guia: guias/mejores-cafeteras-superautomaticas
+
+  - id: philips-2300-lattego
+    nombre: "Philips Serie 2300 LatteGo"
+    marca: "Philips"
+    categoria: superautomatica
+    gama: basica
+    precio: 400
+    relevancia: 94
+    anadido: 2026-10-21
+    buscar: "Philips 2300 LatteGo"
+    resumen: "Capuchino con un toque y un sistema de leche sin tubos que se lava en segundos."
+    guia: guias/mejores-cafeteras-superautomaticas
+    resena: resenas/philips-2300-lattego
+
+  - id: philips-3300-lattego
+    nombre: "Philips Serie 3300 LatteGo"
+    marca: "Philips"
+    categoria: superautomatica
+    gama: media
+    precio: 500
+    relevancia: 78
+    anadido: 2026-10-21
+    buscar: "Philips 3300 LatteGo"
+    resumen: "Más recetas y ajustes que la 2300 con el mismo sistema de leche fácil de limpiar."
+    guia: guias/mejores-cafeteras-superautomaticas
+
+  - id: rivelia
+    nombre: "De'Longhi Rivelia"
+    marca: "De'Longhi"
+    categoria: superautomatica
+    gama: media
+    precio: 700
+    relevancia: 76
+    anadido: 2026-10-21
+    buscar: "DeLonghi Rivelia"
+    resumen: "Tolvas de grano intercambiables para alternar café normal y descafeinado."
+    guia: guias/mejores-cafeteras-superautomaticas
+
+  - id: jura-e8
+    nombre: "Jura E8"
+    marca: "Jura"
+    categoria: superautomatica
+    gama: alta
+    precio: 1300
+    relevancia: 72
+    anadido: 2026-10-21
+    buscar: "Jura E8 cafetera"
+    resumen: "De los mejores espressos en automático, con construcción para muchos años."
+    guia: guias/mejores-cafeteras-superautomaticas
+
+  - id: timemore-c3
+    nombre: "Timemore Chestnut C3"
+    marca: "Timemore"
+    categoria: molinillo
+    gama: basica
+    precio: 70
+    relevancia: 86
+    anadido: 2026-10-21
+    buscar: "Timemore Chestnut C3"
+    resumen: "Molinillo manual de muelas de acero con molienda muy uniforme por su precio."
+    guia: guias/mejores-molinillos-de-cafe
+
+  - id: comandante-c40
+    nombre: "Comandante C40 MK4"
+    marca: "Comandante"
+    categoria: molinillo
+    gama: alta
+    precio: 300
+    relevancia: 70
+    anadido: 2026-10-21
+    buscar: "Comandante C40 MK4"
+    resumen: "Manual de referencia mundial, fabricado en Alemania. Dura toda la vida."
+    guia: guias/mejores-molinillos-de-cafe
+
+  - id: baratza-encore
+    nombre: "Baratza Encore"
+    marca: "Baratza"
+    categoria: molinillo
+    gama: basica
+    precio: 170
+    relevancia: 77
+    anadido: 2026-10-21
+    buscar: "Baratza Encore"
+    resumen: "Eléctrico fiable y reparable para filtro, goteo, prensa e italiana."
+    guia: guias/mejores-molinillos-de-cafe
+
+  - id: smart-grinder-pro
+    nombre: "Sage Smart Grinder Pro"
+    marca: "Sage"
+    categoria: molinillo
+    gama: media
+    precio: 200
+    relevancia: 84
+    anadido: 2026-10-21
+    buscar: "Sage Smart Grinder Pro"
+    resumen: "60 ajustes y dosificación por tiempo: vale para espresso y para filtro."
+    guia: guias/mejores-molinillos-de-cafe
+
+  - id: eureka-mignon-specialita
+    nombre: "Eureka Mignon Specialità"
+    marca: "Eureka"
+    categoria: molinillo
+    gama: alta
+    precio: 500
+    relevancia: 74
+    anadido: 2026-10-21
+    buscar: "Eureka Mignon Specialita"
+    resumen: "Muelas planas de 55 mm, ajuste continuo y muy silencioso. Pensado para espresso."
+    guia: guias/mejores-molinillos-de-cafe
+
+  - id: bialetti-moka-express
+    nombre: "Bialetti Moka Express"
+    marca: "Bialetti"
+    categoria: italiana
+    gama: basica
+    precio: 30
+    relevancia: 90
+    anadido: 2026-10-21
+    buscar: "Bialetti Moka Express"
+    resumen: "La cafetera italiana original. Café intenso por muy poco dinero."
+    guia: blog/que-cafetera-comprar
+
+  - id: bialetti-venus
+    nombre: "Bialetti Venus"
+    marca: "Bialetti"
+    categoria: italiana
+    gama: basica
+    precio: 40
+    relevancia: 73
+    anadido: 2026-10-21
+    buscar: "Bialetti Venus induccion"
+    resumen: "Italiana de acero inoxidable compatible con placas de inducción."
+    guia: blog/que-cafetera-comprar
+
+  - id: hario-v60
+    nombre: "Hario V60 02"
+    marca: "Hario"
+    categoria: filtro
+    gama: basica
+    precio: 15
+    relevancia: 82
+    anadido: 2026-10-21
+    buscar: "Hario V60 02"
+    resumen: "Cono de filtro manual para un café limpio y aromático. Barato y muy versátil."
+    guia: blog/que-cafetera-comprar
+
+  - id: bodum-chambord
+    nombre: "Bodum Chambord"
+    marca: "Bodum"
+    categoria: filtro
+    gama: basica
+    precio: 35
+    relevancia: 71
+    anadido: 2026-10-21
+    buscar: "Bodum Chambord"
+    resumen: "Prensa francesa clásica: café con mucho cuerpo y casi indestructible."
+    guia: blog/que-cafetera-comprar
+
+  - id: timemore-black-mirror
+    nombre: "Timemore Black Mirror Basic"
+    marca: "Timemore"
+    categoria: accesorio
+    gama: basica
+    precio: 45
+    relevancia: 68
+    anadido: 2026-10-21
+    buscar: "Timemore Black Mirror Basic bascula cafe"
+    resumen: "Báscula con temporizador para pesar café y agua. La forma más fácil de repetir un buen café."
+
+  - id: fellow-stagg-ekg
+    nombre: "Fellow Stagg EKG"
+    marca: "Fellow"
+    categoria: accesorio
+    gama: alta
+    precio: 180
+    relevancia: 66
+    anadido: 2026-10-21
+    buscar: "Fellow Stagg EKG hervidor"
+    resumen: "Hervidor de cuello de cisne con control de temperatura, ideal para V60 y Chemex."

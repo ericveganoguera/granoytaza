@@ -5,7 +5,7 @@ description: "Qué molinillo de café comprar para espresso, cafetera italiana o
 lede: "El molinillo es la compra que más mejora tu café. Cinco modelos, manuales y eléctricos, separados según cómo preparas el café."
 summary: "La compra que más mejora tu café: manuales y eléctricos para espresso, italiana o filtro."
 layout: article
-section: "Molinillos"
+section: guias
 order: 3
 updated: 2026-10-21
 ---
