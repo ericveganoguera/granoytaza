@@ -301,3 +301,26 @@ html.theme-anim, html.theme-anim *, html.theme-anim *::before, html.theme-anim *
   .rrow a { grid-template-columns: 5rem minmax(0, 1fr); gap: 1rem; }
   .rgo { display: none; }
 }
+
+/* Guías: destacada + lista numerada */
+.guides { display: grid; grid-template-columns: minmax(0, 1.25fr) minmax(0, 1fr); gap: 2rem clamp(1.5rem, 4vw, 3.5rem); align-items: start; }
+.gfeat { position: relative; display: grid; grid-template-rows: auto 1fr; min-height: 34rem; border-radius: 32px; padding: clamp(1.5rem, 3vw, 2.5rem); color: #241813; text-decoration: none; overflow: hidden; transition: transform .25s ease; }
+.gfeat:hover { transform: translateY(-4px); color: #241813; }
+.gfeat-text { display: grid; gap: .7rem; max-width: 30rem; position: relative; z-index: 1; }
+.gfeat .kind { font-size: .85rem; font-weight: 700; color: #A8202C; }
+.gfeat strong { font: 400 clamp(1.8rem, 3.2vw, 2.6rem)/1.1 var(--serif); letter-spacing: -.01em; }
+.gfeat .sum { font-size: 1.05rem; line-height: 1.55; color: #3d2c24; }
+.gbtn { justify-self: start; margin-top: .4rem; background: #241813; color: #FBF7F1; font-weight: 700; padding: .75rem 1.3rem; border-radius: 999px; }
+.gfeat-art { align-self: end; justify-self: end; width: min(70%, 22rem); margin: 1rem -1rem -1.5rem 0; }
+.gfeat-art svg { width: 100%; height: auto; display: block; }
+.glist { list-style: none; margin: 0; padding: 0; border-top: 1px solid var(--line); }
+.glist a { display: grid; grid-template-columns: 3.2rem minmax(0, 1fr); gap: 1rem; padding: 1.15rem 0; border-bottom: 1px solid var(--line); color: var(--ink); text-decoration: none; }
+.gnum { font: 400 1.6rem/1 var(--serif); color: var(--link); padding-top: .15rem; }
+.gbody { display: grid; gap: .3rem; }
+.gbody strong { font: 400 1.25rem/1.25 var(--serif); }
+.gbody .sum { color: var(--muted); font-size: .95rem; line-height: 1.5; }
+.glist a:hover strong { text-decoration: underline; text-decoration-thickness: 1px; }
+@media (max-width: 900px) {
+  .guides { grid-template-columns: 1fr; }
+  .gfeat { min-height: 26rem; }
+}

@@ -225,6 +225,25 @@ def story_rows(pages, limit=None):
     return f'<div class="stories">{"".join(rows)}</div>'
 
 
+def guide_feature(pages, limit=None):
+    """Guías: una destacada grande con el texto sobre color y el resto en lista numerada."""
+    pages = pages[:limit] if limit else pages
+    if not pages:
+        return ""
+    lead, rest = pages[0], pages[1:]
+    t = tema_of(lead)
+    big = (f'<a class="gfeat cat-{t}" href="{link(lead["slug"])}">'
+           f'<span class="gfeat-text"><span class="kind">Guía destacada</span>'
+           f'<strong>{E(lead["title"])}</strong><span class="sum">{E(lead.get("summary", ""))}</span>'
+           f'<span class="gbtn">Leer la guía</span></span>'
+           f'<span class="gfeat-art">{icon(t)}</span></a>')
+    items = "".join(
+        f'<li><a href="{link(p["slug"])}"><span class="gnum">{i:02d}</span>'
+        f'<span class="gbody"><strong>{E(p["title"])}</strong><span class="sum">{E(p.get("summary", ""))}</span></span></a></li>'
+        for i, p in enumerate(rest, 1))
+    return f'<div class="guides">{big}<ol class="glist">{items}</ol></div>'
+
+
 def review_rows(pages, limit=None):
     """Reseñas: filas horizontales con nota y veredicto, distintas de las tarjetas de compra."""
     rows = []
@@ -637,7 +656,7 @@ def home_html(meta, articles):
 
 <section class="band">
   <div class="band-head"><h2>Guías de compra.</h2><a class="more" href="{link('guias')}">Ver todas las guías</a></div>
-  {entry_cards(guias, 6)}
+  {guide_feature(guias, 6)}
 </section>
 
 <section class="trust">
@@ -853,7 +872,7 @@ def main():
             key = meta["section_key"]
             items = [p for p in articles if p["section"] == key]
             items = sorted(items, key=lambda p: p.get("order", 99)) if key == "guias" else by_date(items)
-            content = (story_rows(items) if key == 'blog' else review_rows(items) if key == 'resenas' else entry_cards(items)) if items else '<p class="empty">Todavía no hay entradas en este apartado.</p>'
+            content = (story_rows(items) if key == 'blog' else review_rows(items) if key == 'resenas' else guide_feature(items)) if items else '<p class="empty">Todavía no hay entradas en este apartado.</p>'
         repl = {
             "{{CATALOGO}}": catalog_html,
             "{{DESTACADOS}}": lambda: '<ul class="pgrid featured">' + "".join(
