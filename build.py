@@ -470,7 +470,7 @@ def page_html(meta, content):
                 "headline": meta["title"], "description": desc,
                 "author": {"@type": "Person", "name": CFG["author"]},
                 "dateModified": str(meta.get("updated", dt.date.today())),
-                "publisher": {"@type": "Organization", "name": CFG["title"]},
+                "publisher": {"@type": "Organization", "name": CFG["title"], "url": CFG["url"], "sameAs": [CFG["instagram"]] if CFG.get("instagram") else []},
                 "mainEntityOfPage": canonical, "inLanguage": CFG["lang"]}
         prod = BYID.get(meta.get("producto"))
         if meta["section"] == "resenas" and prod and prod.get("propio"):
@@ -567,6 +567,7 @@ def page_html(meta, content):
     <li><a href="{link('aviso-legal')}">Aviso legal</a></li>
     <li><a href="{link('privacidad')}">Privacidad</a></li>
     <li><a href="{link('cookies')}">Cookies</a></li>
+    {f'<li><a href="{CFG["instagram"]}" rel="me noopener" target="_blank">Instagram</a></li>' if CFG.get("instagram") else ''}
   </ul>
   <p>© {dt.date.today().year} {CFG['title']}</p>
 </footer>

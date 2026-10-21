@@ -20,4 +20,6 @@ Cuando quise mejorar el café de casa, me encontré con comparativas que recomen
 
 Mi siguiente paso será una superautomática que muela el café ella misma; en el trabajo usamos una Krups y me encanta. Cuando la tenga, también lo contaré aquí.
 
+También comparto mi café en Instagram: [@granoytaza_es](https://www.instagram.com/granoytaza_es/).
+
 Si tienes una duda concreta sobre qué comprar, escríbeme a [ericveganoguera@gmail.com](mailto:ericveganoguera@gmail.com).
