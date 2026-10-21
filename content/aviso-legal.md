@@ -8,10 +8,10 @@ noindex: true
 
 En cumplimiento de la Ley 34/2002, de Servicios de la Sociedad de la Información y de Comercio Electrónico (LSSI-CE), se informa de los datos del titular de este sitio web:
 
-- **Titular:** [NOMBRE Y APELLIDOS]
-- **NIF:** [NIF]
-- **Domicilio:** [DIRECCIÓN, a efectos de notificaciones]
-- **Email de contacto:** contacto@granoytaza.es
+- **Titular:** Èric Vega Noguera
+- **NIF:** 77750642Q
+- **Domicilio:** Guifre el Pelos 5-7 3B - 08242 Manresa, Barcelona, España
+- **Email de contacto:** ericveganoguera@gmail.com
 
 ## Objeto
 
