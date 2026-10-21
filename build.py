@@ -76,7 +76,7 @@ SECTIONS = {
 NAV = [("guias", "Guías"), ("resenas", "Reseñas"), ("productos", "Productos"), ("blog", "Blog")]
 AMAZON_QUERY = {
     "espresso": "cafetera espresso", "superautomatica": "cafetera superautomatica",
-    "molinillo": "molinillo cafe", "italiana": "cafetera italiana",
+    "molinillo": "molinillo cafe", "italiana": "cafetera italiana", "cafe": "cafe en grano",
     "filtro": "cafetera filtro manual", "accesorio": "accesorios cafe barista",
 }
 RANGOS = [(0, 50, "Menos de 50 €"), (50, 150, "50–150 €"), (150, 300, "150–300 €"),
@@ -88,6 +88,7 @@ ICONS = {  # ilustraciones de línea por categoría (no se usan fotos de Amazon 
     "molinillo": '<path d="M44 10h32l-6 20H50z"/><rect x="40" y="30" width="40" height="36" rx="4"/><circle cx="60" cy="48" r="7"/><path d="M48 66h24v10H48z"/><path d="M34 80h52"/>',
     "italiana": '<path d="M42 12h34l-6 26H48z"/><path d="M46 38h26"/><path d="M48 38l-6 34h34l-6-34"/><path d="M76 18c10 2 10 18 0 22"/><path d="M58 8v4"/><path d="M34 76h52"/>',
     "filtro": '<path d="M36 18h48L68 46H52z"/><path d="M44 46h32"/><path d="M42 50h36l-4 24H46z"/><path d="M60 10v4m-8-2v4m16-4v4"/><path d="M34 78h52"/>',
+    "cafe": '<path d="M38 18h44l6 10v50a4 4 0 0 1-4 4H36a4 4 0 0 1-4-4V28z"/><path d="M32 28h56"/><path d="M44 18v10m8-10v10m8-10v10m8-10v10m8-10v10"/><ellipse cx="60" cy="56" rx="9" ry="12" transform="rotate(25 60 56)"/><path d="M56 46c5 5-2 12 3 18"/><path d="M24 86h72"/>',
     "accesorio": '<rect x="26" y="50" width="68" height="20" rx="4"/><rect x="48" y="56" width="24" height="8" rx="2"/><path d="M44 50c0-14 32-14 32 0"/><path d="M60 20c-6 6 6 10 0 16"/><path d="M22 76h76"/>',
 }
 
@@ -199,7 +200,7 @@ def card(p, heading="h3", nota=None):
  data-rel="{p.get('relevancia', 50)}" data-fecha="{p.get('anadido', '')}" data-marca="{E(p.get('marca', ''))}"
  data-texto="{E((p['nombre'] + ' ' + p.get('marca', '') + ' ' + p.get('resumen', '')).lower())}">
   {media_html(p, "pimg")}
-  {'<p class="mine">Lo uso en casa</p>' if p.get("propio") else ''}
+  {f'<p class="mine">{E(p.get("etiqueta", "Lo uso en casa"))}</p>' if p.get("propio") else ''}
   <p class="pcat">{E(CATEGORIAS.get(p['categoria'], ''))}</p>
   <{heading} class="pname"><a href="{E(prod_url(p))}" {SPONSORED}>{E(p['nombre'])}</a></{heading}>
   <p class="psum">{E(nota or p.get('resumen', ''))}</p>

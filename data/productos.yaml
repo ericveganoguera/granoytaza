@@ -16,6 +16,7 @@ categorias:
   italiana: "Cafeteras italianas"
   filtro: "Filtro y prensa"
   accesorio: "Accesorios"
+  cafe: "Café en grano"
 
 productos:
   - id: dedica-ec685
@@ -282,7 +283,7 @@ productos:
     buscar: "Fellow Stagg EKG hervidor"
     resumen: "Hervidor de cuello de cisne con control de temperatura, ideal para V60 y Chemex."
 
-  # --- Productos que uso en casa (propio: true muestra la etiqueta "Lo uso en casa") ---
+  # --- Productos propios (propio: true muestra una etiqueta; por defecto "Lo uso en casa", o el texto de "etiqueta") ---
   - id: cecotec-power-espresso-20
     nombre: "Cecotec Power Espresso 20"
     marca: "Cecotec"
@@ -306,6 +307,7 @@ productos:
     anadido: 2026-10-21
     asin: B0BZ8GMQPR
     propio: true
+    etiqueta: "La tuve en casa"
     resumen: "Cafetera de brazo de estética retro con termómetro frontal y filtro presurizado. Fue mi cafetera anterior."
     guia: guias/cecotec-power-espresso-20-vs-create-thera-retro
 
@@ -345,4 +347,75 @@ productos:
     anadido: 2026-10-21
     asin: B07B3RPKD7
     propio: true
+    etiqueta: "La tuve en casa"
     resumen: "Mi primera cafetera de brazo. Con el tiempo empezó a perder agua por debajo y acabé cambiándola."
+
+  # --- Café en grano ---
+  - id: novell-natural-arabica
+    nombre: "Novell 100% arábica natural en grano"
+    marca: "Novell"
+    categoria: cafe
+    gama: basica
+    precio: 5
+    relevancia: 91
+    anadido: 2026-10-21
+    asin: B01L0BDMJS
+    propio: true
+    resumen: "El café que tomo cada día: aroma y sabor intensos sin pasarse, y de los más económicos en grano."
+    guia: guias/cafes-en-grano-que-he-probado
+
+  - id: lavazza-qualita-oro-grano
+    nombre: "Lavazza Qualità Oro en grano 1 kg"
+    marca: "Lavazza"
+    categoria: cafe
+    gama: basica
+    precio: 20
+    relevancia: 84
+    anadido: 2026-10-21
+    asin: B0049U0DMC
+    propio: true
+    etiqueta: "Lo he probado"
+    resumen: "100% arábica de tueste medio. Mi segundo favorito de los que he probado."
+    guia: guias/cafes-en-grano-que-he-probado
+
+  - id: marcilla-gran-aroma-grano
+    nombre: "Marcilla Gran Aroma Natural en grano 1 kg"
+    marca: "Marcilla"
+    categoria: cafe
+    gama: basica
+    precio: 17
+    relevancia: 76
+    anadido: 2026-10-21
+    asin: B00708ZNK2
+    propio: true
+    etiqueta: "Lo he probado"
+    resumen: "Tueste oscuro e intenso, de los más vendidos en Amazon. En mi ranking, tercero."
+    guia: guias/cafes-en-grano-que-he-probado
+
+  - id: bonka-grano
+    nombre: "Bonka natural en grano 1 kg"
+    marca: "Bonka"
+    categoria: cafe
+    gama: basica
+    precio: 16
+    relevancia: 66
+    anadido: 2026-10-21
+    asin: B00XA1QNAM
+    propio: true
+    etiqueta: "Lo he probado"
+    resumen: "Un clásico de supermercado. De los que he probado, el que menos me convenció."
+    guia: guias/cafes-en-grano-que-he-probado
+
+  - id: incapto-pack-degustacion
+    nombre: "Incapto pack degustación de 10 cafés en grano"
+    marca: "Incapto"
+    categoria: cafe
+    gama: media
+    precio: 35
+    relevancia: 80
+    anadido: 2026-10-21
+    asin: B08QZFH4VF
+    propio: true
+    etiqueta: "Lo he probado"
+    resumen: "Nueve cafés de distintos países y un descafeinado para catar. Con él empecé a descubrir el café de verdad."
+    guia: guias/cafes-en-grano-que-he-probado
