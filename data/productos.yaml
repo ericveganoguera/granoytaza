@@ -6,6 +6,8 @@
 # anadido: fecha en que lo añades al catálogo (para ordenar por "Novedades").
 # buscar: texto de búsqueda en Amazon. Si conoces el ASIN, añade  asin: B0XXXXXXXX
 # guia / resena: ruta de la guía o reseña donde aparece (opcional).
+# foto: foto TUYA del producto (opcional). Súbela a static/img/ y pon  foto: img/nombre.jpg
+#       Se usa en tarjetas, fichas y reseñas. Si la API de Amazon da imagen, se usa la de Amazon.
 
 categorias:
   espresso: "Cafeteras espresso"

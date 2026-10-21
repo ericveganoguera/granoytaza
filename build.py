@@ -105,12 +105,20 @@ def price_html(p):
     return f'<span class="prange">{rango(p["precio"])}</span>'
 
 
-def media_html(p, cls):
+def media_html(p, cls, linked=True):
+    """Imagen del producto: foto de la API de Amazon > foto propia (campo foto) > ilustración.
+    Con linked=True la imagen entera lleva a Amazon con el ID de afiliado."""
     d = p.get("api") or {}
-    if d.get("imagen"):
-        return (f'<div class="{cls} photo"><img src="{E(d["imagen"])}" alt="{E(p["nombre"])}" '
-                f'loading="lazy" referrerpolicy="no-referrer"></div>')
-    return f'<div class="{cls} cat-{p["categoria"]}">{icon(p["categoria"])}</div>'
+    src = d.get("imagen") or (f'{BASE}/{p["foto"].lstrip("/")}' if p.get("foto") else None)
+    if src:
+        inner = (f'<img src="{E(src)}" alt="{E(p["nombre"])}" loading="lazy" referrerpolicy="no-referrer">')
+        klass = f"{cls} photo"
+    else:
+        inner, klass = icon(p["categoria"]), f'{cls} cat-{p["categoria"]}'
+    if linked:
+        return (f'<a class="{klass}" href="{E(prod_url(p))}" {SPONSORED} '
+                f'aria-label="Ver {E(p["nombre"])} en Amazon">{inner}</a>')
+    return f'<div class="{klass}">{inner}</div>'
 
 
 def rango(precio):
@@ -161,10 +169,12 @@ def render_product(block):
     review = (f' <a class="more" href="{link(p["resena"])}">Leer la reseña completa</a>'
               if p.get("resena") else "")
     return f"""
-<section class="product" data-gama="{gama}">
+<section class="product{' has-media' if p.get('categoria') else ''}" data-gama="{gama}">
+  {media_html(p, "product-media") if p.get("categoria") else ""}
+  <div class="product-main">
   <header class="product-head">
     <p class="gama"><span class="roast roast-{gama}" aria-hidden="true"></span>{GAMAS.get(gama, gama)}</p>
-    <h3>{E(p['nombre'])}</h3>
+    <h3><a href="{E(prod_url(p))}" {SPONSORED}>{E(p['nombre'])}</a></h3>
     <p class="ideal">Ideal para: {E(p.get('ideal', ''))}</p>
   </header>
   <div class="product-body">{md(p.get('texto', ''))}</div>
@@ -173,11 +183,12 @@ def render_product(block):
     <div><h4>A tener en cuenta</h4><ul class="cons">{cons}</ul></div>
   </div>
   <p class="actions">{price_html(p) if p.get("api") else ""}<a class="buy" href="{E(prod_url(p))}" {SPONSORED}>Ver precio en Amazon</a>{review}</p>
+  </div>
 </section>
 """
 
 
-def card(p, heading="h3"):
+def card(p, heading="h3", nota=None):
     extra = ""
     if p.get("resena"):
         extra = f'<a class="more" href="{link(p["resena"])}">Leer reseña</a>'
@@ -189,8 +200,8 @@ def card(p, heading="h3"):
  data-texto="{E((p['nombre'] + ' ' + p.get('marca', '') + ' ' + p.get('resumen', '')).lower())}">
   {media_html(p, "pimg")}
   <p class="pcat">{E(CATEGORIAS.get(p['categoria'], ''))}</p>
-  <{heading} class="pname">{E(p['nombre'])}</{heading}>
-  <p class="psum">{E(p.get('resumen', ''))}</p>
+  <{heading} class="pname"><a href="{E(prod_url(p))}" {SPONSORED}>{E(p['nombre'])}</a></{heading}>
+  <p class="psum">{E(nota or p.get('resumen', ''))}</p>
   <p class="pmeta"><span class="roast roast-{gama}" aria-hidden="true"></span><span>{GAMAS[gama]}</span>{price_html(p)}</p>
   <p class="pactions"><a class="buy small" href="{E(prod_url(p))}" {SPONSORED}>Ver en Amazon</a>{extra}</p>
 </li>"""
@@ -371,12 +382,26 @@ def review_box(meta):
 
 # ---------- render ----------
 
+def render_grid(block):
+    """::: productos -> rejilla de tarjetas. Cada línea: un id del catálogo, o {id, nota}."""
+    items = yaml.safe_load(block) or []
+    cards = []
+    for it in items:
+        it = {"id": it} if isinstance(it, str) else it
+        p = BYID.get(it["id"])
+        if p:
+            cards.append(card(p, nota=it.get("nota")))
+        else:
+            print(f"AVISO: producto '{it['id']}' no está en data/productos.yaml")
+    return f'<ul class="pgrid inline">{"".join(cards)}</ul>'
+
+
 def render_body(text):
     text = text.replace("{{base}}", BASE)
     parts, last = [], 0
-    for m in re.finditer(r"^::: producto\n(.*?)\n:::\s*$", text, flags=re.S | re.M):
+    for m in re.finditer(r"^::: (productos|producto)\n(.*?)\n:::\s*$", text, flags=re.S | re.M):
         parts.append(md(text[last:m.start()]))
-        parts.append(render_product(m.group(1)))
+        parts.append(render_grid(m.group(2)) if m.group(1) == "productos" else render_product(m.group(2)))
         last = m.end()
     parts.append(md(text[last:]))
     out = "".join(parts)
@@ -387,7 +412,10 @@ def render_body(text):
             return f'<a href="{link("productos")}?cat={E(val)}"'
         url = amazon_url(asin=val) if kind == "amazon-dp" else amazon_url(val)
         return f'<a href="{E(url)}" {SPONSORED}'
-    return re.sub(r'<a href="(amazon|amazon-dp|catalogo):([^"]+)"', fix, out)
+    out = re.sub(r'<a href="(amazon|amazon-dp|catalogo):([^"]+)"', fix, out)
+    # cualquier enlace "Ver en Amazon" escrito en el texto se muestra como botón
+    return re.sub(r'(<a href="[^"]+" rel="sponsored[^"]*" target="_blank")>(Ver en Amazon|Ver precio en Amazon)</a>',
+                  r'\1 class="buy small">\2</a>', out)
 
 
 def load_pages():

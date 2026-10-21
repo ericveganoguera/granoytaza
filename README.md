@@ -25,6 +25,25 @@ Añade un bloque en `data/productos.yaml` (mira los existentes). Campos clave:
 `categoria`, `gama` (basica/media/alta), `precio` (aproximado, solo para filtrar y ordenar),
 `relevancia` (1-100), `anadido` (fecha, para "Novedades"), `buscar` o `asin`, y opcionalmente `resena` o `guia`.
 
+## Fotos de producto
+
+Por contrato, las fotos de Amazon solo pueden mostrarse si vienen de su API (se activan solas
+cuando la cuenta tenga acceso). Mientras tanto se muestra una ilustración por categoría.
+Para usar una foto tuya: súbela a `static/img/` y añade `foto: img/archivo.jpg` al producto
+en `data/productos.yaml`. La imagen, el nombre y el botón llevan siempre a Amazon con tu ID.
+
+## Rejilla de productos dentro de un artículo
+
+```
+::: productos
+- id: dedica-ec685
+  nota: "Texto corto de por qué lo recomiendas (opcional)"
+- magnifica-s
+:::
+```
+
+Cualquier enlace con el texto `Ver en Amazon` se muestra como botón.
+
 ## Escribir una reseña
 
 Crea `content/resenas/nombre.md` con esta cabecera:
