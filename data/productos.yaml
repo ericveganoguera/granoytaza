@@ -281,3 +281,52 @@ productos:
     anadido: 2026-10-21
     buscar: "Fellow Stagg EKG hervidor"
     resumen: "Hervidor de cuello de cisne con control de temperatura, ideal para V60 y Chemex."
+
+  # --- Productos que uso en casa (propio: true muestra la etiqueta "Lo uso en casa") ---
+  - id: cecotec-power-espresso-20
+    nombre: "Cecotec Power Espresso 20"
+    marca: "Cecotec"
+    categoria: espresso
+    gama: basica
+    precio: 110
+    relevancia: 93
+    anadido: 2026-10-21
+    asin: B0763N7WMP
+    propio: true
+    resumen: "La cafetera de brazo más vendida de Amazon España: 20 bares, depósito de 1,5 l y vaporizador. Es la que uso a diario."
+
+  - id: create-thera-retro
+    nombre: "CREATE Thera Retro"
+    marca: "CREATE"
+    categoria: espresso
+    gama: basica
+    precio: 100
+    relevancia: 74
+    anadido: 2026-10-21
+    asin: B0BZ8GMQPR
+    propio: true
+    resumen: "Cafetera de brazo de estética retro con termómetro frontal y filtro presurizado. Fue mi cafetera anterior."
+
+  - id: shardor-cg845b
+    nombre: "SHARDOR molinillo eléctrico de cuchillas"
+    marca: "SHARDOR"
+    categoria: molinillo
+    gama: basica
+    precio: 25
+    relevancia: 60
+    anadido: 2026-10-21
+    asin: B099WNLCCT
+    propio: true
+    resumen: "Molinillo de cuchillas muy barato. Para italiana o filtro cumple; para espresso, uno de muelas es un salto claro."
+
+  - id: burnnove-espumador
+    nombre: "BURNNOVE espumador de leche"
+    marca: "BURNNOVE"
+    categoria: accesorio
+    gama: basica
+    precio: 15
+    relevancia: 65
+    anadido: 2026-10-21
+    asin: B0BRHVDLSX
+    propio: true
+    resumen: "Espumador de leche eléctrico y económico para hacer capuchinos sin vaporizador."

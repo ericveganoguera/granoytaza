@@ -199,6 +199,7 @@ def card(p, heading="h3", nota=None):
  data-rel="{p.get('relevancia', 50)}" data-fecha="{p.get('anadido', '')}" data-marca="{E(p.get('marca', ''))}"
  data-texto="{E((p['nombre'] + ' ' + p.get('marca', '') + ' ' + p.get('resumen', '')).lower())}">
   {media_html(p, "pimg")}
+  {'<p class="mine">Lo uso en casa</p>' if p.get("propio") else ''}
   <p class="pcat">{E(CATEGORIAS.get(p['categoria'], ''))}</p>
   <{heading} class="pname"><a href="{E(prod_url(p))}" {SPONSORED}>{E(p['nombre'])}</a></{heading}>
   <p class="psum">{E(nota or p.get('resumen', ''))}</p>
