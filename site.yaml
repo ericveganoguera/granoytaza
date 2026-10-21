@@ -9,8 +9,7 @@ description: "Guías de compra y trucos para elegir cafetera, molinillo y café 
 author: "Eric"
 contact_email: "ericveganoguera@gmail.com"
 
-# URL pública. Con GitHub Pages gratuito queda así.
-# Si algún día compras dominio: url: "https://www.tudominio.es" y baseurl: ""
-url: "https://ericveganoguera.github.io"
-baseurl: "/granoytaza"
+# URL pública (dominio propio servido por GitHub Pages)
+url: "https://granoytaza.es"
+baseurl: ""
 lang: "es-ES"

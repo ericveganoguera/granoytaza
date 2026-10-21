@@ -14,4 +14,4 @@ Soy Eric y escribo Grano y Taza desde Barcelona.
 
 Empecé esta web porque, cuando quise mejorar el café que tomaba en casa, me encontré con comparativas que recomendaban todo a la vez y no explicaban qué cambiaba realmente entre un modelo y otro. Aquí intento lo contrario: pocas recomendaciones, bien razonadas y separadas por presupuesto.
 
-Si tienes una duda concreta sobre qué comprar, escríbeme a [contacto@granoytaza.es](mailto:contacto@granoytaza.es).
+Si tienes una duda concreta sobre qué comprar, escríbeme a [ericveganoguera@gmail.com](mailto:ericveganoguera@gmail.com).
