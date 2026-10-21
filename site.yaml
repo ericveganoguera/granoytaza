@@ -1,0 +1,16 @@
+# Configuración principal de Grano y Taza
+# Cambia aquí tu ID de Afiliados de Amazon (acaba en -21). Se aplica a todos los enlaces.
+amazon_tag: "eveno29-21"
+amazon_domain: "www.amazon.es"
+
+title: "Grano y Taza"
+tagline: "Guías honestas para hacer buen café en casa"
+description: "Guías de compra y trucos para elegir cafetera, molinillo y café para casa, explicados sin jerga y pensando en tu presupuesto."
+author: "Eric"
+contact_email: "contacto@granoytaza.es"   # pon aquí un email real de contacto
+
+# URL pública. Con GitHub Pages gratuito queda así.
+# Si algún día compras dominio: url: "https://www.tudominio.es" y baseurl: ""
+url: "https://ericveganoguera.github.io"
+baseurl: "/granoytaza"
+lang: "es-ES"
