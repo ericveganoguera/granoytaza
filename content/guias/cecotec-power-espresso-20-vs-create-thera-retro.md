@@ -18,7 +18,7 @@ updated: 2026-10-21
 | **Filtro** | Para una y dos tazas, admite monodosis ESE | Presurizado, admite monodosis ESE |
 | **Extras** | Calientatazas | Termómetro frontal, calientatazas |
 | **Estética** | Sobria, acero | Retro, varios colores |
-| **Lo peor** | Es ancha | Acabó perdiendo agua por debajo |
+| **Lo peor** | Es ancha, ruidosa y gotea tras usarla | Acabó perdiendo agua por debajo |
 | **Comprar** | [Ver en Amazon](amazon-dp:B0763N7WMP) | [Ver en Amazon](amazon-dp:B0BZ8GMQPR) |
 
 ## Las dos en una frase
@@ -35,13 +35,13 @@ Con lo que sé ahora, creo que un mantenimiento más regular (sobre todo descalc
 
 ## Mi experiencia con la Cecotec Power Espresso 20
 
-La compré para salir del paso cuando se rompió la CREATE y llevo con ella un año. Es muy simple de usar, el depósito de 1,5 litros se quita y se pone con facilidad y no ha tenido ninguna fuga. Su punto débil es el tamaño: es bastante ancha.
+La compré para salir del paso cuando se rompió la CREATE y llevo con ella un año. Es muy simple de usar, el depósito de 1,5 litros se quita y se pone con facilidad y no ha tenido ninguna fuga. Sus puntos débiles: es bastante ancha, hace ruido y vibra al sacar el café, y gotea un rato después de usarla.
 
 El único problema que he notado es que, haciendo dos cafés a la vez, una salida del portafiltro echa menos café que la otra, algo que suele resolverse con una buena limpieza. Lo cuento con detalle, junto con cómo solucionarlo, en la [reseña completa de la Cecotec]({{base}}/resenas/cecotec-power-espresso-20/).
 
 ## En qué se parecen
 
-Las dos son cafeteras de brazo de entrada, con un precio parecido, filtros presurizados que perdonan errores de molienda y vaporizador para la leche. Las dos admiten café molido y monodosis ESE, y en ninguna de las dos el vaporizador da para hacer arte latte; yo acabé usando un [espumador eléctrico]({{base}}/productos/?q=burnnove) con ambas.
+Las dos son cafeteras de brazo de entrada, con un precio parecido, filtros presurizados que perdonan errores de molienda y vaporizador para la leche. Las dos admiten café molido y monodosis ESE, y con ninguna de las dos he conseguido hacer arte latte con el vaporizador; yo acabé usando un [espumador eléctrico]({{base}}/productos/?q=burnnove) con ambas.
 
 ## ¿Cuál compraría hoy?
 

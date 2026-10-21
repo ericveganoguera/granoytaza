@@ -1,14 +1,14 @@
 ---
 title: "Cecotec Power Espresso 20: mi opinión tras un año de uso diario"
-description: "Reseña real de la Cecotec Power Espresso 20 después de un año usándola cada día: lo bueno, lo malo, el problema de las dos salidas y para quién merece la pena."
-lede: "Es la cafetera espresso más vendida de Amazon España y la que tengo en casa desde hace un año. Lo que me ha gustado, lo que no, y el único problema que me ha dado."
-summary: "Un año de uso diario: lo bueno, lo malo y el único problema que me ha dado."
+description: "Reseña real de la Cecotec Power Espresso 20 después de un año usándola cada día: lo bueno, los defectos que nadie te cuenta, lo que dicen otros compradores y para quién merece la pena."
+lede: "Es la cafetera espresso más vendida de Amazon España y la que tengo en casa desde hace un año. Lo que me ha gustado, los defectos que conviene conocer antes de comprarla y si coinciden con lo que dicen otros compradores."
+summary: "Un año de uso diario: lo bueno, los defectos reales y lo que dicen otros compradores."
 producto: cecotec-power-espresso-20
 nota: 4
 updated: 2026-10-21
-veredicto: "Una cafetera sencilla y con una relación calidad-precio sorprendente para empezar con el espresso y experimentar. Después de un año funciona bien y no ha perdido agua. Eso sí: es ancha, y si te da pereza el ritual de preparar el café cada mañana, una de cápsulas o una superautomática te encajarán mejor."
+veredicto: "Una cafetera sencilla y con una relación calidad-precio sorprendente para empezar con el espresso y experimentar. Después de un año funciona bien y no ha perdido agua. Eso sí: es ancha, hace bastante ruido, gotea un rato después de usarla, y si te da pereza el ritual de preparar el café cada mañana, una de cápsulas o una superautomática te encajarán mejor."
 pros: ["Relación calidad-precio sorprendente", "Muy sencilla de usar", "Depósito grande (1,5 l) que se quita y pone con facilidad", "Un año sin fugas ni averías"]
-contras: ["Es ancha y ocupa bastante encimera", "Con el tiempo una de las dos salidas del portafiltro echa menos café si no se limpia", "El vaporizador no da para hacer arte latte"]
+contras: ["Hace bastante ruido y vibra al sacar el café", "Gotea un rato después de usarla", "Es ancha y no caben vasos altos", "Con el tiempo una salida del portafiltro echa menos café si no se limpia"]
 ficha:
   Tipo: "Cafetera de brazo (portafiltro)"
   Presión de la bomba: "20 bares"
@@ -53,9 +53,30 @@ Todo junto lleva unos pocos minutos. Es más tiempo que con una cápsula, pero e
 
 **Es ancha.** Ocupa bastante más encimera que otras cafeteras de brazo como la [De'Longhi Dedica]({{base}}/resenas/delonghi-dedica-ec685/), que es muy estrecha. Mide unos 25 cm de ancho: mídelo antes de comprarla si tu cocina es pequeña.
 
-**El vaporizador no da para arte latte.** Durante un tiempo me empeñé en montar la leche con el vaporizador para dibujar en la taza como un barista, pero el de esta cafetera (como el de la mayoría de cafeteras domésticas de este precio) no da una microespuma tan fina. Al final me pasé a un espumador eléctrico: es mucho más práctico porque trabaja solo mientras preparo el café.
+**Hace bastante ruido y vibra.** Mientras saca el café, la bomba suena fuerte y la cafetera vibra. A mí nunca se me ha movido de su sitio, pero si madrugas antes que el resto de la casa, lo vas a notar.
 
-## El único problema: una salida echa menos café
+**Gotea después de usarla.** Al terminar, sigue cayendo agua un rato. Si quito el portafiltro enseguida, cae un hilo de café sobrante y dentro queda agua por encima del café usado. Mi solución es sencilla: esperar un poco antes de sacar el portafiltro. Es habitual en cafeteras de este precio, que no tienen la válvula que en las máquinas más caras libera la presión al terminar.
+
+**No caben vasos altos.** El espacio bajo el portafiltro es justo para tazas normales. Si te gustan los latte macchiato en vaso alto, tendrás que usar una taza y pasarlo después.
+
+**La espuma del vaporizador.** Durante un tiempo intenté montar la leche con el vaporizador para dibujar en la taza como un barista, y yo no lo he conseguido: la espuma sale abundante y algo gruesa, buena para un capuchino. Otros compradores están contentos con ella, así que puede ser cuestión de práctica. Al final me pasé a un espumador eléctrico, que es mucho más práctico porque trabaja solo mientras preparo el café.
+
+## Lo que dicen otros compradores
+
+Para saber si mi experiencia es la normal, he revisado opiniones de compradores en varias tiendas. En general la nota es buena: un 4,1 de 5 en Amazon con casi 15.000 valoraciones, un 4,3 de 5 en PcComponentes con más de 600 opiniones (el 90 % la recomendaría) y un 4 de 5 en FNAC.
+
+Lo que más se repite coincide bastante con lo que yo he vivido:
+
+- **El ruido y las vibraciones** son la queja más frecuente, con diferencia. Algunos cuentan que la bandeja vibra mucho o que la cafetera se desplaza; revisa que tenga bien puestas las patas de goma.
+- **El goteo después de usarla** y el agua que queda en el portafiltro también aparecen a menudo.
+- **El plástico:** se nota ligera y algunos esperaban más acero.
+- **El vaporizador** divide opiniones: a varios les monta bien la leche, incluso semidesnatada, y otros lo ven mejorable.
+- **No caben vasos altos**, no tiene apagado automático y hay que parar el café a mano.
+- **Hay que pillarle el truco** a la dosis y al prensado; las instrucciones se quedan cortas.
+
+Lo que más se elogia también coincide: buen café con crema, relación calidad-precio y que es fácil de usar.
+
+## El problema de las dos salidas
 
 Recientemente he notado que, al hacer dos cafés a la vez, la salida derecha del portafiltro echa menos café que la izquierda. Es un problema típico cuando se acumulan restos de café y cal en el portafiltro, así que es lo que toca revisar después de un año:
 
