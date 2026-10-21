@@ -334,3 +334,15 @@ productos:
     propio: true
     resumen: "Espumador automático: pones la leche, pulsas y trabaja solo mientras preparas el café. El que uso cada mañana."
     guia: resenas/cecotec-power-espresso-20
+
+  - id: gaggia-viva-style
+    nombre: "Gaggia Viva Style"
+    marca: "Gaggia"
+    categoria: espresso
+    gama: basica
+    precio: 130
+    relevancia: 62
+    anadido: 2026-10-21
+    asin: B07B3RPKD7
+    propio: true
+    resumen: "Mi primera cafetera de brazo. Con el tiempo empezó a perder agua por debajo y acabé cambiándola."
