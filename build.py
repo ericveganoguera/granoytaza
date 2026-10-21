@@ -458,12 +458,30 @@ def page_html(meta, content):
                 "dateModified": str(meta.get("updated", dt.date.today())),
                 "publisher": {"@type": "Organization", "name": CFG["title"]},
                 "mainEntityOfPage": canonical, "inLanguage": CFG["lang"]}
-        if meta["section"] == "resenas" and meta.get("producto") in BYID:
-            data = {"@context": "https://schema.org", "@type": "Review", "name": meta["title"],
-                    "author": {"@type": "Person", "name": CFG["author"]},
-                    "itemReviewed": {"@type": "Product", "name": BYID[meta["producto"]]["nombre"],
-                                     "brand": BYID[meta["producto"]].get("marca", "")},
-                    "reviewBody": meta.get("veredicto", ""), "inLanguage": CFG["lang"]}
+        prod = BYID.get(meta.get("producto"))
+        if meta["section"] == "resenas" and prod and prod.get("propio"):
+            # Solo los productos que el autor usa de verdad se marcan como reseña para Google:
+            # un Product con su Review dentro (Google exige offers, review o aggregateRating).
+            def notes(items):
+                return {"@type": "ItemList", "itemListElement": [
+                    {"@type": "ListItem", "position": i + 1, "name": t} for i, t in enumerate(items)]}
+            review = {"@type": "Review",
+                      "author": {"@type": "Person", "name": CFG["author"],
+                                 "url": CFG["url"] + CFG["baseurl"].rstrip("/") + "/sobre-mi/"},
+                      "datePublished": str(meta.get("updated", dt.date.today())),
+                      "name": meta["title"], "reviewBody": meta.get("veredicto", ""),
+                      "inLanguage": CFG["lang"]}
+            if meta.get("pros"):
+                review["positiveNotes"] = notes(meta["pros"])
+            if meta.get("contras"):
+                review["negativeNotes"] = notes(meta["contras"])
+            if meta.get("nota"):
+                review["reviewRating"] = {"@type": "Rating", "ratingValue": meta["nota"],
+                                          "bestRating": 5, "worstRating": 1}
+            data = {"@context": "https://schema.org", "@type": "Product", "name": prod["nombre"],
+                    "brand": {"@type": "Brand", "name": prod.get("marca", "")}, "review": review}
+            if prod.get("asin"):
+                data["sku"] = prod["asin"]
         jsonld = f'<script type="application/ld+json">{json.dumps(data, ensure_ascii=False)}</script>'
 
     cur_attr = ' aria-current="page"'

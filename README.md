@@ -61,8 +61,12 @@ pros: ["...", "..."]
 contras: ["...", "..."]
 ficha:
   Tipo: "..."
+nota: 4        # tu puntuación de 1 a 5 (opcional)
 ---
 ```
+
+Si el producto tiene `propio: true` en el catálogo (lo usas de verdad), la reseña se marca
+para Google como reseña de producto (con tu nota y tus pros y contras). Si no, como artículo.
 
 ## Enlaces especiales en el texto
 
