@@ -215,3 +215,7 @@ main { max-width: 72rem; margin: 0 auto; padding: 1rem 1rem 4rem; }
 .actions .prange { font-size: 1.15rem; font-weight: 700; }
 .actions .prange::before { display: none; }
 .pricenote { font-size: .82rem; color: var(--muted); max-width: var(--measure); margin: .5rem 0 1rem; }
+
+/* Aviso de campaña en portada */
+.banner { background: var(--ink); color: var(--paper); padding: 1rem 1.25rem; max-width: 56rem; border-left: 6px solid var(--cherry); }
+.banner a { color: var(--paper); font-weight: 700; margin-left: .25rem; }

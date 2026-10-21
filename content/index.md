@@ -9,6 +9,8 @@ wide: true
 
 <p class="intro">Qué cafetera y qué molinillo tienen sentido para cada presupuesto, qué diferencia hay de verdad entre una de 150 € y una de 700 €, y cómo sacarles el mejor café.</p>
 
+<p class="banner"><strong>Black Friday: 27 de noviembre.</strong> Qué cafeteras y molinillos vigilar según tu presupuesto y cómo saber si la oferta es real. <a href="{{base}}/guias/black-friday-cafeteras/">Ver la guía de Black Friday</a></p>
+
 ## Guías de compra
 
 {{GUIAS}}
