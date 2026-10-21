@@ -82,20 +82,108 @@ AMAZON_QUERY = {
 RANGOS = [(0, 50, "Menos de 50 €"), (50, 150, "50–150 €"), (150, 300, "150–300 €"),
           (300, 600, "300–600 €"), (600, 1000, "600–1.000 €"), (1000, 10**6, "Más de 1.000 €")]
 
-ICONS = {  # ilustraciones de línea por categoría (no se usan fotos de Amazon sin su API)
-    "espresso": '<rect x="30" y="14" width="60" height="16" rx="3"/><rect x="34" y="30" width="52" height="40"/><path d="M44 38h24v6H44z"/><path d="M52 44v8m8-8v8"/><path d="M50 58h20v8a6 6 0 0 1-6 6h-8a6 6 0 0 1-6-6z"/><path d="M70 61h4a3 3 0 0 1 0 6h-4"/><path d="M24 76h72"/>',
-    "superautomatica": '<rect x="28" y="12" width="64" height="62" rx="6"/><rect x="38" y="20" width="26" height="12" rx="2"/><circle cx="76" cy="26" r="4"/><path d="M54 40v10m10-10v10"/><path d="M50 56h22v8a6 6 0 0 1-6 6h-10a6 6 0 0 1-6-6z"/><path d="M22 78h76"/>',
-    "molinillo": '<path d="M44 10h32l-6 20H50z"/><rect x="40" y="30" width="40" height="36" rx="4"/><circle cx="60" cy="48" r="7"/><path d="M48 66h24v10H48z"/><path d="M34 80h52"/>',
-    "italiana": '<path d="M42 12h34l-6 26H48z"/><path d="M46 38h26"/><path d="M48 38l-6 34h34l-6-34"/><path d="M76 18c10 2 10 18 0 22"/><path d="M58 8v4"/><path d="M34 76h52"/>',
-    "filtro": '<path d="M36 18h48L68 46H52z"/><path d="M44 46h32"/><path d="M42 50h36l-4 24H46z"/><path d="M60 10v4m-8-2v4m16-4v4"/><path d="M34 78h52"/>',
-    "cafe": '<path d="M38 18h44l6 10v50a4 4 0 0 1-4 4H36a4 4 0 0 1-4-4V28z"/><path d="M32 28h56"/><path d="M44 18v10m8-10v10m8-10v10m8-10v10m8-10v10"/><ellipse cx="60" cy="56" rx="9" ry="12" transform="rotate(25 60 56)"/><path d="M56 46c5 5-2 12 3 18"/><path d="M24 86h72"/>',
-    "accesorio": '<rect x="26" y="50" width="68" height="20" rx="4"/><rect x="48" y="56" width="24" height="8" rx="2"/><path d="M44 50c0-14 32-14 32 0"/><path d="M60 20c-6 6 6 10 0 16"/><path d="M22 76h76"/>',
+INK, CREAM, RED, CARAMEL, STEEL, STEEL_D, KRAFT, KRAFT_D, WHITE = (
+    "#241813", "#F6F1E7", "#A8202C", "#E2B57A", "#C9C3B8", "#9B948A", "#C99A5B", "#A87C44", "#FFFFFF")
+SHADOW = '<ellipse cx="200" cy="272" rx="130" ry="12" fill="#241813" opacity=".08"/>'
+CUP_S = (f'<path d="M172 214 h56 v18 a18 18 0 0 1 -18 18 h-20 a18 18 0 0 1 -18 -18 z" fill="{WHITE}"/>'
+         f'<path d="M228 220 h6 a9 9 0 0 1 0 18 h-6" fill="none" stroke="{WHITE}" stroke-width="5"/>'
+         f'<rect x="176" y="214" width="48" height="5" rx="2.5" fill="{CARAMEL}"/>')
+
+ICONS = {  # ilustraciones planas por categoría (no se usan fotos de Amazon sin su API)
+    "espresso": SHADOW + (
+        f'<rect x="112" y="40" width="176" height="18" rx="7" fill="{STEEL}"/>'
+        f'<rect x="104" y="54" width="192" height="214" rx="16" fill="{CREAM}"/>'
+        f'<rect x="120" y="70" width="160" height="44" rx="8" fill="{INK}"/>'
+        f'<circle cx="146" cy="92" r="11" fill="{STEEL}"/><circle cx="254" cy="92" r="11" fill="{STEEL}"/>'
+        f'<rect x="182" y="86" width="36" height="11" rx="5.5" fill="{RED}"/>'
+        f'<rect x="168" y="122" width="64" height="22" rx="5" fill="{STEEL}"/>'
+        f'<rect x="162" y="144" width="76" height="14" rx="6" fill="{INK}"/>'
+        f'<rect x="228" y="147" width="96" height="9" rx="4.5" fill="{INK}"/>'
+        f'<rect x="186" y="158" width="4" height="52" rx="2" fill="{CARAMEL}"/>'
+        f'<rect x="210" y="158" width="4" height="52" rx="2" fill="{CARAMEL}"/>'
+        + CUP_S +
+        f'<rect x="116" y="246" width="168" height="16" rx="5" fill="{STEEL}"/>'),
+    "superautomatica": SHADOW + (
+        f'<rect x="124" y="30" width="152" height="238" rx="22" fill="{CREAM}"/>'
+        f'<rect x="124" y="30" width="152" height="30" rx="14" fill="{STEEL}"/>'
+        f'<rect x="146" y="76" width="108" height="46" rx="8" fill="{INK}"/>'
+        f'<rect x="156" y="88" width="40" height="8" rx="4" fill="{CARAMEL}"/>'
+        f'<rect x="156" y="102" width="62" height="6" rx="3" fill="{STEEL_D}"/>'
+        f'<rect x="180" y="138" width="40" height="22" rx="6" fill="{INK}"/>'
+        f'<rect x="190" y="160" width="4" height="50" rx="2" fill="{CARAMEL}"/>'
+        f'<rect x="206" y="160" width="4" height="50" rx="2" fill="{CARAMEL}"/>'
+        + CUP_S +
+        f'<rect x="138" y="248" width="124" height="14" rx="5" fill="{STEEL}"/>'),
+    "molinillo": SHADOW + (
+        f'<path d="M150 70 a50 22 0 0 1 100 0 v54 h-100 z" fill="{WHITE}" opacity=".55"/>'
+        f'<rect x="150" y="104" width="100" height="22" fill="#3A2418"/>'
+        f'<ellipse cx="200" cy="104" rx="50" ry="8" fill="#5A3826"/>'
+        f'<rect x="140" y="124" width="120" height="146" rx="22" fill="{INK}"/>'
+        f'<rect x="156" y="140" width="88" height="6" rx="3" fill="{STEEL_D}"/>'
+        f'<rect x="185" y="176" width="30" height="50" rx="15" fill="{STEEL}"/>'
+        f'<circle cx="200" cy="192" r="7" fill="{RED}"/>'),
+    "italiana": SHADOW + (
+        f'<path d="M150 70 h100 l-14 72 h-72 z" fill="{STEEL}"/>'
+        f'<path d="M150 70 h100 l-4 14 h-92 z" fill="{STEEL_D}"/>'
+        f'<rect x="196" y="56" width="8" height="14" rx="4" fill="{INK}"/>'
+        f'<rect x="160" y="142" width="80" height="12" rx="3" fill="{STEEL_D}"/>'
+        f'<path d="M164 154 h72 l14 114 h-100 z" fill="{STEEL}"/>'
+        f'<path d="M250 84 c40 6 40 50 4 56" fill="none" stroke="{INK}" stroke-width="12" stroke-linecap="round"/>'
+        f'<path d="M150 74 l-18 -8" stroke="{STEEL_D}" stroke-width="8" stroke-linecap="round"/>'),
+    "filtro": SHADOW + (
+        f'<path d="M140 58 h120 l-36 70 h-48 z" fill="{RED}"/>'
+        f'<rect x="132" y="50" width="136" height="12" rx="6" fill="{RED}"/>'
+        f'<rect x="168" y="128" width="64" height="10" rx="4" fill="{RED}"/>'
+        f'<path d="M150 140 h100 l12 120 a10 10 0 0 1 -10 10 h-104 a10 10 0 0 1 -10 -10 z" fill="{WHITE}" opacity=".7"/>'
+        f'<path d="M152 200 h96 l6 58 a8 8 0 0 1 -8 8 h-92 a8 8 0 0 1 -8 -8 z" fill="#6B3E24"/>'),
+    "cafe": SHADOW + (
+        f'<path d="M140 60 h120 l14 208 h-148 z" fill="{KRAFT}"/>'
+        f'<path d="M144 40 h112 l4 22 h-120 z" fill="{KRAFT_D}"/>'
+        f'<rect x="160" y="128" width="80" height="80" rx="12" fill="{CREAM}"/>'
+        f'<ellipse cx="200" cy="168" rx="16" ry="22" transform="rotate(25 200 168)" fill="#6B3E24"/>'
+        f'<path d="M193 150 c11 9 -4 22 6 36" fill="none" stroke="{CREAM}" stroke-width="4" stroke-linecap="round"/>'),
+    "accesorio": SHADOW + (
+        f'<rect x="110" y="236" width="180" height="30" rx="8" fill="{INK}"/>'
+        f'<rect x="170" y="244" width="60" height="12" rx="3" fill="{CARAMEL}"/>'
+        f'<path d="M150 236 v-90 a40 40 0 0 1 40 -40 h20 a40 40 0 0 1 40 40 v90 z" fill="{STEEL}"/>'
+        f'<path d="M150 170 c-40 -10 -48 -50 -62 -70" fill="none" stroke="{STEEL_D}" stroke-width="10" stroke-linecap="round"/>'
+        f'<rect x="186" y="92" width="28" height="14" rx="7" fill="{INK}"/>'
+        f'<path d="M250 140 c26 0 26 60 0 60" fill="none" stroke="{INK}" stroke-width="12"/>'),
 }
 
 
 def icon(cat):
-    return (f'<svg viewBox="0 0 120 90" aria-hidden="true" fill="none" stroke="currentColor" '
-            f'stroke-width="3" stroke-linecap="round" stroke-linejoin="round">{ICONS.get(cat, ICONS["accesorio"])}</svg>')
+    return (f'<svg viewBox="0 0 400 300" aria-hidden="true" xmlns="http://www.w3.org/2000/svg">'
+            f'{ICONS.get(cat, ICONS["espresso"])}</svg>')
+
+
+def tema_of(p):
+    """Ilustración de la tarjeta de un artículo: campo 'tema', producto de la reseña o pistas del slug."""
+    if p.get("tema"):
+        return p["tema"]
+    prod = BYID.get(p.get("producto"))
+    if prod:
+        return prod["categoria"]
+    slug = p.get("slug", "")
+    for key, cat in (("molinillo", "molinillo"), ("superautomat", "superautomatica"), ("italiana", "italiana"),
+                     ("cafes-en-grano", "cafe"), ("que-cafetera", "filtro")):
+        if key in slug:
+            return cat
+    return "espresso"
+
+
+def entry_cards(pages, limit=None):
+    items = []
+    for p in (pages[:limit] if limit else pages):
+        sec = SECTIONS[p["section"]]
+        t = tema_of(p)
+        items.append(
+            f'<li class="ecard"><a href="{link(p["slug"])}">'
+            f'<span class="ethumb cat-{t}">{icon(t)}</span>'
+            f'<span class="kind">{sec["item"]}</span>'
+            f'<strong>{E(p["title"])}</strong>'
+            f'<span class="sum">{E(p.get("summary", ""))}</span></a></li>')
+    return f'<ul class="ecards">{"".join(items)}</ul>'
 
 
 def price_html(p):
@@ -458,7 +546,71 @@ def by_date(pages):
     return sorted(pages, key=lambda p: (str(p.get("updated", "")), -p.get("order", 99)), reverse=True)
 
 
-def page_html(meta, content):
+def home_html(meta, articles):
+    guias = sorted([p for p in articles if p["section"] == "guias"], key=lambda p: p.get("order", 99))
+    resenas = by_date([p for p in articles if p["section"] == "resenas"])
+    blog = by_date([p for p in articles if p["section"] == "blog"])
+    mios = [p for p in PRODUCTOS if p.get("propio") and not p.get("etiqueta")]
+    ig = CFG.get("instagram", "")
+    ig_user = "@" + ig.rstrip("/").split("/")[-1] if ig else ""
+    igband = (f'<section class="igband"><h2>Mi café, también en Instagram.</h2>'
+              f'<p>Reseñas en un minuto, trucos y lo que voy probando.</p>'
+              f'<a class="buy light" href="{ig}" rel="me noopener" target="_blank">Seguir a {ig_user}</a></section>') if ig else ""
+    return f"""
+<section class="hero">
+  <div class="hero-text">
+    <h1>{E(meta.get('hero', 'Buen café en casa, sin complicarte.'))}</h1>
+    <p class="intro">{E(meta.get('intro', ''))}</p>
+    <p class="hero-cta"><a class="buy" href="{link('guias')}">Ver las guías de compra</a>
+    <a class="ghost" href="{link('resenas/cecotec-power-espresso-20')}">La cafetera que uso</a></p>
+  </div>
+  <div class="hero-art cat-espresso">{icon('espresso')}</div>
+</section>
+
+<section class="band">
+  <div class="band-head"><h2>Lo que uso cada día.</h2><a class="more" href="{link('productos')}">Ver todos los productos</a></div>
+  <ul class="pgrid">{''.join(card(p) for p in mios)}</ul>
+</section>
+
+<section class="band">
+  <div class="band-head"><h2>Guías de compra.</h2><a class="more" href="{link('guias')}">Ver todas las guías</a></div>
+  {entry_cards(guias, 6)}
+</section>
+
+<section class="trust">
+  <h2>Por qué fiarte de lo que lees aquí.</h2>
+  <ul>
+    <li><strong>Lo uso de verdad.</strong><span>Cuando un producto lo tengo en casa, lo verás marcado. Mi cafetera, mi molinillo y mi café de cada día están aquí.</span></li>
+    <li><strong>Te cuento lo malo.</strong><span>El ruido, el goteo, lo que no me convenció. Si algo tiene defectos, los vas a leer antes de comprar.</span></li>
+    <li><strong>Ninguna marca me paga.</strong><span>Si compras desde mis enlaces, Amazon me da una pequeña comisión. Las opiniones son mías.</span></li>
+  </ul>
+</section>
+
+<section class="founder">
+  <div class="founder-art cat-cafe">{icon('cafe')}</div>
+  <div class="founder-text">
+    <h2>Hola, soy Eric.</h2>
+    <p>En casa somos dos y el café con leche de la mañana es sagrado. He pasado por tres cafeteras de brazo, he cambiado el café de paquete por grano recién molido y he probado unos cuantos cafés por el camino.</p>
+    <p>Esta web es lo que me habría gustado encontrar al empezar: pocas recomendaciones, explicadas con calma y con lo bueno y lo malo de cada cosa.</p>
+    <p class="hero-cta"><a class="ghost" href="{link('sobre-mi')}">Conóceme un poco más</a></p>
+  </div>
+</section>
+
+<section class="band">
+  <div class="band-head"><h2>Reseñas.</h2><a class="more" href="{link('resenas')}">Ver todas las reseñas</a></div>
+  {entry_cards(resenas, 3)}
+</section>
+
+<section class="band">
+  <div class="band-head"><h2>Del blog.</h2><a class="more" href="{link('blog')}">Ver todo el blog</a></div>
+  {entry_cards(blog, 3)}
+</section>
+
+{igband}
+"""
+
+
+def page_html(meta, content, articles=()):
     slug = meta["slug"]
     title = meta["title"] if slug == "" else f"{meta['title']} | {CFG['title']}"
     desc = meta.get("description", CFG["description"])
@@ -504,6 +656,13 @@ def page_html(meta, content):
         f'<li><a href="{link(k)}"{cur_attr if current == k else ""}>{label}</a></li>'
         for k, label in NAV)
 
+    av = CFG.get("aviso") or {}
+    aviso = (f'<p class="aviso">{E(av.get("texto", ""))} <a href="{link(av.get("enlace", ""))}">{E(av.get("boton", "Leer"))}</a></p>'
+             if av.get("texto") else "")
+    ig_link = (f'<li class="ig"><a href="{CFG["instagram"]}" rel="me noopener" target="_blank" aria-label="Instagram">'
+               '<svg viewBox="0 0 24 24" aria-hidden="true"><rect x="3" y="3" width="18" height="18" rx="5"/>'
+               '<circle cx="12" cy="12" r="4.2"/><circle cx="17.3" cy="6.7" r="1.1"/></svg></a></li>') if CFG.get("instagram") else ""
+
     if is_article:
         sec = SECTIONS[meta["section"]]
         upd = meta.get("updated")
@@ -520,6 +679,8 @@ def page_html(meta, content):
   <div class="prose">{content}</div>
   {f'<p class="pricenote">{E(PRICE_NOTE)}</p>' if PRICE_NOTE and ('prange real' in content or meta['section'] == 'resenas') else ''}
 </article>"""
+    elif slug == "":
+        main = home_html(meta, articles)
     elif meta.get("layout") == "section":
         main = f'<header class="section-head"><h1>{E(meta["title"])}</h1><p class="lede">{E(meta["description"])}</p></header>{content}'
     else:
@@ -554,10 +715,10 @@ def page_html(meta, content):
 </head>
 <body>
 <a class="skip" href="#contenido">Saltar al contenido</a>
-<div class="roastbar" aria-hidden="true"></div>
+{aviso}
 <header class="site-head">
   <a class="brand" href="{link('')}"><svg viewBox="0 0 32 32" aria-hidden="true"><ellipse cx="16" cy="16" rx="10" ry="13" transform="rotate(30 16 16)"/><path d="M11 6c6 6-2 14 4 20"/></svg>{CFG['title']}</a>
-  <nav aria-label="Apartados"><ul>{nav}</ul></nav>
+  <nav aria-label="Apartados"><ul>{nav}{ig_link}</ul></nav>
 </header>
 <main id="contenido">{main}</main>
 <footer class="site-foot">
@@ -602,7 +763,7 @@ def main():
             key = meta["section_key"]
             items = [p for p in articles if p["section"] == key]
             items = sorted(items, key=lambda p: p.get("order", 99)) if key == "guias" else by_date(items)
-            content = entry_list(items) if items else '<p class="empty">Todavía no hay entradas en este apartado.</p>'
+            content = entry_cards(items) if items else '<p class="empty">Todavía no hay entradas en este apartado.</p>'
         repl = {
             "{{CATALOGO}}": catalog_html,
             "{{DESTACADOS}}": lambda: '<ul class="pgrid featured">' + "".join(
@@ -619,7 +780,7 @@ def main():
         slug = meta["slug"]
         dest = OUT / "404.html" if slug == "404" else (OUT / slug / "index.html" if slug else OUT / "index.html")
         dest.parent.mkdir(parents=True, exist_ok=True)
-        out = page_html(meta, content)
+        out = page_html(meta, content, articles)
         if PREVIEW:
             depth = len(dest.relative_to(OUT).parts) - 1
             css = (ROOT / "static" / "style.css").read_text(encoding="utf-8")

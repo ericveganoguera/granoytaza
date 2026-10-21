@@ -4,6 +4,7 @@ description: "Fechas del Black Friday 2026, cómo saber si una oferta de cafeter
 lede: "El Black Friday es el viernes 27 de noviembre, pero las ofertas llegan toda la semana. Qué cafeteras y molinillos vigilar según tu presupuesto, y cómo comprobar en un minuto si el descuento es de verdad."
 summary: "Fechas, cómo detectar falsas ofertas y qué cafeteras y molinillos vigilar según tu presupuesto."
 layout: article
+tema: superautomatica
 order: 0
 updated: 2026-10-21
 ---
