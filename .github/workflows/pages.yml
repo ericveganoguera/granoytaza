@@ -3,6 +3,9 @@ name: Publicar web
 on:
   push:
     branches: [main]
+  schedule:
+    # Dos veces al día para que los precios de Amazon nunca tengan más de 24 h
+    - cron: "17 5,17 * * *"
   workflow_dispatch:
 
 permissions:
@@ -23,6 +26,14 @@ jobs:
         with:
           python-version: "3.12"
       - run: pip install markdown pyyaml
+      - name: Actualizar precios e imágenes de Amazon
+        # Si no hay credenciales o la cuenta no tiene acceso, la web se publica igual con rangos de precio
+        continue-on-error: true
+        env:
+          AMAZON_CREDENTIAL_ID: ${{ secrets.AMAZON_CREDENTIAL_ID }}
+          AMAZON_CREDENTIAL_SECRET: ${{ secrets.AMAZON_CREDENTIAL_SECRET }}
+          AMAZON_CREDENTIAL_VERSION: ${{ secrets.AMAZON_CREDENTIAL_VERSION }}
+        run: python scripts/amazon_api.py
       - run: python build.py
       - uses: actions/configure-pages@v5
       - uses: actions/upload-pages-artifact@v3

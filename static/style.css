@@ -206,3 +206,12 @@ main { max-width: 72rem; margin: 0 auto; padding: 1rem 1rem 4rem; }
 @media (prefers-reduced-motion: reduce) { * { transition: none !important; } }
 .alink { margin: 1rem 0 0; }
 .alink a { color: var(--paper); font-weight: 700; }
+
+/* Datos reales de la API de Amazon */
+.pimg.photo, .vimg.photo { background: #fff; }
+.pimg.photo img, .vimg.photo img { width: 82%; height: 82%; object-fit: contain; }
+.prange.real { font-size: 1rem; }
+.pts { font-size: .78rem; color: var(--muted); }
+.actions .prange { font-size: 1.15rem; font-weight: 700; }
+.actions .prange::before { display: none; }
+.pricenote { font-size: .82rem; color: var(--muted); max-width: var(--measure); margin: .5rem 0 1rem; }

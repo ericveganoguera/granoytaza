@@ -77,8 +77,19 @@ python3 build.py             # web final en _site/
 python3 build.py --preview   # vista previa con enlaces relativos en _preview/
 ```
 
-## Precios e imágenes reales
+## Precios e imágenes reales (API de Amazon)
 
-Amazon solo permite mostrar precios e imágenes obtenidos de su API (Creators API), que exige
-10 ventas cualificadas en 30 días. Cuando la tengas, se puede añadir una tarea automática que
-actualice `data/productos.yaml` cada día con precio, imagen y valoración.
+La web se conecta sola a la Creators API de Amazon dos veces al día (`scripts/amazon_api.py`).
+Requisito de Amazon: al menos 10 ventas cualificadas en los últimos 30 días.
+
+1. En afiliados.amazon.es: Herramientas → Creators API → Crear aplicación → Añadir credencial.
+   Apunta el Credential ID, el Secret (solo se muestra una vez) y la versión.
+2. En GitHub: Settings → Secrets and variables → Actions → New repository secret, y crea
+   `AMAZON_CREDENTIAL_ID`, `AMAZON_CREDENTIAL_SECRET` y `AMAZON_CREDENTIAL_VERSION`.
+3. Actions → "Comprobar acceso a la API de Amazon" → Run workflow. El resumen dice si funciona.
+
+Con acceso, cada tarjeta, ficha y reseña muestra foto, precio exacto y la hora del precio.
+Sin acceso (o si la API falla), la web se publica igual con los rangos de precio.
+
+Los productos sin `asin` se buscan por su texto `buscar`; el registro de la ejecución
+lista los ASIN encontrados para que los copies en `data/productos.yaml` y queden fijados.

@@ -24,6 +24,7 @@ from pathlib import Path
 
 import markdown
 import yaml
+from zoneinfo import ZoneInfo
 
 ROOT = Path(__file__).parent
 PREVIEW = "--preview" in sys.argv
@@ -33,6 +34,31 @@ CAT = yaml.safe_load((ROOT / "data" / "productos.yaml").read_text(encoding="utf-
 CATEGORIAS = CAT["categorias"]
 PRODUCTOS = CAT["productos"]
 BYID = {p["id"]: p for p in PRODUCTOS}
+BYNAME = {p["nombre"].lower(): p for p in PRODUCTOS}
+
+
+def load_amazon():
+    """Datos de la Creators API (data/amazon.json). Solo se usan si tienen menos de 24 h."""
+    f = ROOT / "data" / "amazon.json"
+    if not f.exists():
+        return None, {}
+    data = json.loads(f.read_text(encoding="utf-8"))
+    when = dt.datetime.fromisoformat(data["actualizado"])
+    if dt.datetime.now(dt.timezone.utc) - when > dt.timedelta(hours=24):
+        return None, {}
+    return when.astimezone(ZoneInfo("Europe/Madrid")), data.get("items", {})
+
+
+API_TIME, API_ITEMS = load_amazon()
+for _p in PRODUCTOS:
+    _d = API_ITEMS.get(_p["id"])
+    if _d:
+        _p["api"] = _d
+        if _d.get("precio"):
+            _p["precio"] = float(_d["precio"])
+PRICE_NOTE = (f"Precios de Amazon.es actualizados el {API_TIME:%d/%m/%Y} a las {API_TIME:%H:%M}. "
+              "El precio y la disponibilidad pueden cambiar; el que aparezca en Amazon.es en el "
+              "momento de la compra es el que se aplica.") if API_TIME else ""
 BASE = "" if PREVIEW else CFG["baseurl"].rstrip("/")
 E = html.escape
 
@@ -71,6 +97,22 @@ def icon(cat):
             f'stroke-width="3" stroke-linecap="round" stroke-linejoin="round">{ICONS.get(cat, ICONS["accesorio"])}</svg>')
 
 
+def price_html(p):
+    d = p.get("api") or {}
+    if d.get("precio_texto"):
+        return (f'<span class="prange real">{E(d["precio_texto"])}</span>'
+                f'<small class="pts">a las {API_TIME:%H:%M}</small>')
+    return f'<span class="prange">{rango(p["precio"])}</span>'
+
+
+def media_html(p, cls):
+    d = p.get("api") or {}
+    if d.get("imagen"):
+        return (f'<div class="{cls} photo"><img src="{E(d["imagen"])}" alt="{E(p["nombre"])}" '
+                f'loading="lazy" referrerpolicy="no-referrer"></div>')
+    return f'<div class="{cls} cat-{p["categoria"]}">{icon(p["categoria"])}</div>'
+
+
 def rango(precio):
     for lo, hi, label in RANGOS:
         if lo <= precio < hi:
@@ -87,6 +129,8 @@ def amazon_url(query=None, asin=None):
 
 
 def prod_url(p):
+    if p.get("api", {}).get("url"):
+        return p["api"]["url"]
     return amazon_url(asin=p["asin"]) if p.get("asin") else amazon_url(p.get("buscar", p["nombre"]))
 
 
@@ -108,8 +152,9 @@ SPONSORED = 'rel="sponsored nofollow noopener" target="_blank"'
 
 def render_product(block):
     p = yaml.safe_load(block)
-    if p.get("id") in BYID:
-        p = {**BYID[p["id"]], **p}
+    base = BYID.get(p.get("id")) or BYNAME.get(str(p.get("nombre", "")).lower())
+    if base:
+        p = {**base, **p}
     gama = p.get("gama", "media")
     pros = "".join(f"<li>{E(x)}</li>" for x in p.get("pros", []))
     cons = "".join(f"<li>{E(x)}</li>" for x in p.get("contras", []))
@@ -127,7 +172,7 @@ def render_product(block):
     <div><h4>Lo mejor</h4><ul class="pros">{pros}</ul></div>
     <div><h4>A tener en cuenta</h4><ul class="cons">{cons}</ul></div>
   </div>
-  <p class="actions"><a class="buy" href="{E(prod_url(p))}" {SPONSORED}>Ver precio en Amazon</a>{review}</p>
+  <p class="actions">{price_html(p) if p.get("api") else ""}<a class="buy" href="{E(prod_url(p))}" {SPONSORED}>Ver precio en Amazon</a>{review}</p>
 </section>
 """
 
@@ -142,11 +187,11 @@ def card(p, heading="h3"):
     return f"""<li class="pcard" data-cat="{p['categoria']}" data-gama="{gama}" data-precio="{p['precio']}"
  data-rel="{p.get('relevancia', 50)}" data-fecha="{p.get('anadido', '')}" data-marca="{E(p.get('marca', ''))}"
  data-texto="{E((p['nombre'] + ' ' + p.get('marca', '') + ' ' + p.get('resumen', '')).lower())}">
-  <div class="pimg cat-{p['categoria']}">{icon(p['categoria'])}</div>
+  {media_html(p, "pimg")}
   <p class="pcat">{E(CATEGORIAS.get(p['categoria'], ''))}</p>
   <{heading} class="pname">{E(p['nombre'])}</{heading}>
   <p class="psum">{E(p.get('resumen', ''))}</p>
-  <p class="pmeta"><span class="roast roast-{gama}" aria-hidden="true"></span><span>{GAMAS[gama]}</span><span class="prange">{rango(p['precio'])}</span></p>
+  <p class="pmeta"><span class="roast roast-{gama}" aria-hidden="true"></span><span>{GAMAS[gama]}</span>{price_html(p)}</p>
   <p class="pactions"><a class="buy small" href="{E(prod_url(p))}" {SPONSORED}>Ver en Amazon</a>{extra}</p>
 </li>"""
 
@@ -185,6 +230,7 @@ def catalog_html():
           <option value="nombre">Nombre</option>
         </select></label>
     </div>
+    {f'<p class="pricenote">{E(PRICE_NOTE)}</p>' if PRICE_NOTE else ''}
     <ul class="pgrid" id="rejilla">{cards}</ul>
     <div class="empty" id="vacio" hidden>
       <p><strong>Ningún producto del catálogo coincide con esos filtros.</strong></p>
@@ -310,9 +356,9 @@ def review_box(meta):
     datos = "".join(f"<tr><th>{E(k)}</th><td>{E(str(v))}</td></tr>" for k, v in (meta.get("ficha") or {}).items())
     return f"""
 <aside class="verdict" aria-label="Resumen de la reseña">
-  <div class="vimg cat-{p['categoria']}">{icon(p['categoria'])}</div>
+  {media_html(p, "vimg")}
   <div class="vbody">
-    <p class="gama"><span class="roast roast-{p['gama']}" aria-hidden="true"></span>{GAMAS[p['gama']]}<span class="prange">{rango(p['precio'])}</span></p>
+    <p class="gama"><span class="roast roast-{p['gama']}" aria-hidden="true"></span>{GAMAS[p['gama']]}{price_html(p)}</p>
     <h2>Veredicto</h2>
     <p>{E(meta.get('veredicto', ''))}</p>
     <div class="procon"><div><h4>Lo mejor</h4><ul class="pros">{pros}</ul></div>
@@ -410,6 +456,7 @@ def page_html(meta, content):
   </header>
   {review_box(meta) if meta['section'] == 'resenas' else ''}
   <div class="prose">{content}</div>
+  {f'<p class="pricenote">{E(PRICE_NOTE)}</p>' if PRICE_NOTE and ('prange real' in content or meta['section'] == 'resenas') else ''}
 </article>"""
     elif meta.get("layout") == "section":
         main = f'<header class="section-head"><h1>{E(meta["title"])}</h1><p class="lede">{E(meta["description"])}</p></header>{content}'
