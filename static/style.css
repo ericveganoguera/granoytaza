@@ -202,3 +202,32 @@ h1, h2, h3 { text-wrap: balance; }
 }
 @media (max-width: 420px) { .pgrid, .prose .pgrid.inline { grid-template-columns: 1fr; } }
 @media (prefers-reduced-motion: reduce) { * { transition: none !important; } }
+
+/* Artículos a todo el ancho: columna de texto + panel lateral fijo */
+.article-head { max-width: 62rem; }
+.article-head h1 { font-size: clamp(2.3rem, 5.2vw, 3.8rem); line-height: 1.06; }
+.article-head .lede { font-size: 1.3rem; max-width: 52rem; }
+.article-grid { display: grid; grid-template-columns: minmax(0, 1fr) 19rem; gap: 4rem; align-items: start; margin-top: 1rem; }
+.article-grid .prose { max-width: none; font-size: 1.1rem; }
+.article-grid .prose p, .article-grid .prose li { max-width: none; }
+.article-grid .prose .pgrid.inline { grid-template-columns: repeat(auto-fill, minmax(14rem, 1fr)); }
+.article-grid .prose table { display: table; }
+.article-aside { position: relative; height: 100%; }
+.aside-sticky { position: sticky; top: 1.5rem; display: grid; gap: 1.5rem; }
+.aside-title { margin: 0 0 .6rem; font-weight: 700; font-size: .95rem; }
+.toc { list-style: none; margin: 0; padding: 0 0 0 1rem; border-left: 2px solid var(--line); display: grid; gap: .55rem; font-size: .95rem; }
+.toc a { color: var(--muted); text-decoration: none; }
+.toc a:hover { color: var(--cherry); text-decoration: underline; }
+.aside-card { background: var(--panel); border-radius: var(--radius); padding: 1.2rem 1.3rem; font-size: .95rem; }
+.aside-card p { margin: 0 0 .6rem; } .aside-card p:last-child { margin: 0; }
+.verdict { max-width: none; }
+.product { max-width: none; }
+.page-split { display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, .8fr); gap: 4rem; align-items: start; }
+.page-split .prose { max-width: none; font-size: 1.1rem; }
+.page-art { border-radius: 32px; display: grid; place-items: center; aspect-ratio: 4 / 5; position: sticky; top: 1.5rem; }
+.page-art svg { width: 80%; height: auto; }
+@media (max-width: 1000px) {
+  .article-grid, .page-split { grid-template-columns: 1fr; gap: 2rem; }
+  .article-aside { display: none; }
+  .page-art { position: static; aspect-ratio: 16 / 9; order: -1; }
+}

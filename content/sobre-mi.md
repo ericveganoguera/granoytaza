@@ -2,6 +2,7 @@
 title: "Sobre mí"
 description: "Quién escribe Grano y Taza, qué cafetera usa y por qué empezó esta web."
 nav_hide: true
+arte: cafe
 ---
 
 # Sobre mí

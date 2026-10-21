@@ -666,6 +666,19 @@ def page_html(meta, content, articles=()):
     if is_article:
         sec = SECTIONS[meta["section"]]
         upd = meta.get("updated")
+        toc = "".join(f'<li><a href="#{a}">{re.sub("<[^>]+>", "", t)}</a></li>'
+                      for a, t in re.findall(r'<h2 id="([^"]+)">(.*?)</h2>', content))
+        ig = CFG.get("instagram", "")
+        aside = f"""
+    <aside class="article-aside" aria-label="En esta página">
+      <div class="aside-sticky">
+        {f'<p class="aside-title">En esta página</p><ul class="toc">{toc}</ul>' if toc else ''}
+        <div class="aside-card">
+          <p><strong>Escrito por {E(CFG['author'])}</strong>, que prepara su café cada mañana con una cafetera de brazo y grano recién molido.</p>
+          <p><a href="{link('sobre-mi')}">Sobre mí</a>{f' · <a href="{ig}" rel="me noopener" target="_blank">Instagram</a>' if ig else ''}</p>
+        </div>
+      </div>
+    </aside>"""
         main = f"""
 <article class="article">
   <header class="article-head">
@@ -673,18 +686,26 @@ def page_html(meta, content, articles=()):
     <h1>{E(meta['title'])}</h1>
     <p class="lede">{E(meta.get('lede', desc))}</p>
     <p class="byline">Por <a href="{link('sobre-mi')}">{E(CFG['author'])}</a>. Actualizado el {fecha_es(upd)}.</p>
-    <p class="disclosure">Los enlaces a Amazon de esta página son de afiliado: si compras a través de ellos, recibo una pequeña comisión sin que a ti te cueste más. <a href="{link('afiliados')}">Cómo elijo los productos</a>.</p>
   </header>
   {review_box(meta) if meta['section'] == 'resenas' else ''}
-  <div class="prose">{content}</div>
-  {f'<p class="pricenote">{E(PRICE_NOTE)}</p>' if PRICE_NOTE and ('prange real' in content or meta['section'] == 'resenas') else ''}
+  <div class="article-grid">
+    <div class="prose">
+      <p class="disclosure">Los enlaces a Amazon de esta página son de afiliado: si compras a través de ellos, recibo una pequeña comisión sin que a ti te cueste más. <a href="{link('afiliados')}">Cómo elijo los productos</a>.</p>
+      {content}
+      {f'<p class="pricenote">{E(PRICE_NOTE)}</p>' if PRICE_NOTE and ('prange real' in content or meta['section'] == 'resenas') else ''}
+    </div>{aside}
+  </div>
 </article>"""
     elif slug == "":
         main = home_html(meta, articles)
     elif meta.get("layout") == "section":
         main = f'<header class="section-head"><h1>{E(meta["title"])}</h1><p class="lede">{E(meta["description"])}</p></header>{content}'
     else:
-        main = f'<div class="{"wide" if meta.get("wide") else "prose"} page {meta.get("class", "")}">{content}</div>'
+        if meta.get("arte"):
+            main = (f'<div class="page-split"><div class="prose page">{content}</div>'
+                    f'<div class="page-art cat-{meta["arte"]}">{icon(meta["arte"])}</div></div>')
+        else:
+            main = f'<div class="{"wide" if meta.get("wide") else "prose"} page {meta.get("class", "")}">{content}</div>'
 
     return f"""<!doctype html>
 <html lang="es">
