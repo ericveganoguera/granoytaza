@@ -1,6 +1,6 @@
 ---
-title: "Black Friday 2026 en cafeteras y molinillos: qué comprar y cómo no caer en falsas ofertas"
-description: "Fechas del Black Friday 2026, cómo saber si una oferta de cafetera es real y qué modelos vigilar en Amazon según tu presupuesto."
+title: "Ofertas de cafeteras Black Friday 2026: cuáles merecen la pena y cómo detectar falsos descuentos"
+description: "Ofertas de cafeteras y molinillos para el Black Friday 2026 (27 de noviembre): qué modelos vigilar en Amazon según tu presupuesto y cómo saber si el descuento es real."
 lede: "El Black Friday es el viernes 27 de noviembre, pero las ofertas llegan toda la semana. Qué cafeteras y molinillos vigilar según tu presupuesto, y cómo comprobar en un minuto si el descuento es de verdad."
 summary: "Fechas, cómo detectar falsas ofertas y qué cafeteras y molinillos vigilar según tu presupuesto."
 layout: article

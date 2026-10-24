@@ -656,7 +656,7 @@ def home_html(meta, articles):
 
 <section class="band">
   <div class="band-head"><h2>Guías de compra.</h2><a class="more" href="{link('guias')}">Ver todas las guías</a></div>
-  {guide_feature(guias, 6)}
+  {guide_feature(guias, 7)}
 </section>
 
 <section class="trust">

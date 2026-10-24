@@ -1,12 +1,12 @@
 ---
-title: "Las mejores cafeteras espresso para casa en 2026"
+title: "Mejores cafeteras espresso (express) para casa en 2026: calidad-precio por presupuesto"
 nav: "Cafeteras espresso"
-description: "Qué cafetera espresso de brazo comprar para casa según tu presupuesto: modelos de entrada, gama media y alta explicados sin jerga."
+description: "Las mejores cafeteras espresso o express de brazo para casa en 2026, ordenadas por presupuesto y calidad-precio: modelos de entrada, gama media y alta explicados sin jerga."
 lede: "Seis cafeteras de brazo (portafiltro) que tienen sentido en 2026, ordenadas por presupuesto, y qué cambia de verdad al subir de precio."
 summary: "De la primera cafetera de brazo a una máquina para toda la vida, ordenadas por presupuesto."
 layout: article
 section: guias
-order: 1
+order: 2
 updated: 2026-10-21
 ---
 
@@ -100,6 +100,10 @@ contras: ["Precio alto", "Menos control manual", "Ocupa bastante"]
 Si lo que quieres es pulsar un botón y olvidarte, una cafetera de brazo no es para ti. Mira la [guía de superautomáticas]({{base}}/guias/mejores-cafeteras-superautomaticas/) o la [comparativa de tipos de cafetera]({{base}}/blog/que-cafetera-comprar/).
 
 ## Preguntas frecuentes
+
+### ¿Cafetera express o cafetera espresso?
+
+Son lo mismo. "Express" es como se dice a menudo en España y "espresso" es el nombre italiano. Las dos se refieren a cafeteras que hacen pasar agua caliente a presión por el café molido. En esta guía hablo de las de brazo (portafiltro); si prefieres que la máquina muela y lo haga todo, mira las [superautomáticas]({{base}}/guias/mejores-cafeteras-superautomaticas/).
 
 ### ¿Cuánto hay que gastar para un espresso bueno de verdad?
 

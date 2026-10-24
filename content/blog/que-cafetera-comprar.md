@@ -46,6 +46,8 @@ Son las dos opciones para tomar espresso de verdad en casa. La de brazo da el te
 
 ## Mi recomendación según tu caso
 
+Si ya sabes qué tipo quieres y buscas modelos concretos, los tienes ordenados por presupuesto en las [mejores cafeteras para casa]({{base}}/guias/mejores-cafeteras-para-casa/).
+
 - **Tomas café solo y quieres gastar lo mínimo:** italiana y un [molinillo manual]({{base}}/guias/mejores-molinillos-de-cafe/).
 - **En casa sois varios y cada uno lo toma distinto:** superautomática con sistema de leche automático.
 - **Te apetece aprender y disfrutar del proceso:** cafetera de brazo con un buen molinillo.

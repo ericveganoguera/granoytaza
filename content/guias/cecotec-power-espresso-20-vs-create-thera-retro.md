@@ -4,7 +4,7 @@ description: "Comparativa real entre la Cecotec Power Espresso 20 y la CREATE Th
 lede: "Tuve la CREATE Thera Retro unos dos años y llevo uno con la Cecotec Power Espresso 20. Dos cafeteras de brazo de precio parecido, comparadas desde el uso diario."
 summary: "Dos cafeteras de brazo de precio parecido, comparadas por alguien que ha usado las dos."
 layout: article
-order: 4
+order: 5
 updated: 2026-10-21
 ---
 
