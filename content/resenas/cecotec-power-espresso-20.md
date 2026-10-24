@@ -1,6 +1,6 @@
 ---
-title: "Cecotec Power Espresso 20: mi opinión tras un año de uso diario"
-description: "Reseña real de la Cecotec Power Espresso 20 después de un año usándola cada día: lo bueno, los defectos que nadie te cuenta, lo que dicen otros compradores y para quién merece la pena."
+title: "Cecotec Power Espresso 20 opiniones: mi experiencia tras un año de uso diario"
+description: "Opiniones reales de la cafetera Cecotec Power Espresso 20 después de un año usándola cada día: lo bueno, los defectos (ruido, goteo, tamaño), lo que dicen otros compradores y si merece la pena."
 lede: "Es la cafetera espresso más vendida de Amazon España y la que tengo en casa desde hace un año. Lo que me ha gustado, los defectos que conviene conocer antes de comprarla y si coinciden con lo que dicen otros compradores."
 summary: "Un año de uso diario: lo bueno, los defectos reales y lo que dicen otros compradores."
 producto: cecotec-power-espresso-20

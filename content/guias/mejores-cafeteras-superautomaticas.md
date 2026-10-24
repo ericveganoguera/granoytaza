@@ -1,12 +1,12 @@
 ---
-title: "Las mejores cafeteras superautomáticas en 2026"
+title: "Mejores cafeteras superautomáticas en 2026: cuál comprar según tu presupuesto"
 nav: "Superautomáticas"
-description: "Qué cafetera superautomática comprar según tu presupuesto y cuánta leche tomas: modelos recomendados y en qué fijarse antes de comprar."
+description: "Las mejores cafeteras superautomáticas de 2026 según tu presupuesto y cuánta leche tomas: modelos calidad-precio recomendados y en qué fijarse antes de comprar."
 lede: "Café en grano recién molido con un botón. Cinco superautomáticas que merecen la pena, y cómo elegir según cuánta leche tomas en casa."
 summary: "Café en grano con un botón: qué modelo elegir según tu presupuesto y cuánta leche tomas."
 layout: article
 section: guias
-order: 2
+order: 3
 updated: 2026-10-21
 ---
 

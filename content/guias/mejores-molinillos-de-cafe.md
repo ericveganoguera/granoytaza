@@ -1,12 +1,12 @@
 ---
-title: "Los mejores molinillos de café para casa en 2026"
+title: "Mejores molinillos de café en 2026: eléctricos y manuales para casa"
 nav: "Molinillos"
-description: "Qué molinillo de café comprar para espresso, cafetera italiana o filtro: manuales y eléctricos recomendados según presupuesto."
+description: "El mejor molinillo de café eléctrico o manual para tu casa según cómo preparas el café (espresso, italiana o filtro) y tu presupuesto."
 lede: "El molinillo es la compra que más mejora tu café. Cinco modelos, manuales y eléctricos, separados según cómo preparas el café."
 summary: "La compra que más mejora tu café: manuales y eléctricos para espresso, italiana o filtro."
 layout: article
 section: guias
-order: 3
+order: 4
 updated: 2026-10-21
 ---
 
@@ -83,6 +83,15 @@ contras: ["Precio alto", "Menos práctico para cambiar a filtro a menudo"]
 :::
 
 ## Preguntas frecuentes
+
+### ¿Cuál es el mejor molinillo de café eléctrico?
+
+Depende de cómo preparas el café:
+
+- **Para espresso y también filtro o italiana:** el [Sage Smart Grinder Pro](amazon:Sage+Smart+Grinder+Pro), el más versátil por su precio.
+- **Para espresso en serio:** el [Eureka Mignon Specialità](amazon:Eureka+Mignon+Specialita).
+- **Para filtro, goteo o prensa francesa:** el [Baratza Encore](amazon:Baratza+Encore).
+- **Si el presupuesto es mínimo:** uno de cuchillas, como el que uso yo para mi espresso, ya mejora mucho respecto al café molido de paquete, aunque muele menos uniforme. Te cuento cómo me va en [por qué empecé a moler el café en casa]({{base}}/blog/molinillo-de-cuchillas-mi-experiencia/).
 
 ### ¿Manual o eléctrico?
 
