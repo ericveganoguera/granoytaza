@@ -7,7 +7,7 @@ summary: "De la primera cafetera de brazo a una máquina para toda la vida, orde
 layout: article
 section: guias
 order: 2
-updated: 2026-10-21
+updated: 2026-10-25
 ---
 
 ## Respuesta rápida
@@ -100,6 +100,10 @@ contras: ["Precio alto", "Menos control manual", "Ocupa bastante"]
 Si lo que quieres es pulsar un botón y olvidarte, una cafetera de brazo no es para ti. Mira la [guía de superautomáticas]({{base}}/guias/mejores-cafeteras-superautomaticas/) o la [comparativa de tipos de cafetera]({{base}}/blog/que-cafetera-comprar/).
 
 ## Preguntas frecuentes
+
+### ¿Cuál es la mejor cafetera espresso?
+
+Para la mayoría, la mejor primera cafetera espresso es la [De'Longhi Dedica Style EC685](amazon:DeLonghi+Dedica+EC685): compacta, rápida y fácil. Si quieres aprender y que dure muchos años, la [Gaggia Classic Evo Pro](amazon:Gaggia+Classic+Evo+Pro). Y si buscas todo en uno con molinillo, la [Sage Barista Express](amazon:Sage+Barista+Express). Todas siguen a la venta y eran ya de las más recomendables en 2025; he revisado la guía para 2026.
 
 ### ¿Cafetera express o cafetera espresso?
 

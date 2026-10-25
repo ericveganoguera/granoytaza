@@ -8,7 +8,7 @@ layout: article
 section: guias
 tema: italiana
 order: 1
-updated: 2026-10-24
+updated: 2026-10-25
 ---
 
 ## Respuesta rápida
@@ -91,6 +91,10 @@ Una superautomática es justo mi siguiente paso: en el trabajo usamos una y la c
 Son cómodas y limpias, y la cafetera es barata. No las incluyo porque el coste por taza es varias veces el del café en grano y el sabor depende por completo de la cápsula. Si valoras la comodidad por encima de todo, una superautomática te da esa misma comodidad con café recién molido y, a la larga, gastando menos.
 
 ## Preguntas frecuentes
+
+### ¿Siguen valiendo las recomendaciones de 2025?
+
+Sí. Todos los modelos de esta guía ya estaban entre los más recomendables en 2025 y siguen a la venta. He revisado la guía para 2026 y la iré actualizando cuando salgan modelos que merezcan la pena.
 
 ### ¿Cuál es la mejor cafetera calidad-precio?
 
