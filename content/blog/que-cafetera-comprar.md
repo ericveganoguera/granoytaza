@@ -1,15 +1,15 @@
 ---
-title: "Qué cafetera comprar: tipos de cafetera comparados"
+title: "Tipos de cafetera: los 7 que existen comparados y cuál comprar"
 nav: "Qué cafetera comprar"
-description: "Italiana, de cápsulas, de goteo, de brazo o superautomática: diferencias reales, ventajas y para quién es cada tipo de cafetera."
+description: "Los 7 tipos de cafetera para casa comparados: cápsulas, italiana, goteo, prensa francesa, filtro manual, de brazo y superautomática. Diferencias, ventajas y cuál comprar según cómo tomas el café."
 lede: "Siete tipos de cafetera comparados por sabor, comodidad y coste por taza, para que sepas cuál encaja con cómo tomas el café."
 summary: "Italiana, cápsulas, goteo, brazo o superautomática: cuál encaja con cómo tomas el café."
 layout: article
 section: blog
-updated: 2026-10-21
+updated: 2026-10-25
 ---
 
-## La comparativa de un vistazo
+## Los 7 tipos de cafetera, de un vistazo
 
 | Tipo | Sabor | Comodidad | Coste por taza | Para quién |
 |---|---|---|---|---|

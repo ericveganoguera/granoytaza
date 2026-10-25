@@ -5,7 +5,7 @@ lede: "He probado varios cafés en grano de los que encuentras en Amazon y en el
 summary: "Novell, Lavazza, Marcilla y Bonka en grano: mi ranking tras probarlos en casa."
 layout: article
 order: 6
-updated: 2026-10-21
+updated: 2026-10-25
 ---
 
 ## Respuesta rápida
@@ -74,3 +74,13 @@ Si te pica la curiosidad por el café, o buscas un regalo para alguien cafetero,
 - id: incapto-pack-degustacion
   nota: "Para descubrir el café de distintos países, o para regalar."
 :::
+
+## Preguntas frecuentes
+
+### ¿Cuál es el mejor café en grano?
+
+No hay uno mejor para todo el mundo: depende de cómo lo tomes. Para café con leche, mi favorito es el [Novell 100% arábica natural](amazon-dp:B01L0BDMJS), intenso sin pasarse y muy económico. Si lo prefieres más suave y aromático, el [Lavazza Qualità Oro](amazon-dp:B0049U0DMC). Y si quieres descubrir cafés de origen, el [pack degustación de Incapto](amazon-dp:B08QZFH4VF).
+
+### ¿Café en grano de supermercado o de especialidad?
+
+Un buen café de supermercado, natural y recién molido, ya es un salto enorme respecto al café molido de paquete. El de especialidad suele indicar origen y fecha de tueste y tiene sabores más definidos, pero cuesta más. Yo empecé por el de supermercado y el pack de Incapto me sirvió para probar el de especialidad sin comprar varios paquetes grandes.
