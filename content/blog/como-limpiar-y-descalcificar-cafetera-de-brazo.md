@@ -1,7 +1,7 @@
 ---
 title: "Cómo limpiar y descalcificar una cafetera de brazo paso a paso (y cada cuánto)"
 description: "Guía práctica para limpiar y descalcificar una cafetera espresso de brazo: qué hacer después de cada café, cada semana y cada pocos meses, con qué producto descalcificar y los errores que acortan su vida."
-lede: "Mis dos primeras cafeteras de brazo acabaron perdiendo agua por debajo. Con la tercera he decidido tomarme en serio el mantenimiento: esto es lo que hago y lo que he aprendido."
+lede: "Mis dos primeras cafeteras de brazo acabaron perdiendo agua por debajo. Con la tercera quiero tomarme en serio el mantenimiento: esto es lo que he aprendido y la rutina que voy a seguir."
 summary: "Qué limpiar después de cada café, cada semana y cada pocos meses, y cómo descalcificar sin estropear la cafetera."
 updated: 2026-10-26
 ---
@@ -129,7 +129,7 @@ No hace falta gastar mucho: un descalcificador, un cepillo y, si tu agua es dura
 - id: brita-marella
   nota: "Reduce la cal del agua del grifo: menos descalcificaciones y mejor sabor."
 - id: cecotec-power-espresso-20
-  nota: "Mi cafetera actual, a la que le estoy aplicando esta rutina."
+  nota: "Mi cafetera actual: con ella voy a seguir esta rutina."
 :::
 
 ## Preguntas frecuentes
