@@ -99,6 +99,8 @@ Para que no me pase lo mismo que con la anterior: limpieza a fondo del portafilt
 
 ## Si te interesa, mira también
 
+Si aún estás eligiendo cafetera, tienes mis recomendaciones por presupuesto en las [mejores cafeteras para casa]({{base}}/guias/mejores-cafeteras-para-casa/).
+
 ::: productos
 - id: burnnove-espumador
   nota: "El espumador que uso para la leche: lo pongo en marcha y mientras preparo el café."

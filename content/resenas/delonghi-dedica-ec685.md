@@ -44,6 +44,6 @@ Descalcifícala cuando se encienda el aviso y usa agua baja en minerales si vive
 - **Leche automática:** la [Sage Bambino Plus]({{base}}/productos/?q=bambino), que monta la leche sola.
 - **Para aprender en serio:** la [Gaggia Classic Evo Pro]({{base}}/productos/?q=gaggia).
 
-Las tienes todas comparadas en la [guía de cafeteras espresso]({{base}}/guias/mejores-cafeteras-espresso/).
+Las tienes todas comparadas en la [guía de cafeteras espresso]({{base}}/guias/mejores-cafeteras-espresso/), y si dudas entre tipos de cafetera, en las [mejores cafeteras para casa]({{base}}/guias/mejores-cafeteras-para-casa/).
 
 <!-- AÑADE AQUÍ TU PRUEBA: fotos de la máquina en tu cocina, de un espresso y de un café con leche, y tus impresiones tras unas semanas de uso. -->

@@ -496,7 +496,7 @@ def catalog_html():
     if (af.elements.low.value) p.set('low-price', af.elements.low.value);
     if (af.elements.high.value) p.set('high-price', af.elements.high.value);
     p.set('tag', AMZ.tag);
-    var url = 'https://' + AMZ.domain + '/s?' + p.toString();
+    var url = 'https://' + AMZ.domain + '/' + 's' + '?' + p.toString();
     var w = null;
     try {{ w = window.open(url, '_blank', 'noopener'); }} catch (err) {{}}
     var out = document.getElementById('amazonLink');

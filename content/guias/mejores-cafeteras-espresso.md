@@ -21,6 +21,8 @@ updated: 2026-10-25
 | Una máquina duradera para aprender de verdad | [Gaggia Classic Evo Pro](amazon:Gaggia+Classic+Evo+Pro) |
 | Que la máquina te guíe en cada paso | [Sage Barista Touch Impress](amazon:Sage+Barista+Touch+Impress) |
 
+¿Aún no tienes claro si te conviene una de brazo, una italiana o una superautomática? Te ayudo a decidir en la guía de las [mejores cafeteras para casa]({{base}}/guias/mejores-cafeteras-para-casa/), ordenada por presupuesto.
+
 **¿Esperas al Black Friday?** Mira qué modelos vigilar y cómo saber si el descuento es real en las [ofertas de cafeteras del Black Friday]({{base}}/guias/black-friday-cafeteras/).
 
 ## Antes de elegir: tres cosas que importan más que los "bares"

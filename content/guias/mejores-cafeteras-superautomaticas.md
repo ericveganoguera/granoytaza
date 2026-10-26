@@ -20,6 +20,8 @@ updated: 2026-10-25
 | Alternar dos cafés distintos (por ejemplo, con y sin cafeína) | [De'Longhi Rivelia](amazon:DeLonghi+Rivelia) |
 | La mejor calidad de espresso en automático | [Jura E8](amazon:Jura+E8+cafetera) |
 
+¿Aún no tienes claro si te conviene una superautomática, una de brazo o una italiana? Te ayudo a decidir en la guía de las [mejores cafeteras para casa]({{base}}/guias/mejores-cafeteras-para-casa/), ordenada por presupuesto.
+
 **¿Esperas al Black Friday?** Mira qué modelos vigilar y cómo saber si el descuento es real en las [ofertas de cafeteras del Black Friday]({{base}}/guias/black-friday-cafeteras/).
 
 ## En qué fijarse antes de comprar
