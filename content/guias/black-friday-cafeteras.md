@@ -1,12 +1,12 @@
 ---
 title: "Ofertas de cafeteras Black Friday 2026: cuáles merecen la pena y cómo detectar falsos descuentos"
-description: "Ofertas de cafeteras y molinillos para el Black Friday 2026 (27 de noviembre): qué modelos vigilar en Amazon según tu presupuesto y cómo saber si el descuento es real."
+description: "Ofertas de cafeteras del Black Friday 2026 (27 de noviembre): superautomáticas, espresso y molinillos que vigilar en Amazon según tu presupuesto, fechas y cómo saber si el descuento es real."
 lede: "El Black Friday es el viernes 27 de noviembre, pero las ofertas llegan toda la semana. Qué cafeteras y molinillos vigilar según tu presupuesto, y cómo comprobar en un minuto si el descuento es de verdad."
 summary: "Fechas, cómo detectar falsas ofertas y qué cafeteras y molinillos vigilar según tu presupuesto."
 layout: article
 tema: superautomatica
 order: 0
-updated: 2026-10-21
+updated: 2026-10-26
 ---
 
 ## Respuesta rápida
@@ -14,10 +14,25 @@ updated: 2026-10-21
 | Qué | Cuándo o qué hacer |
 |---|---|
 | **Black Friday** | Viernes 27 de noviembre de 2026 |
-| **Semana de ofertas** | Del 23 al 29 de noviembre, aunque Amazon suele adelantar algunas |
+| **Semana de ofertas en Amazon** | Aún sin fechas oficiales. En 2025 fue del jueves 20 de noviembre al lunes 1 de diciembre, con ofertas anticipadas desde el 13 |
 | **Cyber Monday** | Lunes 30 de noviembre |
 | **Lo que más merece la pena vigilar** | Superautomáticas de gama de entrada y media, cafeteras de brazo con molinillo y molinillos eléctricos |
 | **Antes de comprar** | Mira el historial de precios del producto (te explico cómo abajo) |
+
+## Ofertas de cafeteras del Black Friday por tipo
+
+Si ya sabes qué tipo de cafetera quieres, aquí tienes la búsqueda de ofertas en Amazon y mi guía para elegir el modelo:
+
+| Tipo | Ofertas en Amazon | Cómo elegir |
+|---|---|---|
+| **Superautomáticas** | [Ver ofertas](amazon:cafetera+superautomatica+oferta) | [Mejores superautomáticas]({{base}}/guias/mejores-cafeteras-superautomaticas/) |
+| **Espresso o express de brazo** | [Ver ofertas](amazon:cafetera+espresso+oferta) | [Mejores cafeteras espresso]({{base}}/guias/mejores-cafeteras-espresso/) |
+| **Molinillos de café** | [Ver ofertas](amazon:molinillo+cafe+electrico+oferta) | [Mejores molinillos]({{base}}/guias/mejores-molinillos-de-cafe/) |
+| **Cafeteras Cecotec** | [Ver ofertas](amazon:cafetera+Cecotec+oferta) | [Mi opinión de la Cecotec Power Espresso 20]({{base}}/resenas/cecotec-power-espresso-20/) |
+| **Cafeteras De'Longhi** | [Ver ofertas](amazon:cafetera+DeLonghi+oferta) | [Opiniones de la Dedica Style]({{base}}/resenas/delonghi-dedica-ec685/) |
+| **Café en grano** | [Ver ofertas](amazon:cafe+en+grano+oferta) | [Los cafés en grano que he probado]({{base}}/guias/cafes-en-grano-que-he-probado/) |
+
+¿Todavía no sabes qué tipo te conviene? Empieza por las [mejores cafeteras para casa]({{base}}/guias/mejores-cafeteras-para-casa/) o la comparativa de [tipos de cafetera]({{base}}/blog/que-cafetera-comprar/).
 
 ## Cómo saber si una oferta es real
 
@@ -117,3 +132,17 @@ Esta sección se actualizará durante la semana del Black Friday con las rebajas
 2. ¿Lo vende y envía Amazon o un vendedor con buenas valoraciones?
 3. ¿Encaja con cómo tomas el café? Si dudas, la [comparativa de tipos de cafetera]({{base}}/blog/que-cafetera-comprar/) te ayuda a decidir en cinco minutos.
 4. Si es un regalo, revisa el plazo de devolución ampliado que Amazon suele ofrecer en compras navideñas.
+
+## Preguntas frecuentes
+
+### ¿Cuándo empiezan las ofertas de cafeteras del Black Friday 2026?
+
+El Black Friday es el viernes 27 de noviembre, pero Amazon alarga las ofertas toda una semana. Todavía no ha anunciado las fechas de 2026; en 2025 su semana de Black Friday fue del jueves 20 de noviembre al lunes 1 de diciembre, con algunas ofertas anticipadas desde el 13. Actualizaré esta guía en cuanto se confirmen.
+
+### ¿Es mejor comprar la cafetera en Black Friday o esperar al Cyber Monday?
+
+Si ves el modelo que quieres a un precio bajo según su historial, cómpralo: las mejores ofertas de cafeteras suelen agotarse en pocas horas y no hay garantía de que vuelvan el lunes. El Cyber Monday tiene sobre todo ofertas de electrónica y repite muchas de la semana.
+
+### ¿Qué cafeteras bajan más de precio en Black Friday?
+
+Por lo general, las superautomáticas y las cafeteras de brazo con molinillo integrado, porque tienen un precio de partida alto y un descuento se nota más en euros. Las cafeteras de entrada, como mi Cecotec, y las italianas bajan menos, pero también suelen tener alguna rebaja.

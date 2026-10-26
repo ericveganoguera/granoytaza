@@ -20,6 +20,8 @@ updated: 2026-10-21
 | Espresso en serio | [Eureka Mignon Specialità](amazon:Eureka+Mignon+Specialita) |
 | Espresso y filtro a mano, máxima calidad | [Comandante C40 MK4](amazon:Comandante+C40+MK4) |
 
+**¿Esperas al Black Friday?** Mira qué modelos vigilar y cómo saber si el descuento es real en las [ofertas de cafeteras del Black Friday]({{base}}/guias/black-friday-cafeteras/).
+
 ## Por qué el molinillo importa tanto
 
 El café pierde aroma muy deprisa una vez molido. Además, para que el agua extraiga el sabor de forma uniforme, las partículas tienen que ser del mismo tamaño. Ahí está la diferencia entre molinillos.
