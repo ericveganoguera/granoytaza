@@ -22,6 +22,8 @@ updated: 2026-10-25
 | Quieres café de grano recién molido con un botón | [De'Longhi Magnifica S](amazon:DeLonghi+Magnifica+S) |
 | Tomáis café con leche cada día y no queréis complicaros | [Philips Serie 2300 LatteGo](amazon:Philips+2300+LatteGo) |
 
+**¿Esperas al Black Friday?** Mira qué modelos vigilar y cómo saber si el descuento es real en las [ofertas de cafeteras del Black Friday]({{base}}/guias/black-friday-cafeteras/).
+
 ## Cómo elegir en tres preguntas
 
 **1. ¿Cómo tomas el café?** Si es solo o cortado, una italiana o una cafetera de brazo te darán un café intenso. Si es con leche, piensa en cómo vas a calentarla: con el vaporizador de una cafetera de brazo, con un espumador aparte o con una superautomática que lo haga sola.

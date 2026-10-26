@@ -20,6 +20,8 @@ updated: 2026-10-25
 | Alternar dos cafés distintos (por ejemplo, con y sin cafeína) | [De'Longhi Rivelia](amazon:DeLonghi+Rivelia) |
 | La mejor calidad de espresso en automático | [Jura E8](amazon:Jura+E8+cafetera) |
 
+**¿Esperas al Black Friday?** Mira qué modelos vigilar y cómo saber si el descuento es real en las [ofertas de cafeteras del Black Friday]({{base}}/guias/black-friday-cafeteras/).
+
 ## En qué fijarse antes de comprar
 
 **El sistema de leche decide tu día a día.** Hay tres opciones: vaporizador manual (tú montas la leche, más barato), jarra o sistema automático integrado (pulsas y sale el capuchino) y sistemas sin tubos, como el LatteGo de Philips, que se lavan en segundos. Si en casa se toma mucho café con leche, paga por un sistema automático fácil de limpiar: es lo que hace que la uses todos los días.

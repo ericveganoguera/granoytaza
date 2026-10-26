@@ -21,6 +21,8 @@ updated: 2026-10-25
 | Una máquina duradera para aprender de verdad | [Gaggia Classic Evo Pro](amazon:Gaggia+Classic+Evo+Pro) |
 | Que la máquina te guíe en cada paso | [Sage Barista Touch Impress](amazon:Sage+Barista+Touch+Impress) |
 
+**¿Esperas al Black Friday?** Mira qué modelos vigilar y cómo saber si el descuento es real en las [ofertas de cafeteras del Black Friday]({{base}}/guias/black-friday-cafeteras/).
+
 ## Antes de elegir: tres cosas que importan más que los "bares"
 
 **Los bares de la caja no sirven para comparar.** Casi todas anuncian 15 o 20 bares, pero un espresso se extrae a unos 9. Lo que cambia la taza es la estabilidad de la temperatura, el tamaño y tipo de cacillo (el filtro donde va el café) y, sobre todo, el molinillo.
