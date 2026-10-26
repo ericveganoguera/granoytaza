@@ -1,7 +1,7 @@
 ---
 title: "Cómo limpiar y descalcificar una cafetera de brazo paso a paso (y cada cuánto)"
 description: "Guía práctica para limpiar y descalcificar una cafetera espresso de brazo: qué hacer después de cada café, cada semana y cada pocos meses, con qué producto descalcificar y los errores que acortan su vida."
-lede: "Mis dos primeras cafeteras de brazo acabaron perdiendo agua por debajo. Con la tercera quiero tomarme en serio el mantenimiento: esto es lo que he aprendido y la rutina que voy a seguir."
+lede: "Mis dos primeras cafeteras de brazo acabaron perdiendo agua por debajo. Desde entonces me fijo mucho más en el mantenimiento: esto es lo que he aprendido y lo que hago con la tercera."
 summary: "Qué limpiar después de cada café, cada semana y cada pocos meses, y cómo descalcificar sin estropear la cafetera."
 updated: 2026-10-26
 ---
@@ -17,9 +17,9 @@ updated: 2026-10-26
 
 Mi primera cafetera de brazo fue una Gaggia Viva Style. Con el tiempo empezó a perder agua por debajo. Durante una temporada la usamos con una bandeja debajo que íbamos vaciando en el fregadero, hasta que me cansé y la cambié por una CREATE Thera Retro. Esa me duró unos dos años y funcionó bien hasta que se rompió el conducto del agua y también acabó perdiendo agua por debajo.
 
-No puedo asegurar que la culpa fuera de la cal, porque no las abrí para comprobarlo. Pero la cal y los restos de café son los enemigos más habituales de estas cafeteras, y en ninguna de las dos fui constante con el mantenimiento. Con la actual, una [Cecotec Power Espresso 20]({{base}}/resenas/cecotec-power-espresso-20/) que tengo desde hace un año, no quiero que me pase lo mismo.
+No puedo asegurar que la culpa fuera de la cal, porque no las abrí para comprobarlo. Pero la cal y los restos de café son los enemigos más habituales de estas cafeteras. Con la actual, una [Cecotec Power Espresso 20]({{base}}/resenas/cecotec-power-espresso-20/) que tengo desde hace un año, no quiero que me pase lo mismo.
 
-<!-- TU EXPERIENCIA: si recuerdas cada cuánto descalcificabas la Gaggia o la CREATE (o si no lo hacías nunca), cuéntalo aquí en una o dos frases. -->
+Mi costumbre es descalcificar más o menos cada dos meses y usar siempre agua filtrada o de botella. Aun así, a la Cecotec le toca ya su descalcificación: es lo próximo que voy a hacer, y con ella la limpieza a fondo del portafiltro.
 
 ## Qué ensucia una cafetera de brazo
 
@@ -61,7 +61,7 @@ Con la cafetera no uses alcohol ni disolventes, no la metas en agua y no pongas 
 - **Sabe a rancio o más amargo** sin haber cambiado de café.
 - **Sale menos vapor** o el agua parece menos caliente.
 
-<!-- ACTUALIZA: cuando limpies el portafiltro de la Cecotec, cuenta si se ha igualado el caudal de las dos salidas. -->
+<!-- ACTUALIZA: cuando descalcifiques la Cecotec y limpies el portafiltro, cuenta si se ha igualado el caudal de las dos salidas. -->
 
 ## Cómo descalcificar una cafetera de brazo
 
@@ -70,7 +70,7 @@ Con la cafetera no uses alcohol ni disolventes, no la metas en agua y no pongas 
 Depende de lo dura que sea el agua y de cuántos cafés hagas. La regla más fiable es la del fabricante:
 
 - **Si tu cafetera avisa,** hazle caso. Por ejemplo, la Power Espresso 20 Pecan Pro, de la misma familia que la mía, avisa sola después de 500 ciclos de uso.
-- **Si no avisa,** mira el manual. Como referencia general, cada dos o tres meses con agua dura y algo menos a menudo con agua blanda o filtrada.
+- **Si no avisa,** mira el manual. Como referencia general, cada dos o tres meses con agua dura y algo menos a menudo con agua blanda o filtrada. Yo descalcifico cada dos meses, más o menos, aunque uso agua filtrada o de botella: prefiero pasarme a quedarme corto.
 
 En buena parte de la costa mediterránea y del sur el agua del grifo es dura. Si en tu hervidor aparecen costras blancas, la tuya también lo es.
 
@@ -93,7 +93,7 @@ El proceso exacto cambia de un modelo a otro, así que ten el manual a mano. En 
 7. **Aclara a fondo:** lava el depósito, llénalo de agua limpia y hazla pasar entera por el grupo y el vaporizador. Repite el aclarado al menos una vez más.
 8. **Si tu cafetera tenía aviso de descalcificación,** reinícialo como indique el manual.
 
-<!-- FOTO: la cafetera con el recipiente debajo durante la descalcificación. -->
+<!-- FOTO: la Cecotec con el recipiente debajo durante la descalcificación (aprovecha la que vas a hacer ahora). -->
 
 ## Lo que NO hay que hacer
 
@@ -108,7 +108,7 @@ Lo más eficaz no es descalcificar mucho, sino que entre menos cal. Si tu agua e
 
 No te pases al extremo contrario: el agua destilada, sin minerales, da un café plano y sin cuerpo.
 
-<!-- TU EXPERIENCIA: ¿usas agua del grifo, filtrada o embotellada? Si alguna vez cambias, cuenta si notas la diferencia en el sabor o en la cafetera. -->
+En casa uso agua filtrada o de botella, nunca la del grifo directamente.
 
 ## Calendario de mantenimiento
 
@@ -129,7 +129,7 @@ No hace falta gastar mucho: un descalcificador, un cepillo y, si tu agua es dura
 - id: brita-marella
   nota: "Reduce la cal del agua del grifo: menos descalcificaciones y mejor sabor."
 - id: cecotec-power-espresso-20
-  nota: "Mi cafetera actual: con ella voy a seguir esta rutina."
+  nota: "Mi cafetera actual, la que mantengo con esta rutina."
 :::
 
 ## Preguntas frecuentes
