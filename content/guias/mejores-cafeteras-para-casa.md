@@ -8,7 +8,7 @@ layout: article
 section: guias
 tema: italiana
 order: 1
-updated: 2026-10-25
+updated: 2026-10-26
 ---
 
 ## Respuesta rápida
@@ -87,6 +87,16 @@ Una superautomática es justo mi siguiente paso: en el trabajo usamos una y la c
 - id: rivelia
   nota: "Superautomática con tolvas intercambiables para alternar dos cafés"
 :::
+
+## Lo que he aprendido con mis tres cafeteras
+
+En casa he tenido tres cafeteras de brazo, y cada una me ha enseñado algo que tengo en cuenta en estas recomendaciones:
+
+- **Gaggia Viva Style:** fue la primera. Acabó perdiendo agua por debajo y durante un tiempo la usamos con una bandeja debajo, hasta que la cambiamos. Aprendí a mirar las opiniones sobre fugas y averías antes que la estética.
+- **CREATE Thera Retro:** la tuve unos dos años. Funcionó muy bien, hasta que se rompió el conducto del agua. Con lo que sé ahora, descalcificarla más a menudo probablemente le habría alargado la vida.
+- **Cecotec Power Espresso 20:** la que uso desde hace un año. Es sencilla, tiene un depósito grande y no me ha dado ninguna fuga, aunque es ancha, hace ruido y gotea un poco después de usarla. Lo cuento todo en su [reseña]({{base}}/resenas/cecotec-power-espresso-20/).
+
+La conclusión: en una cafetera de menos de 200 € no busques la perfecta. Busca una sencilla, con buenas opiniones sobre fiabilidad, y cuida el mantenimiento. Y si el presupuesto da para ello, piensa en una superautomática: es justo mi siguiente paso.
 
 ## ¿Y las cafeteras de cápsulas?
 
