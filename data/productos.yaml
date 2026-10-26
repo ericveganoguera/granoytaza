@@ -350,6 +350,31 @@ productos:
     etiqueta: "La tuve en casa"
     resumen: "Mi primera cafetera de brazo. Con el tiempo empezó a perder agua por debajo y acabé cambiándola."
 
+  # --- Mantenimiento ---
+  - id: ecodecalk-descalcificador
+    nombre: "De'Longhi EcoDecalk descalcificador 500 ml"
+    marca: "De'Longhi"
+    categoria: accesorio
+    gama: basica
+    precio: 15
+    relevancia: 58
+    anadido: 2026-10-26
+    buscar: "DeLonghi EcoDecalk descalcificador 500 ml"
+    resumen: "Descalcificador líquido de ácido láctico de origen vegetal para cafeteras De'Longhi. Un frasco da para varias descalcificaciones."
+    guia: blog/como-limpiar-y-descalcificar-cafetera-de-brazo
+
+  - id: brita-marella
+    nombre: "BRITA Marella jarra filtrante 2,4 l"
+    marca: "BRITA"
+    categoria: accesorio
+    gama: basica
+    precio: 25
+    relevancia: 55
+    anadido: 2026-10-26
+    buscar: "BRITA Marella jarra filtrante 2,4 L Maxtra Pro"
+    resumen: "Jarra con filtro MAXTRA Pro que reduce la cal y el cloro del agua del grifo. Menos cal en la cafetera y mejor sabor."
+    guia: blog/como-limpiar-y-descalcificar-cafetera-de-brazo
+
   # --- Café en grano ---
   - id: novell-natural-arabica
     nombre: "Novell 100% arábica natural en grano"
