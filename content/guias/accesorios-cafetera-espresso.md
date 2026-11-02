@@ -45,7 +45,9 @@ No es un accesorio en sentido estricto, pero es la compra que más mejora el caf
 
 Me pasó a mí. Antes compraba paquetes de medio kilo de café molido y, a los pocos días de abrirlos, el café perdía el aroma y sabía a quemado. Desde que muelo el grano en casa, las visitas me dicen que el café huele y sabe mucho mejor.
 
-Yo uso un molinillo de cuchillas muy barato, el [SHARDOR]({{base}}/blog/molinillo-de-cuchillas-mi-experiencia/), siempre en la molienda más fina. No es el ideal para espresso, pero con una cafetera de filtro presurizado como la mía cumple. Si quieres ir un paso más allá, en la [guía de molinillos]({{base}}/guias/mejores-molinillos-de-cafe/) tienes opciones de muelas.
+Mi primer molinillo fue uno de cuchillas de Black+Decker que me dejó mi madre. Me gustaba moler el grano, pero no tanto tener que sacar el café de dentro y limpiarlo cada vez. Así que me compré un **SHARDOR con tolva y selector de molienda**: echas el grano arriba, eliges la molienda y muele directamente en el vaso. Lo uso siempre en la molienda más fina, la de espresso.
+
+Si estás eligiendo el tuyo, en la [guía de molinillos]({{base}}/guias/mejores-molinillos-de-cafe/) tienes opciones según cómo preparas el café.
 
 ## 2. Un prensador de tu medida
 
@@ -59,11 +61,9 @@ En qué fijarte:
 - **Que la base sea plana** y de acero inoxidable.
 - **Con muelle o sin él.** Los que llevan muelle ayudan a prensar siempre con la misma fuerza. No es imprescindible, pero viene bien al principio.
 
-Para cafeteras de 51 mm, Cecotec vende su propio prensador, el **BaristeoTamper51**, con muelle integrado. Si tienes una Cecotec, es la opción más sencilla para no equivocarte de medida.
+Yo uso un [prensador Vicloon de 51 mm](amazon-dp:B0C1BCKFK4) con mango de madera. Ya lo usaba con la CREATE y lo sigo usando con la Cecotec. Es el de la foto de abajo, junto a las varillas.
 
-Yo uso un prensador cada mañana después de remover el café.
-
-<!-- TU EXPERIENCIA: ¿qué prensador usas? ¿Venía con la cafetera o lo compraste aparte? Si notaste diferencia al cambiar del de plástico, cuéntalo aquí. -->
+Si tienes una Cecotec y prefieres ir a lo seguro con la medida, la marca vende su propio prensador de 51 mm con muelle, el BaristeoTamper51.
 
 ## 3. Varillas WDT (las que menos gente conoce)
 
@@ -74,13 +74,13 @@ Sirven para dos cosas:
 - **Deshacer los grumos** que salen del molinillo.
 - **Repartir el café** de forma pareja por todo el cacillo, para que el prensado quede uniforme.
 
-Con un molinillo de cuchillas tienen aún más sentido, porque el café sale menos uniforme y con más grumos. Yo lo remuevo con unas varillas finas antes de prensar, cada mañana.
+Con un molinillo de cuchillas tienen aún más sentido, porque el café sale menos uniforme y con más grumos.
 
-Las hay muy sencillas, de agujas fijas, y otras giratorias que remueven en círculos. Cecotec tiene dos: la **Baristeo Needle**, la básica, y la **Baristeo Needle Spin**, giratoria con 6 agujas. Para casa, la básica sobra.
+Yo uso unas [varillas Csuntikulo](amazon-dp:B0C3L38SP2) de agujas de acero, cada mañana antes de prensar. Son las negras que se ven de pie en la foto.
 
-<!-- TU EXPERIENCIA: ¿qué varillas usas y desde cuándo? ¿Notaste que el café salía más parejo por las dos salidas? -->
+Las hay muy sencillas, de agujas fijas, y otras giratorias que remueven en círculos. Para casa, unas sencillas sobran.
 
-<!-- FOTO: las varillas removiendo el café en el portafiltro, vista desde arriba. -->
+![Mi rincón del café cuando tenía la CREATE Thera Retro: prensador, varillas, molinillo SHARDOR y botes de café]({{base}}/img/kit-create-prensador-varillas-molinillo.jpg)
 
 ## 4. Espumador o jarra para la leche
 
@@ -103,6 +103,8 @@ No hace falta que sea específica de café, pero las que lo son traen temporizad
 
 ## Útiles, pero no imprescindibles
 
+**Vaso dosificador.** Un vaso de acero donde cae el café del molinillo y que luego vuelcas en el portafiltro. Yo uso uno de [Ejoyous](amazon-dp:B0BR5WGDWF) y lo dejo siempre puesto bajo la salida del SHARDOR: muelo dentro y paso el café al portafiltro sin ensuciar la encimera.
+
 **Anillo dosificador.** Se coloca encima del cacillo y evita que el café se caiga por los bordes al echarlo o al removerlo con las varillas. Si te cae café en la bandeja cada mañana, es un accesorio barato que lo soluciona. Cecotec vende el **Baristeo Ring51**, de 51 mm.
 
 **Cajón de posos.** Un recipiente con una barra para golpear el portafiltro y tirar la pastilla de café. Cómodo si haces varios cafés seguidos; si no, el cubo de la basura cumple.
@@ -122,22 +124,26 @@ No hace falta que sea específica de café, pero las que lo son traen temporizad
 
 Esto es lo que uso cada mañana con mi Cecotec Power Espresso 20:
 
-1. El molinillo de cuchillas SHARDOR, en la molienda más fina.
-2. Las varillas finas para remover el café en el portafiltro.
-3. El prensador.
+1. El molinillo SHARDOR, en la molienda más fina, moliendo directamente en el vaso dosificador.
+2. Las varillas Csuntikulo para remover el café en el portafiltro.
+3. El prensador Vicloon de 51 mm.
 4. El espumador BURNNOVE para la leche, que trabaja mientras preparo el café.
 
 Café en grano: el [Novell 100% arábica natural]({{base}}/guias/cafes-en-grano-que-he-probado/), que es el que tomo a diario.
 
-<!-- FOTO: tu kit completo sobre la encimera junto a la cafetera: molinillo, varillas, prensador y espumador. -->
+El molinillo, el vaso, el prensador y las varillas son los mismos que usaba con la CREATE. Solo cambió la cafetera.
+
+![Mi montaje actual: la Cecotec Power Espresso 20 junto al molinillo SHARDOR con su vaso dosificador]({{base}}/img/kit-cecotec-power-espresso-20.jpg)
 
 ## Los accesorios que recomiendo
 
 ::: productos
-- id: cecotec-baristeo-tamper51
-  nota: "Prensador de 51 mm con muelle. Encaja en la Cecotec Power Espresso 20 y en la Dedica."
-- id: cecotec-baristeo-needle
-  nota: "Varillas WDT sencillas para deshacer los grumos antes de prensar."
+- id: vicloon-prensador-51
+  nota: "Mi prensador: 51 mm, de la medida de la Cecotec Power Espresso 20 y la Dedica."
+- id: csuntikulo-varillas-wdt
+  nota: "Mis varillas WDT: las uso cada mañana antes de prensar."
+- id: ejoyous-vaso-dosificador
+  nota: "El vaso donde muelo el café y lo paso al portafiltro sin ensuciar."
 - id: burnnove-espumador
   nota: "El espumador que uso cada mañana: trabaja solo mientras preparas el café."
 - id: timemore-black-mirror
@@ -145,7 +151,7 @@ Café en grano: el [Novell 100% arábica natural]({{base}}/guias/cafes-en-grano-
 - id: cecotec-baristeo-ring51
   nota: "Anillo dosificador de 51 mm: se acabó el café en la bandeja."
 - id: shardor-cg845b
-  nota: "Mi molinillo: barato y suficiente para una cafetera de filtro presurizado."
+  nota: "Mi molinillo: con tolva y selector de molienda, muele directamente en el vaso."
 :::
 
 ## Preguntas frecuentes
