@@ -45,6 +45,21 @@ Son las dos opciones para tomar espresso de verdad en casa. La de brazo da el te
 - [Las mejores cafeteras espresso de brazo]({{base}}/guias/mejores-cafeteras-espresso/)
 - [Las mejores cafeteras superautomáticas]({{base}}/guias/mejores-cafeteras-superautomaticas/)
 
+## Cuánto cuesta cada tipo
+
+El precio de la máquina es solo una parte. Con el tiempo pesa más lo que pagas por cada taza, y eso depende del café y de cuánto tomas.
+
+| Tipo | Precio de la máquina (orientativo) | Qué lo encarece con el tiempo |
+|---|---|---|
+| Cápsulas | Barata | Las cápsulas, que cuestan varias veces más que el café en grano |
+| Italiana (moka) | Menos de 50 € | Casi nada: solo el café y la luz |
+| Goteo o prensa francesa | Menos de 50 € | El café, y un molinillo para moler grueso |
+| Filtro manual | Menos de 50 € el cono; con hervidor y balanza, más | El café de especialidad, que suele ser más caro |
+| Cafetera de brazo | De 100 a 200 € en gama de entrada; de 400 a 700 € en gama media | Un molinillo que muela fino, que casi siempre hace falta |
+| Superautomática | De 300 a 500 € en gama de entrada y media; de 500 a 700 € en gama alta | El café en grano, y la descalcificación si no se cuida el filtro |
+
+Para calcular tu coste por taza, divide el precio del paquete entre sus gramos y multiplica por los gramos que usas en cada café. Si lo haces con tus propios cafés, la comparación es real.
+
 ## Mi recomendación según tu caso
 
 Si ya sabes qué tipo quieres y buscas modelos concretos, los tienes ordenados por presupuesto en las [mejores cafeteras para casa]({{base}}/guias/mejores-cafeteras-para-casa/).
@@ -53,5 +68,19 @@ Si ya sabes qué tipo quieres y buscas modelos concretos, los tienes ordenados p
 - **En casa sois varios y cada uno lo toma distinto:** superautomática con sistema de leche automático.
 - **Te apetece aprender y disfrutar del proceso:** cafetera de brazo con un buen molinillo.
 - **Solo quieres algo rápido para las mañanas:** cápsulas, asumiendo el coste por taza.
+
+## Preguntas frecuentes
+
+### ¿Qué tipo de cafetera es mejor para una sola persona?
+
+Depende de cómo tomes el café. Si tomas uno o dos cafés al día, solo o cortado, una italiana es la opción más barata y más sencilla. Si tomas café con leche a diario y no quieres complicarte, una superautomática o una de brazo con leche automática te ahorra tiempo cada mañana.
+
+### ¿Las cafeteras de cápsulas son malas?
+
+No, son cómodas y limpias. El problema es el coste por taza y que el sabor depende de la cápsula. Si valoras la comodidad por encima de todo, son una opción razonable; si quieres café de calidad a buen precio, mira las otras.
+
+### ¿Qué necesito además de la cafetera?
+
+Para el espresso y la italiana, un buen molinillo es lo más importante. Para el filtro, una balanza y un hervidor de cuello fino. Con la superautomática sólo necesitas café en grano y agua filtrada, aunque conviene un filtro de agua para alargar la vida de la máquina.
 
 Si buscas la mejor cafetera para tu presupuesto, mira la [guía de cafeteras para casa calidad-precio]({{base}}/guias/mejores-cafeteras-para-casa/).

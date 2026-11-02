@@ -47,6 +47,20 @@ Descalcifícala cuando se encienda el aviso y usa agua baja en minerales si vive
 
 Las tienes todas comparadas en la [guía de cafeteras espresso]({{base}}/guias/mejores-cafeteras-espresso/), y si dudas entre tipos de cafetera, en las [mejores cafeteras para casa]({{base}}/guias/mejores-cafeteras-para-casa/).
 
+## Preguntas frecuentes
+
+### ¿Sirve con café molido de supermercado?
+
+Sí. Los cacillos presurizados de serie están pensados para eso: el resultado es correcto, aunque sin el cuerpo que da el café recién molido.
+
+### ¿Cabe en una encimera pequeña?
+
+Sí. Tiene unos 15 cm de ancho, lo que la hace de las más compactas de las cafeteras de brazo. Hay que dejar espacio para el depósito y la bandeja de goteo.
+
+### ¿Cada cuánto hay que descalcificarla?
+
+Depende de la dureza de tu agua. Descalcifícala cuando lo indique el aviso de la máquina, y si vives en una zona de agua dura, usa agua baja en minerales para retrasarlo.
+
 <!-- AÑADE AQUÍ TU PRUEBA: fotos de la máquina en tu cocina, de un espresso y de un café con leche, y tus impresiones tras unas semanas de uso. -->
 
 Si buscas la mejor cafetera para tu presupuesto, mira la [guía de cafeteras para casa calidad-precio]({{base}}/guias/mejores-cafeteras-para-casa/).
