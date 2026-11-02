@@ -73,6 +73,18 @@ SECTIONS = {
     "blog": {"title": "Blog", "nav": "Blog", "item": "Blog",
              "intro": "Técnica, trucos y explicaciones para sacar mejor café de lo que ya tienes en casa."},
 }
+# Nombre corto de cada guía para el texto de la tarjeta ("Ver guía: superautomáticas")
+GUIA_CORTA = {
+    "guias/mejores-cafeteras-espresso": "cafeteras espresso",
+    "guias/mejores-cafeteras-superautomaticas": "superautomáticas",
+    "guias/mejores-molinillos-de-cafe": "molinillos",
+    "guias/cafes-en-grano-que-he-probado": "cafés en grano",
+    "blog/que-cafetera-comprar": "tipos de cafetera",
+    "blog/como-limpiar-y-descalcificar-cafetera-de-brazo": "descalcificar",
+    "blog/molinillo-de-cuchillas-mi-experiencia": "molinillo de cuchillas",
+    "guias/cecotec-power-espresso-20-vs-create-thera-retro": "Cecotec vs CREATE",
+    "resenas/cecotec-power-espresso-20": "Cecotec Power Espresso 20",
+}
 NAV = [("guias", "Guías"), ("resenas", "Reseñas"), ("productos", "Productos"), ("blog", "Blog")]
 AMAZON_QUERY = {
     "espresso": "cafetera espresso", "superautomatica": "cafetera superautomatica",
@@ -364,7 +376,7 @@ def card(p, heading="h3", nota=None):
     if p.get("resena"):
         extra = f'<a class="more" href="{link(p["resena"])}">Leer reseña</a>'
     elif p.get("guia"):
-        extra = f'<a class="more" href="{link(p["guia"])}">Ver en la guía</a>'
+        extra = f'<a class="more" href="{link(p["guia"])}">Ver guía: {GUIA_CORTA.get(p["guia"], "más información")}</a>'
     gama = p.get("gama", "media")
     return f"""<li class="pcard" data-cat="{p['categoria']}" data-gama="{gama}" data-precio="{p['precio']}"
  data-rel="{p.get('relevancia', 50)}" data-fecha="{p.get('anadido', '')}" data-marca="{E(p.get('marca', ''))}"
@@ -734,6 +746,24 @@ def page_html(meta, content, articles=()):
             if prod.get("asin"):
                 data["sku"] = prod["asin"]
         jsonld = f'<script type="application/ld+json">{json.dumps(data, ensure_ascii=False)}</script>'
+
+    # Migas (BreadcrumbList) en todas las páginas y WebSite + Organization en la portada
+    base_url = CFG["url"] + CFG["baseurl"].rstrip("/") + "/"
+    def _ld(obj):
+        return f'<script type="application/ld+json">{json.dumps(obj, ensure_ascii=False)}</script>'
+    if slug:
+        crumbs = [{"@type": "ListItem", "position": 1, "name": "Inicio", "item": base_url}]
+        if meta.get("section") in SECTIONS and slug != meta["section"]:
+            crumbs.append({"@type": "ListItem", "position": 2, "name": SECTIONS[meta["section"]]["title"],
+                           "item": base_url + meta["section"] + "/"})
+        crumbs.append({"@type": "ListItem", "position": len(crumbs) + 1, "name": meta["title"], "item": canonical})
+        jsonld += _ld({"@context": "https://schema.org", "@type": "BreadcrumbList", "itemListElement": crumbs})
+    else:
+        org = {"@context": "https://schema.org", "@type": "Organization", "name": CFG["title"], "url": base_url}
+        if CFG.get("instagram"):
+            org["sameAs"] = [CFG["instagram"]]
+        jsonld += _ld({"@context": "https://schema.org", "@type": "WebSite", "name": CFG["title"],
+                       "url": base_url, "inLanguage": CFG["lang"]}) + _ld(org)
 
     cur_attr = ' aria-current="page"'
     nav = "".join(

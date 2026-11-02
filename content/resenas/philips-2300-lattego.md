@@ -44,3 +44,5 @@ Saca y enjuaga el grupo de infusión una vez por semana, engrásalo de vez en cu
 Comparadas en la [guía de superautomáticas]({{base}}/guias/mejores-cafeteras-superautomaticas/).
 
 <!-- AÑADE AQUÍ TU PRUEBA: fotos y tus impresiones de uso. -->
+
+Si buscas la mejor cafetera para tu presupuesto, mira la [guía de cafeteras para casa calidad-precio]({{base}}/guias/mejores-cafeteras-para-casa/).

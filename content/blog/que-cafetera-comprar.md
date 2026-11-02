@@ -53,3 +53,5 @@ Si ya sabes qué tipo quieres y buscas modelos concretos, los tienes ordenados p
 - **En casa sois varios y cada uno lo toma distinto:** superautomática con sistema de leche automático.
 - **Te apetece aprender y disfrutar del proceso:** cafetera de brazo con un buen molinillo.
 - **Solo quieres algo rápido para las mañanas:** cápsulas, asumiendo el coste por taza.
+
+Si buscas la mejor cafetera para tu presupuesto, mira la [guía de cafeteras para casa calidad-precio]({{base}}/guias/mejores-cafeteras-para-casa/).
