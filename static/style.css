@@ -180,7 +180,8 @@ h1, h2, h3 { text-wrap: balance; }
 .field > span, .field legend { font-size: .9rem; font-weight: 700; padding: 0; }
 .field input, .field select, .sort select { font: inherit; font-size: .95rem; color: var(--ink); background: var(--paper); border: 1px solid var(--line); border-radius: 12px; padding: .55rem .7rem; width: 100%; }
 .chips { display: flex; flex-wrap: wrap; gap: .4rem; }
-.chip input { position: absolute; opacity: 0; pointer-events: none; }
+.chip { position: relative; }
+.chip input { position: absolute; inset: 0; width: 100%; height: 100%; margin: 0; padding: 0; border: 0; opacity: 0; pointer-events: none; }
 .chip span { display: inline-block; border: 1px solid var(--line); border-radius: 99px; padding: .3rem .75rem; font-size: .9rem; cursor: pointer; background: var(--paper); }
 .chip small { color: var(--muted); font-size: .8rem; }
 .chip input:checked + span { background: var(--ink); color: var(--paper); border-color: var(--ink); }
