@@ -338,6 +338,7 @@ productos:
     asin: B0BRHVDLSX
     propio: true
     icono: espumador
+    foto: img/burnnove-espumador.jpg
     resumen: "Espumador automático: pones la leche, pulsas y trabaja solo mientras preparas el café. El que uso cada mañana."
     guia: resenas/cecotec-power-espresso-20
 
@@ -419,7 +420,23 @@ productos:
     asin: B0BR5WGDWF
     propio: true
     icono: dosificador
+    foto: img/ejoyous-vaso-dosificador.jpg
     resumen: "Vaso de acero donde cae el café del molinillo para pasarlo al portafiltro sin ensuciar. Lo tengo siempre bajo mi SHARDOR."
+    guia: guias/accesorios-cafetera-espresso
+
+  # El de Eric (Maxentico, vendido por MAYHDG) está descatalogado en Amazon: el enlace busca modelos equivalentes.
+  - id: maxentico-cubo-posos
+    nombre: "Maxentico cubo para posos de café"
+    marca: "Maxentico"
+    categoria: accesorio
+    gama: basica
+    precio: 15
+    relevancia: 55
+    anadido: 2026-11-02
+    buscar: "cubo posos cafe knock box portafiltro"
+    propio: true
+    foto: img/maxentico-cubo-posos.jpg
+    resumen: "Cubo con una barra atravesada: golpeas el portafiltro contra ella y la pastilla de café usado cae dentro. El mío ya no se vende; el enlace lleva a modelos equivalentes."
     guia: guias/accesorios-cafetera-espresso
 
   - id: cecotec-baristeo-ring51
@@ -445,6 +462,7 @@ productos:
     anadido: 2026-10-21
     asin: B01L0BDMJS
     propio: true
+    foto: img/novell-arabica.jpg
     resumen: "El café que tomo cada día: aroma y sabor intensos sin pasarse, y de los más económicos en grano."
     guia: guias/cafes-en-grano-que-he-probado
 
