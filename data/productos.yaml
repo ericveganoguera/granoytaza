@@ -312,7 +312,7 @@ productos:
     guia: guias/cecotec-power-espresso-20-vs-create-thera-retro
 
   - id: shardor-cg845b
-    nombre: "SHARDOR molinillo eléctrico con tolva"
+    nombre: "SHARDOR molinillo eléctrico de muelas cónicas"
     marca: "SHARDOR"
     categoria: molinillo
     gama: basica
@@ -321,7 +321,7 @@ productos:
     anadido: 2026-10-21
     asin: B099WNLCCT
     propio: true
-    resumen: "Molinillo eléctrico con tolva y selector de molienda que muele directamente en el vaso. Lo uso siempre en la más fina, para espresso."
+    resumen: "Molinillo de muelas cónicas de acero con tolva, 31 ajustes de molienda y temporizador. Lo uso siempre en la más fina, para espresso."
     guia: blog/molinillo-de-cuchillas-mi-experiencia
 
   - id: burnnove-espumador
@@ -381,7 +381,7 @@ productos:
     marca: "Vicloon"
     categoria: accesorio
     gama: basica
-    precio: 20
+    precio: 12
     relevancia: 64
     anadido: 2026-11-02
     asin: B0C1BCKFK4
@@ -394,7 +394,7 @@ productos:
     marca: "Csuntikulo"
     categoria: accesorio
     gama: basica
-    precio: 10
+    precio: 13
     relevancia: 62
     anadido: 2026-11-02
     asin: B0C3L38SP2
@@ -407,7 +407,7 @@ productos:
     marca: "Ejoyous"
     categoria: accesorio
     gama: basica
-    precio: 12
+    precio: 15
     relevancia: 56
     anadido: 2026-11-02
     asin: B0BR5WGDWF

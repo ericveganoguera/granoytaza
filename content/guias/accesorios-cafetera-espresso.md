@@ -45,7 +45,9 @@ No es un accesorio en sentido estricto, pero es la compra que más mejora el caf
 
 Me pasó a mí. Antes compraba paquetes de medio kilo de café molido y, a los pocos días de abrirlos, el café perdía el aroma y sabía a quemado. Desde que muelo el grano en casa, las visitas me dicen que el café huele y sabe mucho mejor.
 
-Mi primer molinillo fue uno de cuchillas de Black+Decker que me dejó mi madre. Me gustaba moler el grano, pero no tanto tener que sacar el café de dentro y limpiarlo cada vez. Así que me compré un **SHARDOR con tolva y selector de molienda**: echas el grano arriba, eliges la molienda y muele directamente en el vaso. Lo uso siempre en la molienda más fina, la de espresso.
+Mi primer molinillo fue uno de cuchillas de Black+Decker que me dejó mi madre. Me gustaba moler el grano, pero no tanto tener que sacar el café de dentro y limpiarlo cada vez. Así que me compré un **SHARDOR de muelas cónicas**. Tiene tolva para el grano, 31 ajustes de molienda y un temporizador que recuerda el tiempo de la última vez. Echas el grano arriba, pulsas y muele directamente en el vaso. Lo uso siempre en la molienda más fina, la de espresso.
+
+Las muelas trituran el grano entre dos piezas de acero y lo dejan de un tamaño mucho más parejo que las cuchillas. Por eso son las recomendadas para espresso.
 
 Si estás eligiendo el tuyo, en la [guía de molinillos]({{base}}/guias/mejores-molinillos-de-cafe/) tienes opciones según cómo preparas el café.
 
@@ -124,7 +126,7 @@ No hace falta que sea específica de café, pero las que lo son traen temporizad
 
 Esto es lo que uso cada mañana con mi Cecotec Power Espresso 20:
 
-1. El molinillo SHARDOR, en la molienda más fina, moliendo directamente en el vaso dosificador.
+1. El molinillo de muelas SHARDOR, en la molienda más fina, moliendo directamente en el vaso dosificador.
 2. Las varillas Csuntikulo para remover el café en el portafiltro.
 3. El prensador Vicloon de 51 mm.
 4. El espumador BURNNOVE para la leche, que trabaja mientras preparo el café.
@@ -151,7 +153,7 @@ El molinillo, el vaso, el prensador y las varillas son los mismos que usaba con 
 - id: cecotec-baristeo-ring51
   nota: "Anillo dosificador de 51 mm: se acabó el café en la bandeja."
 - id: shardor-cg845b
-  nota: "Mi molinillo: con tolva y selector de molienda, muele directamente en el vaso."
+  nota: "Mi molinillo: muelas cónicas, 31 ajustes y temporizador. Muele directamente en el vaso."
 :::
 
 ## Preguntas frecuentes
