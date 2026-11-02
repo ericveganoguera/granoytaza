@@ -94,7 +94,7 @@ Depende de cómo preparas el café:
 - **Para espresso y también filtro o italiana:** el [Sage Smart Grinder Pro](amazon:Sage+Smart+Grinder+Pro), el más versátil por su precio.
 - **Para espresso en serio:** el [Eureka Mignon Specialità](amazon:Eureka+Mignon+Specialita).
 - **Para filtro, goteo o prensa francesa:** el [Baratza Encore](amazon:Baratza+Encore).
-- **Si el presupuesto es mínimo:** uno de cuchillas, como el que uso yo para mi espresso, ya mejora mucho respecto al café molido de paquete, aunque muele menos uniforme. Te cuento cómo me va en [por qué empecé a moler el café en casa]({{base}}/blog/molinillo-de-cuchillas-mi-experiencia/).
+- **Si el presupuesto es mínimo:** uno de cuchillas ya mejora mucho respecto al café molido de paquete, aunque muele menos uniforme. Yo empecé así antes de pasarme a uno de muelas; lo cuento en [por qué empecé a moler el café en casa]({{base}}/blog/molinillo-de-cuchillas-mi-experiencia/).
 
 ### ¿Manual o eléctrico?
 
@@ -104,4 +104,8 @@ Por el mismo dinero, un manual muele mejor que un eléctrico, porque no pagas mo
 
 Con un cepillo cada semana y una limpieza más a fondo cada mes o dos. No uses agua en las muelas de un eléctrico.
 
-<!-- AÑADE AQUÍ TU EXPERIENCIA: qué molinillo usas y una foto de la molienda. -->
+### ¿Qué molinillo uso yo?
+
+Un eléctrico SHARDOR de muelas cónicas, con tolva y selector de molienda, siempre en el ajuste más fino para espresso. Antes tuve uno de cuchillas de Black+Decker: me gustaba moler el grano, pero no tener que sacar el café de dentro y limpiarlo cada vez. Te lo cuento en [por qué empecé a moler el café en casa]({{base}}/blog/molinillo-de-cuchillas-mi-experiencia/).
+
+<!-- FOTO (opcional): una foto de la molienda en el vaso dosificador. -->

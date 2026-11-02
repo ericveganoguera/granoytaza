@@ -1,10 +1,10 @@
 ---
-title: "Por qué empecé a moler el café en casa (y qué tal un molinillo de cuchillas)"
-seo_title: "Molinillo de cuchillas: mi experiencia moliendo en casa"
-description: "Qué cambia al pasar del café molido de paquete a moler en casa con un molinillo de cuchillas: ventajas, límites y cómo sacarle partido."
-lede: "Compraba paquetes de medio kilo de café molido y a los pocos días perdían el aroma. Moler el grano en casa fue la mejora más grande que he hecho en mi café."
-summary: "De café molido de paquete a moler en casa: qué cambia y qué da de sí un molinillo de cuchillas."
-updated: 2026-10-21
+title: "Por qué empecé a moler el café en casa: de un molinillo de cuchillas a uno de muelas"
+seo_title: "Moler café en casa: de cuchillas a molinillo de muelas"
+description: "Qué cambia al moler el café en casa, por qué pasé de un molinillo de cuchillas a uno eléctrico de muelas con tolva y cómo lo uso para espresso."
+lede: "Compraba paquetes de medio kilo de café molido y a los pocos días perdían el aroma. Moler el grano en casa fue la mejora más grande que he hecho en mi café. Empecé con un molinillo de cuchillas y acabé en uno de muelas."
+summary: "Del café molido de paquete a moler en casa: mi paso de un molinillo de cuchillas a uno de muelas con tolva."
+updated: 2026-11-02
 ---
 
 ## El problema del café molido de paquete
@@ -15,37 +15,48 @@ Tiene una explicación sencilla: el café molido tiene muchísima más superfici
 
 ## La decisión: moler el grano justo antes
 
-Por eso decidí comprar un molinillo y pasarme al café en grano. El cambio se nota desde el primer día: el aroma al moler llena la cocina y el café sabe como debe saber. No soy el único que lo nota: casi todo el que viene a casa comenta que el café huele y sabe mucho mejor.
+Por eso me pasé al café en grano. El cambio se nota desde el primer día: el aroma al moler llena la cocina y el café sabe como debe saber. No soy el único que lo nota: casi todo el que viene a casa comenta que el café huele y sabe mucho mejor.
 
-<!-- FOTO: el molinillo con café recién molido. -->
+## Mi primer molinillo: uno de cuchillas
 
-## Mi molinillo: uno de cuchillas
+Empecé con un molinillo de cuchillas de Black+Decker que me dejó mi madre. Era la forma más fácil de probar sin gastar.
 
-Uso un [molinillo eléctrico de cuchillas SHARDOR](amazon-dp:B099WNLCCT). Es barato y cumple su función: moler el grano en el momento.
+Moler el grano me gustó desde el principio. Lo que no me gustaba era el día a día: en un molinillo de cuchillas el café se queda dentro del vaso, junto a las cuchillas, y cada vez tenía que sacarlo de ahí y limpiarlo.
 
-**Cómo lo uso:** siempre en la opción de molienda más fina, la de espresso, que es la que necesita mi cafetera. Probé también las moliendas más gruesas y se nota bien la diferencia de grosor entre una y otra, así que el selector hace su trabajo. Lo que no puedo decirte es qué tal quedan en una cafetera italiana, de filtro o en una prensa francesa, porque yo solo lo he usado con mi cafetera espresso.
+Además, un molinillo de cuchillas no muele, trocea. Las cuchillas giran y van rompiendo el grano, así que salen trozos de tamaños muy distintos. Para empezar sirve, pero para espresso no es lo ideal.
 
-Para ser sincero, hay que conocer sus límites. Un molinillo de cuchillas no "muele" como uno de muelas, sino que trocea el grano, así que las partículas salen de tamaños menos uniformes. Con mi cafetera, que tiene filtro presurizado y perdona una molienda menos regular, el resultado es bueno. Aun así, si te tomas el espresso en serio, un molinillo de muelas da una molienda más uniforme.
+## Mi molinillo actual: un SHARDOR de muelas cónicas
 
-Aun con estas limitaciones, un café recién molido con un molinillo de cuchillas me sabe muchísimo mejor que el café de paquete abierto hace días.
+Así que me compré un **molinillo eléctrico SHARDOR de muelas cónicas**. Estas son las diferencias que noto en el uso diario:
 
-## Cómo saco más partido a un molinillo de cuchillas
+- **Tiene tolva.** El grano va en un depósito arriba y no hay que echarlo cada vez.
+- **Muele en un recipiente aparte.** El café cae directamente en un vaso que se saca y se vuelca en el portafiltro. Yo uso un [vaso dosificador]({{base}}/guias/accesorios-cafetera-espresso/) de acero, siempre puesto bajo la salida.
+- **Tiene selector de molienda.** El fabricante indica 31 ajustes, desde el más fino para espresso hasta los gruesos.
+- **Tiene temporizador.** Según el fabricante, la pantalla ajusta el tiempo de molienda en décimas de segundo y recuerda el último.
 
-- **Muele solo lo que vas a usar.** Una dosis cada vez.
-- **Muele a golpes cortos** en lugar de mantener el botón pulsado; así el café no se calienta.
-- **Agita el molinillo entre golpe y golpe** para que los trozos grandes vuelvan a las cuchillas.
+**Cómo lo uso:** siempre en la molienda más fina, la de espresso, que es la que necesita mi cafetera. Probé también las moliendas más gruesas y se nota bien la diferencia de grosor entre una y otra, así que el selector hace su trabajo. Lo que no puedo decirte es qué tal quedan en una cafetera italiana, de filtro o en una prensa francesa, porque yo solo lo he usado con mi cafetera espresso.
+
+Las muelas trituran el grano entre dos piezas de acero, una fija y otra que gira. Así el café sale de un tamaño mucho más parejo que con cuchillas, y por eso son las recomendadas para espresso.
+
+![Mi molinillo SHARDOR con la tolva llena de grano, junto a la Cecotec Power Espresso 20]({{base}}/img/kit-cecotec-power-espresso-20.jpg)
+
+## Cómo le saco partido
+
+- **Muele solo lo que vas a usar.** Una dosis cada vez, justo antes de preparar el café.
 - **Remueve el café en el portafiltro antes de prensarlo.** Yo uso unas varillas finas para deshacer los grumos y que quede uniforme.
-- **Limpia el molinillo a menudo** con un pincel seco: los restos de café viejo dan sabor rancio.
+- **Limpia el molinillo a menudo** con un pincel seco: los restos de café viejo dan sabor rancio. No uses agua en las muelas.
 
-## ¿Y el siguiente paso?
+## Si estás empezando
 
-Si el café se convierte en tu afición, un molinillo de muelas es la mejora natural. Los tienes comparados, desde manuales baratos hasta eléctricos para espresso, en la [guía de molinillos]({{base}}/guias/mejores-molinillos-de-cafe/).
+- **Si quieres probar sin gastar,** uno de cuchillas ya mejora mucho respecto al café molido de paquete. Yo empecé así.
+- **Si vas a moler a diario,** uno de muelas con tolva es mucho más cómodo y muele más parejo.
+- **Si quieres comparar modelos,** desde manuales baratos hasta eléctricos para espresso, los tienes en la [guía de molinillos]({{base}}/guias/mejores-molinillos-de-cafe/).
 
 ::: productos
 - id: shardor-cg845b
-  nota: "El que uso yo: barato y suficiente para empezar a moler en casa."
+  nota: "El que uso yo: muelas cónicas, tolva y 31 ajustes de molienda."
 - id: timemore-c3
-  nota: "Manual de muelas por poco más: molienda mucho más uniforme."
+  nota: "Manual de muelas: la opción barata si no te importa dar vueltas a la manivela."
 - id: smart-grinder-pro
   nota: "Eléctrico de muelas que sirve también para espresso."
 - id: eureka-mignon-specialita

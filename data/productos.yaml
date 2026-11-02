@@ -294,6 +294,7 @@ productos:
     anadido: 2026-10-21
     asin: B0763N7WMP
     propio: true
+    foto: img/cecotec-power-espresso-20.jpg
     resumen: "La cafetera de brazo más vendida de Amazon España: 20 bares, depósito de 1,5 l y vaporizador. Es la que uso a diario."
     resena: resenas/cecotec-power-espresso-20
 
@@ -308,11 +309,12 @@ productos:
     asin: B0BZ8GMQPR
     propio: true
     etiqueta: "La tuve en casa"
+    foto: img/create-thera-retro.jpg
     resumen: "Cafetera de brazo de estética retro con termómetro frontal y filtro presurizado. Fue mi cafetera anterior."
     guia: guias/cecotec-power-espresso-20-vs-create-thera-retro
 
   - id: shardor-cg845b
-    nombre: "SHARDOR molinillo eléctrico de cuchillas"
+    nombre: "SHARDOR molinillo eléctrico de muelas cónicas"
     marca: "SHARDOR"
     categoria: molinillo
     gama: basica
@@ -321,7 +323,8 @@ productos:
     anadido: 2026-10-21
     asin: B099WNLCCT
     propio: true
-    resumen: "Molinillo de cuchillas muy barato con selector de molienda. Lo uso siempre en la más fina, para espresso, y cumple bien."
+    foto: img/shardor-molinillo.jpg
+    resumen: "Molinillo de muelas cónicas de acero con tolva, 31 ajustes de molienda y temporizador. Lo uso siempre en la más fina, para espresso."
     guia: blog/molinillo-de-cuchillas-mi-experiencia
 
   - id: burnnove-espumador
@@ -375,6 +378,60 @@ productos:
     resumen: "Jarra con filtro MAXTRA Pro que reduce la cal y el cloro del agua del grifo. Menos cal en la cafetera y mejor sabor."
     guia: blog/como-limpiar-y-descalcificar-cafetera-de-brazo
 
+  # --- Accesorios de barista ---
+  - id: vicloon-prensador-51
+    nombre: "Vicloon prensador de café 51 mm"
+    marca: "Vicloon"
+    categoria: accesorio
+    gama: basica
+    precio: 12
+    relevancia: 64
+    anadido: 2026-11-02
+    asin: B0C1BCKFK4
+    propio: true
+    foto: img/vicloon-prensador.jpg
+    resumen: "Prensador de 51 mm de acero con mango de madera. El que uso cada mañana con mi cafetera."
+    guia: guias/accesorios-cafetera-espresso
+
+  - id: csuntikulo-varillas-wdt
+    nombre: "Csuntikulo varillas WDT para espresso"
+    marca: "Csuntikulo"
+    categoria: accesorio
+    gama: basica
+    precio: 13
+    relevancia: 62
+    anadido: 2026-11-02
+    asin: B0C3L38SP2
+    propio: true
+    foto: img/csuntikulo-varillas.jpg
+    resumen: "Varillas de agujas de acero para deshacer los grumos del café molido antes de prensar. Las uso a diario."
+    guia: guias/accesorios-cafetera-espresso
+
+  - id: ejoyous-vaso-dosificador
+    nombre: "Ejoyous vaso dosificador de café"
+    marca: "Ejoyous"
+    categoria: accesorio
+    gama: basica
+    precio: 15
+    relevancia: 56
+    anadido: 2026-11-02
+    asin: B0BR5WGDWF
+    propio: true
+    resumen: "Vaso de acero donde cae el café del molinillo para pasarlo al portafiltro sin ensuciar. Lo tengo siempre bajo mi SHARDOR."
+    guia: guias/accesorios-cafetera-espresso
+
+  - id: cecotec-baristeo-ring51
+    nombre: "Cecotec Baristeo Ring51 anillo dosificador"
+    marca: "Cecotec"
+    categoria: accesorio
+    gama: basica
+    precio: 19
+    relevancia: 57
+    anadido: 2026-11-02
+    buscar: "Cecotec Baristeo Ring51 anillo dosificador"
+    resumen: "Anillo dosificador de 51 mm que se coloca sobre el cacillo para que no se caiga café al echarlo o removerlo."
+    guia: guias/accesorios-cafetera-espresso
+
   # --- Café en grano ---
   - id: novell-natural-arabica
     nombre: "Novell 100% arábica natural en grano"
@@ -400,6 +457,7 @@ productos:
     asin: B0049U0DMC
     propio: true
     etiqueta: "Lo he probado"
+    foto: img/lavazza-qualita-oro.jpg
     resumen: "100% arábica de tueste medio. Mi segundo favorito de los que he probado."
     guia: guias/cafes-en-grano-que-he-probado
 
