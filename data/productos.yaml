@@ -443,7 +443,6 @@ productos:
     anadido: 2026-10-21
     asin: B01L0BDMJS
     propio: true
-    foto: img/novell-arabica.jpg
     resumen: "El café que tomo cada día: aroma y sabor intensos sin pasarse, y de los más económicos en grano."
     guia: guias/cafes-en-grano-que-he-probado
 
@@ -458,6 +457,7 @@ productos:
     asin: B0049U0DMC
     propio: true
     etiqueta: "Lo he probado"
+    foto: img/lavazza-qualita-oro.jpg
     resumen: "100% arábica de tueste medio. Mi segundo favorito de los que he probado."
     guia: guias/cafes-en-grano-que-he-probado
 
