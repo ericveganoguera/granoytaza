@@ -112,3 +112,5 @@ Si aún estás eligiendo cafetera, tienes mis recomendaciones por presupuesto en
 - id: magnifica-s
   nota: "Si prefieres que la máquina lo haga todo, incluido moler."
 :::
+
+Si buscas la mejor cafetera para tu presupuesto, mira la [guía de cafeteras para casa calidad-precio]({{base}}/guias/mejores-cafeteras-para-casa/).

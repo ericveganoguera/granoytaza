@@ -43,4 +43,20 @@ Saca y enjuaga el grupo de infusión una vez por semana, engrásalo de vez en cu
 
 Comparadas en la [guía de superautomáticas]({{base}}/guias/mejores-cafeteras-superautomaticas/).
 
+## Preguntas frecuentes
+
+### ¿Sirve para tomar café con leche cada día?
+
+Sí, es para lo que está pensada. Con el sistema LatteGo, un capuchino sale con un botón y el recipiente se limpia en segundos. Si solo tomas café, la Magnifica S cumple igual por menos.
+
+### ¿Cada cuánto hay que limpiar el sistema de leche?
+
+Después de cada uso: separa el recipiente LatteGo, enjuágalo bajo el grifo o mételo en el lavavajillas. Si lo dejas sin enjuagar, la leche se seca y cuesta mucho más quitarla.
+
+### ¿Qué café en grano conviene usar?
+
+Un tueste medio. Los tuestes muy oscuros y aceitosos suelen dar un sabor amargo, sobre todo en las bebidas con leche.
+
 <!-- AÑADE AQUÍ TU PRUEBA: fotos y tus impresiones de uso. -->
+
+Si buscas la mejor cafetera para tu presupuesto, mira la [guía de cafeteras para casa calidad-precio]({{base}}/guias/mejores-cafeteras-para-casa/).
