@@ -375,6 +375,43 @@ productos:
     resumen: "Jarra con filtro MAXTRA Pro que reduce la cal y el cloro del agua del grifo. Menos cal en la cafetera y mejor sabor."
     guia: blog/como-limpiar-y-descalcificar-cafetera-de-brazo
 
+  # --- Accesorios de barista ---
+  - id: cecotec-baristeo-tamper51
+    nombre: "Cecotec BaristeoTamper51 prensador 51 mm"
+    marca: "Cecotec"
+    categoria: accesorio
+    gama: basica
+    precio: 19
+    relevancia: 64
+    anadido: 2026-11-02
+    buscar: "Cecotec BaristeoTamper51 prensador 51 mm"
+    resumen: "Prensador de acero de 51 mm con muelle integrado, de la medida de la Cecotec Power Espresso 20 y la De'Longhi Dedica."
+    guia: guias/accesorios-cafetera-espresso
+
+  - id: cecotec-baristeo-needle
+    nombre: "Cecotec Baristeo Needle agitador WDT"
+    marca: "Cecotec"
+    categoria: accesorio
+    gama: basica
+    precio: 19
+    relevancia: 62
+    anadido: 2026-11-02
+    buscar: "Cecotec Baristeo Needle agitador cafe molido"
+    resumen: "Varillas de agujas de acero para deshacer los grumos del café molido y repartirlo antes de prensar."
+    guia: guias/accesorios-cafetera-espresso
+
+  - id: cecotec-baristeo-ring51
+    nombre: "Cecotec Baristeo Ring51 anillo dosificador"
+    marca: "Cecotec"
+    categoria: accesorio
+    gama: basica
+    precio: 19
+    relevancia: 57
+    anadido: 2026-11-02
+    buscar: "Cecotec Baristeo Ring51 anillo dosificador"
+    resumen: "Anillo dosificador de 51 mm que se coloca sobre el cacillo para que no se caiga café al echarlo o removerlo."
+    guia: guias/accesorios-cafetera-espresso
+
   # --- Café en grano ---
   - id: novell-natural-arabica
     nombre: "Novell 100% arábica natural en grano"
