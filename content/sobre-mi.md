@@ -2,7 +2,8 @@
 title: "Sobre mí"
 description: "Quién escribe Grano y Taza, qué cafetera usa y por qué empezó esta web."
 nav_hide: true
-arte: cafe
+foto: img/eric.jpg
+foto_alt: "Eric, autor de Grano y Taza, con el Golden Gate al fondo"
 ---
 
 # Sobre mí

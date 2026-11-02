@@ -83,7 +83,7 @@ RANGOS = [(0, 50, "Menos de 50 €"), (50, 150, "50–150 €"), (150, 300, "150
           (300, 600, "300–600 €"), (600, 1000, "600–1.000 €"), (1000, 10**6, "Más de 1.000 €")]
 
 INK, CREAM, RED, CARAMEL, STEEL, STEEL_D, KRAFT, KRAFT_D, WHITE = (
-    "#241813", "#F6F1E7", "#A8202C", "#E2B57A", "#C9C3B8", "#9B948A", "#C99A5B", "#A87C44", "#FFFFFF")
+    "#241813", "#F6F1E7", "#2F6B4F", "#E2B57A", "#C9C3B8", "#9B948A", "#C99A5B", "#A87C44", "#FFFFFF")
 SHADOW = '<ellipse cx="200" cy="272" rx="130" ry="12" fill="#241813" opacity=".08"/>'
 CUP_S = (f'<path d="M172 214 h56 v18 a18 18 0 0 1 -18 18 h-20 a18 18 0 0 1 -18 -18 z" fill="{WHITE}"/>'
          f'<path d="M228 220 h6 a9 9 0 0 1 0 18 h-6" fill="none" stroke="{WHITE}" stroke-width="5"/>'
@@ -99,8 +99,8 @@ ICONS = {  # ilustraciones planas por categoría (no se usan fotos de Amazon sin
         f'<rect x="168" y="122" width="64" height="22" rx="5" fill="{STEEL}"/>'
         f'<rect x="162" y="144" width="76" height="14" rx="6" fill="{INK}"/>'
         f'<rect x="228" y="147" width="96" height="9" rx="4.5" fill="{INK}"/>'
-        f'<rect x="186" y="158" width="4" height="52" rx="2" fill="{CARAMEL}"/>'
-        f'<rect x="210" y="158" width="4" height="52" rx="2" fill="{CARAMEL}"/>'
+        f'<rect class="pour" x="186" y="158" width="4" height="52" rx="2" fill="{CARAMEL}"/>'
+        f'<rect class="pour" x="210" y="158" width="4" height="52" rx="2" fill="{CARAMEL}"/>'
         + CUP_S +
         f'<rect x="116" y="246" width="168" height="16" rx="5" fill="{STEEL}"/>'),
     "superautomatica": SHADOW + (
@@ -110,8 +110,8 @@ ICONS = {  # ilustraciones planas por categoría (no se usan fotos de Amazon sin
         f'<rect x="156" y="88" width="40" height="8" rx="4" fill="{CARAMEL}"/>'
         f'<rect x="156" y="102" width="62" height="6" rx="3" fill="{STEEL_D}"/>'
         f'<rect x="180" y="138" width="40" height="22" rx="6" fill="{INK}"/>'
-        f'<rect x="190" y="160" width="4" height="50" rx="2" fill="{CARAMEL}"/>'
-        f'<rect x="206" y="160" width="4" height="50" rx="2" fill="{CARAMEL}"/>'
+        f'<rect class="pour" x="190" y="160" width="4" height="50" rx="2" fill="{CARAMEL}"/>'
+        f'<rect class="pour" x="206" y="160" width="4" height="50" rx="2" fill="{CARAMEL}"/>'
         + CUP_S +
         f'<rect x="138" y="248" width="124" height="14" rx="5" fill="{STEEL}"/>'),
     "molinillo": SHADOW + (
@@ -149,6 +149,21 @@ ICONS = {  # ilustraciones planas por categoría (no se usan fotos de Amazon sin
         f'<path d="M150 170 c-40 -10 -48 -50 -62 -70" fill="none" stroke="{STEEL_D}" stroke-width="10" stroke-linecap="round"/>'
         f'<rect x="186" y="92" width="28" height="14" rx="7" fill="{INK}"/>'
         f'<path d="M250 140 c26 0 26 60 0 60" fill="none" stroke="{INK}" stroke-width="12"/>'),
+    "espumador": SHADOW + (
+        f'<rect x="146" y="238" width="108" height="30" rx="9" fill="{INK}"/>'
+        f'<rect x="186" y="248" width="28" height="8" rx="4" fill="{CARAMEL}"/>'
+        f'<rect x="156" y="102" width="88" height="140" rx="16" fill="{STEEL}"/>'
+        f'<rect x="170" y="140" width="60" height="86" rx="10" fill="{CREAM}"/>'
+        f'<path d="M170 156 q15 -14 30 0 t30 0 v-6 a10 10 0 0 0 -10 -10 h-40 a10 10 0 0 0 -10 10 z" fill="{WHITE}"/>'
+        f'<rect x="148" y="86" width="104" height="24" rx="10" fill="{INK}"/>'
+        f'<rect x="190" y="78" width="20" height="12" rx="5" fill="{INK}"/>'
+        f'<path d="M244 128 c34 0 34 74 0 74" fill="none" stroke="{INK}" stroke-width="12" stroke-linecap="round"/>'),
+    "dosificador": SHADOW + (
+        f'<path d="M150 116 h100 l-10 144 a10 10 0 0 1 -10 9 h-60 a10 10 0 0 1 -10 -9 z" fill="{STEEL}"/>'
+        f'<path d="M158 116 q42 -40 84 0 z" fill="#6B3E24"/>'
+        f'<rect x="142" y="110" width="116" height="14" rx="7" fill="{STEEL_D}"/>'
+        f'<rect x="168" y="150" width="8" height="90" rx="4" fill="{WHITE}" opacity=".45"/>'
+        f'<path d="M150 150 c-30 0 -30 60 4 60" fill="none" stroke="{STEEL_D}" stroke-width="11" stroke-linecap="round"/>'),
 }
 
 
@@ -180,9 +195,9 @@ def entry_cards(pages, limit=None):
         items.append(
             f'<li class="ecard"><a href="{link(p["slug"])}">'
             f'<span class="ethumb cat-{t}">{icon(t)}</span>'
-            f'<span class="kind">{sec["item"]}</span>'
             f'<strong>{E(p["title"])}</strong>'
-            f'<span class="sum">{E(p.get("summary", ""))}</span></a></li>')
+            f'<span class="sum">{E(p.get("summary", ""))}</span>'
+            f'<span class="emeta">{sec["item"]} · {fecha_es(p.get("updated"))}</span></a></li>')
     return f'<ul class="ecards">{"".join(items)}</ul>'
 
 
@@ -226,26 +241,27 @@ def story_rows(pages, limit=None):
 
 
 def guide_feature(pages, limit=None):
-    """Guías: una destacada grande con el texto sobre color y el resto en lista numerada."""
+    """Guías: una destacada grande con el texto sobre color y el resto en lista con fecha."""
     pages = pages[:limit] if limit else pages
     if not pages:
         return ""
     lead, rest = pages[0], pages[1:]
     t = tema_of(lead)
     big = (f'<a class="gfeat cat-{t}" href="{link(lead["slug"])}">'
-           f'<span class="gfeat-text"><span class="kind">Guía destacada</span>'
+           f'<span class="gfeat-text">'
            f'<strong>{E(lead["title"])}</strong><span class="sum">{E(lead.get("summary", ""))}</span>'
-           f'<span class="gbtn">Leer la guía</span></span>'
+           f'<span class="gbtn">Leer la guía <span aria-hidden="true">→</span></span></span>'
            f'<span class="gfeat-art">{icon(t)}</span></a>')
     items = "".join(
-        f'<li><a href="{link(p["slug"])}"><span class="gnum">{i:02d}</span>'
-        f'<span class="gbody"><strong>{E(p["title"])}</strong><span class="sum">{E(p.get("summary", ""))}</span></span></a></li>'
-        for i, p in enumerate(rest, 1))
-    return f'<div class="guides">{big}<ol class="glist">{items}</ol></div>'
+        f'<li><a href="{link(p["slug"])}"><span class="gthumb cat-{tema_of(p)}">{icon(tema_of(p))}</span>'
+        f'<span class="gbody"><strong>{E(p["title"])}</strong><span class="sum">{E(p.get("summary", ""))}</span>'
+        f'<span class="gdate">Actualizada el {fecha_es(p.get("updated"))}</span></span></a></li>'
+        for p in rest)
+    return f'<div class="guides">{big}<ul class="glist">{items}</ul></div>'
 
 
 def review_rows(pages, limit=None):
-    """Reseñas: filas horizontales con nota y veredicto, distintas de las tarjetas de compra."""
+    """Reseñas: una fila por producto con nota y el veredicto en una sola línea."""
     rows = []
     for p in (pages[:limit] if limit else pages):
         t = tema_of(p)
@@ -256,16 +272,53 @@ def review_rows(pages, limit=None):
             n = int(float(nota))
             stars = f'<span class="stars" aria-label="Mi nota: {nota} de 5">{"★" * n}{"☆" * (5 - n)}</span>'
         mine = '<span class="badge-mine">La uso en casa</span>' if prod.get("propio") else '<span class="badge-an">Análisis</span>'
-        ver = p.get("veredicto") or p.get("summary", "")
-        if len(ver) > 260:
-            ver = ver[:260].rsplit(" ", 1)[0] + "…"
+        ver = p.get("summary") or p.get("veredicto", "")
+        if prod.get("foto"):
+            thumb = (f'<span class="rthumb photo"><img src="{BASE}/{prod["foto"]}" alt="" loading="lazy"></span>')
+        else:
+            thumb = f'<span class="rthumb cat-{t}">{icon(t)}</span>'
+        name = prod.get("nombre") or p["title"]
         rows.append(
-            f'<li class="rrow"><a href="{link(p["slug"])}">'
-            f'<span class="rthumb cat-{t}">{icon(t)}</span>'
+            f'<li class="rrow"><a href="{link(p["slug"])}">{thumb}'
             f'<span class="rbody"><span class="rmeta">{mine}{stars}</span>'
-            f'<strong>{E(p["title"])}</strong><span class="sum">{E(ver)}</span></span>'
+            f'<strong>{E(name)}</strong><span class="sum">{E(ver)}</span></span>'
             f'<span class="rgo" aria-hidden="true">→</span></a></li>')
     return f'<ul class="rrows">{"".join(rows)}</ul>'
+
+
+def blog_list(pages, limit=None):
+    """Blog en la portada: solo títulos y fecha."""
+    items = "".join(
+        f'<li><a href="{link(p["slug"])}"><strong>{E(p["title"])}</strong>'
+        f'<span class="bdate">{fecha_es(p.get("updated"))}</span></a></li>'
+        for p in (pages[:limit] if limit else pages))
+    return f'<ul class="blist">{items}</ul>'
+
+
+def precio_txt(p):
+    """Precio en texto plano para la barra fija: el de la API o el rango del catálogo."""
+    d = p.get("api") or {}
+    if d.get("precio_texto"):
+        return d["precio_texto"]
+    return rango(p["precio"]) if p.get("precio") is not None else ""
+
+
+def contact_html(cls="contact"):
+    mail = CFG.get("contact_email", "")
+    if not mail:
+        return ""
+    return (f'<aside class="{cls}" aria-label="Contacto">'
+            f'<img src="{BASE}/img/eric-avatar.jpg" alt="" width="48" height="48" loading="lazy">'
+            f'<p><strong>¿Dudas entre dos modelos?</strong> Cuéntame qué café tomas y cuánto quieres gastar, '
+            f'y te digo cuál elegiría yo. Escríbeme a <a href="mailto:{mail}">{mail}</a>.</p></aside>')
+
+
+def sticky_html(name, url, price, label=""):
+    """Barra inferior en móvil con el producto que se está leyendo (ver static/site.js)."""
+    return (f'<div class="stickybuy" data-sticky>'
+            f'<p class="sb-text">{f"<span class=sb-label>{E(label)}</span> " if label else ""}'
+            f'<strong class="sb-name">{E(name)}</strong> <span class="sb-price">{E(price)}</span></p>'
+            f'<a class="buy small sb-go" href="{E(url)}" {SPONSORED}>Ver precio</a></div>')
 
 
 def price_html(p):
@@ -285,7 +338,7 @@ def media_html(p, cls, linked=True):
         inner = (f'<img src="{E(src)}" alt="{E(p["nombre"])}" loading="lazy" referrerpolicy="no-referrer">')
         klass = f"{cls} photo"
     else:
-        inner, klass = icon(p["categoria"]), f'{cls} cat-{p["categoria"]}'
+        inner, klass = icon(p.get("icono", p["categoria"])), f'{cls} cat-{p["categoria"]}'
     if linked:
         return (f'<a class="{klass}" href="{E(prod_url(p))}" {SPONSORED} '
                 f'aria-label="Ver {E(p["nombre"])} en Amazon">{inner}</a>')
@@ -340,7 +393,7 @@ def render_product(block):
     review = (f' <a class="more" href="{link(p["resena"])}">Leer la reseña completa</a>'
               if p.get("resena") else "")
     return f"""
-<section class="product{' has-media' if p.get('categoria') else ''}" data-gama="{gama}">
+<section class="product{' has-media' if p.get('categoria') else ''}" data-gama="{gama}" data-name="{E(p['nombre'])}" data-url="{E(prod_url(p))}" data-price="{E(precio_txt(p))}">
   {media_html(p, "product-media") if p.get("categoria") else ""}
   <div class="product-main">
   <header class="product-head">
@@ -359,23 +412,24 @@ def render_product(block):
 """
 
 
-def card(p, heading="h3", nota=None):
+def card(p, heading="h3", nota=None, badge=True):
     extra = ""
     if p.get("resena"):
-        extra = f'<a class="more" href="{link(p["resena"])}">Leer reseña</a>'
+        extra = f'<a class="more" href="{link(p["resena"])}">Reseña</a>'
     elif p.get("guia"):
-        extra = f'<a class="more" href="{link(p["guia"])}">Ver en la guía</a>'
+        extra = f'<a class="more" href="{link(p["guia"])}">En la guía</a>'
     gama = p.get("gama", "media")
-    return f"""<li class="pcard" data-cat="{p['categoria']}" data-gama="{gama}" data-precio="{p['precio']}"
+    mine = (f'<p class="mine">{E(p.get("etiqueta", "Lo uso en casa"))}</p>'
+            if p.get("propio") and badge else '')
+    return f"""<li class="pcard" data-cat="{p['categoria']}" data-gama="{gama}" data-precio="{p['precio']}" data-name="{E(p['nombre'])}" data-url="{E(prod_url(p))}" data-price="{E(precio_txt(p))}"
  data-rel="{p.get('relevancia', 50)}" data-fecha="{p.get('anadido', '')}" data-marca="{E(p.get('marca', ''))}"
  data-texto="{E((p['nombre'] + ' ' + p.get('marca', '') + ' ' + p.get('resumen', '')).lower())}">
   {media_html(p, "pimg")}
-  {f'<p class="mine">{E(p.get("etiqueta", "Lo uso en casa"))}</p>' if p.get("propio") else ''}
-  <p class="pcat">{E(CATEGORIAS.get(p['categoria'], ''))}</p>
+  {mine}
   <{heading} class="pname"><a href="{E(prod_url(p))}" {SPONSORED}>{E(p['nombre'])}</a></{heading}>
   <p class="psum">{E(nota or p.get('resumen', ''))}</p>
-  <p class="pmeta"><span class="roast roast-{gama}" aria-hidden="true"></span><span>{GAMAS[gama]}</span>{price_html(p)}</p>
-  <p class="pactions"><a class="buy small" href="{E(prod_url(p))}" {SPONSORED}>Ver en Amazon</a>{extra}</p>
+  <p class="pmeta"><span class="pcat">{E(CATEGORIAS.get(p['categoria'], ''))}</span>{price_html(p)}</p>
+  <p class="pactions"><a class="buy small" href="{E(prod_url(p))}" {SPONSORED}>Ver precio en Amazon</a>{extra}</p>
 </li>"""
 
 
@@ -628,67 +682,187 @@ def by_date(pages):
     return sorted(pages, key=lambda p: (str(p.get("updated", "")), -p.get("order", 99)), reverse=True)
 
 
+PICKER = [  # atajos de la portada: lo que quiere preparar el lector -> respuesta rápida de su guía
+    ("espresso", "Espresso y café con leche", "Cafetera de brazo: el mejor café por cada euro.",
+     "guias/mejores-cafeteras-espresso", "espresso"),
+    ("superautomatica", "Pulsar un botón y listo", "Superautomática con molinillo integrado.",
+     "guias/mejores-cafeteras-superautomaticas", "superautomatica"),
+    ("molinillo", "Ya tengo cafetera", "Un molinillo es la mejora que más se nota en la taza.",
+     "guias/mejores-molinillos-de-cafe", "molinillo"),
+    ("filtro", "Aún no sé cuál me conviene", "Los tipos de cafetera, por presupuesto y uso.",
+     "guias/mejores-cafeteras-para-casa", None),
+]
+
+# Paso 2 y resultado: las mismas elecciones que la "Respuesta rápida" de cada guía.
+QUIZ = {
+    "espresso": ("¿Cuánto quieres gastar?", [
+        ("Hasta 200 €", "Para empezar con el espresso", "dedica-ec685",
+         "Compacta, calienta en menos de un minuto y perdona errores de molienda: la mejor primera cafetera de brazo.",
+         "cecotec-power-espresso-20"),
+        ("De 200 a 500 €", "Quiero espuma de cafetería", "bambino-plus",
+         "Texturiza la leche sola y saca un espresso de nivel con muy poca práctica.", None),
+        ("Más de 500 €", "Todo en uno, con molinillo", "barista-express",
+         "Molinillo integrado y control de todo el proceso en una sola máquina.", None),
+    ]),
+    "superautomatica": ("¿Cuánto quieres gastar?", [
+        ("Hasta 400 €", "Café con leche con un botón", "philips-2300-lattego",
+         "El mejor equilibrio entre precio y comodidad, y el LatteGo se limpia en segundos.", None),
+        ("De 400 a 800 €", "Más variedad de bebidas", "philips-3300-lattego",
+         "Lo mismo que la 2300 con más recetas y perfiles, sin subir mucho de precio.", None),
+        ("Más de 800 €", "La mejor calidad en automático", "jura-e8",
+         "El espresso más cercano al de una cafetera de brazo sin tocar nada.", None),
+    ]),
+    "molinillo": ("¿Para qué cafetera es?", [
+        ("Italiana, filtro o prensa", "Gastando poco", "timemore-c3",
+         "Manual, preciso y barato: la mejora más grande que puedes hacerle a tu italiana.", None),
+        ("Espresso", "Un poco de todo", "smart-grinder-pro",
+         "Muele fino para espresso y también para filtro, con temporizador.", "shardor-cg845b"),
+        ("Espresso en serio", "Quiero lo mejor", "eureka-mignon-specialita",
+         "Silencioso, sin apenas retención y con ajuste continuo: para clavar cada extracción.", None),
+    ]),
+}
+
+TRUST_ICONS = {
+    "casa": '<path d="M4 11.5 12 5l8 6.5"/><path d="M6.5 10v9h11v-9"/><path d="M10 19v-4.5h4V19"/>',
+    "lupa": '<circle cx="10.5" cy="10.5" r="5.5"/><path d="m15 15 4.5 4.5"/><path d="M10.5 8v3"/><path d="M10.5 13.2v.1"/>',
+    "mano": '<path d="M12 20s-7-4.4-7-10a4 4 0 0 1 7-2.6A4 4 0 0 1 19 10c0 5.6-7 10-7 10z"/>',
+}
+
+
+def ticon(name):
+    return f'<svg class="ticon" viewBox="0 0 24 24" aria-hidden="true">{TRUST_ICONS[name]}</svg>'
+
+
 def home_html(meta, articles):
     guias = sorted([p for p in articles if p["section"] == "guias"], key=lambda p: p.get("order", 99))
     resenas = by_date([p for p in articles if p["section"] == "resenas"])
     blog = by_date([p for p in articles if p["section"] == "blog"])
     mios = [p for p in PRODUCTOS if p.get("propio") and not p.get("etiqueta")]
+    # cuatro piezas del equipo diario (una por categoría, las más relevantes) y el resto en una línea
+    orden = ["espresso", "molinillo", "cafe", "accesorio"]
+    top = []
+    for c in orden:
+        cand = sorted([p for p in mios if p["categoria"] == c and p not in top],
+                      key=lambda p: (not p.get("foto"), -p.get("relevancia", 0)))
+        if cand:
+            top.append(cand[0])
+    resto = [p for p in mios if p not in top]
+    resto_html = ", ".join(f'<a href="{E(prod_url(p))}" {SPONSORED}>{E(p["nombre"])}</a>' for p in resto)
+    ultima = max(str(p.get("updated", "")) for p in guias) if guias else ""
+    ultima_txt = fecha_es(dt.date.fromisoformat(ultima)) if ultima else ""
+
+    def desde(cat):
+        precios = [p["precio"] for p in PRODUCTOS if p["categoria"] == cat]
+        if not precios:
+            return ""
+        return f'<span class="pk-price">desde ~{int(min(precios) // 10 * 10 or min(precios))} €</span>'
+
+    picker = "".join(
+        f'<li><a href="{link(url)}#respuesta-rapida"{f" data-type={chr(34)}{cat}{chr(34)}" if cat in QUIZ else ""}>'
+        f'<span class="pk-art cat-{t}">{icon(t)}</span>'
+        f'<span class="pk-body"><strong>{E(title)}</strong><span class="pk-sum">{E(sub)}</span>'
+        f'{desde(cat) if cat else "<span class=pk-price>Empieza aquí</span>"}</span>'
+        f'<svg class="pk-go" viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a></li>'
+        for t, title, sub, url, cat in PICKER)
+
+    panels = []
+    mail = CFG.get("contact_email", "")
+    for cat, (question, opts) in QUIZ.items():
+        guide = next(u for t, _, _, u, c in PICKER if c == cat)
+        btns = "".join(
+            f'<li><button type="button" data-key="{cat}-{i}"><strong>{E(lab)}</strong><span>{E(sub)}</span>'
+            f'<svg class="pk-go" viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg></button></li>'
+            for i, (lab, sub, *_rest) in enumerate(opts))
+        panels.append(
+            f'<div class="pk-panel" data-panel="{cat}" hidden>'
+            f'<button type="button" class="pk-back" data-to="start">← Volver</button>'
+            f'<h2 tabindex="-1">{E(question)}</h2><ul class="pk-opts">{btns}</ul></div>')
+        for i, (lab, sub, pid, why, mine_id) in enumerate(opts):
+            p = BYID[pid]
+            mine = BYID.get(mine_id) if mine_id else None
+            extra = (f'<p class="pk-mine">La que uso yo cada día: <a href="{E(prod_url(mine))}" {SPONSORED}>{E(mine["nombre"])}</a> '
+                     f'({E(precio_txt(mine))}).</p>') if mine else ""
+            mailp = f'<p class="pk-mail">¿Sigues con dudas? Escríbeme a <a href="mailto:{mail}">{mail}</a>.</p>' if mail else ""
+            panels.append(
+                f'<div class="pk-panel pk-result" data-panel="{cat}-{i}" hidden>'
+                f'<button type="button" class="pk-back" data-to="{cat}">← Cambiar respuesta</button>'
+                f'<h2 tabindex="-1">Mi elección para ti</h2>'
+                f'<div class="pk-rec">{media_html(p, "pk-media")}'
+                f'<div><strong>{E(p["nombre"])}</strong><p>{E(why)}</p><p class="pk-rprice">{E(precio_txt(p))}</p></div></div>'
+                f'<p class="pk-actions"><a class="buy" href="{E(prod_url(p))}" {SPONSORED}>Ver precio en Amazon</a>'
+                f'<a class="more" href="{link(guide)}#respuesta-rapida">Ver la guía completa</a></p>'
+                f'{extra}{mailp}'
+                f'<button type="button" class="pk-restart" data-to="start">Empezar de nuevo</button></div>')
+    panels_html = "".join(panels)
+
     ig = CFG.get("instagram", "")
     ig_user = "@" + ig.rstrip("/").split("/")[-1] if ig else ""
-    igband = (f'<section class="igband"><h2>Mi café, también en Instagram.</h2>'
-              f'<p>Reseñas en un minuto, trucos y lo que voy probando.</p>'
-              f'<a class="buy light" href="{ig}" rel="me noopener" target="_blank">Seguir a {ig_user}</a></section>') if ig else ""
     return f"""
 <section class="hero">
   <div class="hero-text">
     <h1>{E(meta.get('hero', 'Buen café en casa, sin complicarte.'))}</h1>
     <p class="intro">{E(meta.get('intro', ''))}</p>
-    <p class="hero-cta"><a class="buy" href="{link('guias')}">Ver las guías de compra</a>
-    <a class="ghost" href="{link('resenas/cecotec-power-espresso-20')}">La cafetera que uso</a></p>
+    <p class="hero-by"><img class="avatar" src="{BASE}/img/eric-avatar.jpg" alt="" width="44" height="44">
+      <span>Por <a href="{link('sobre-mi')}">Eric</a>, que lo prueba en su cocina cada mañana.<br>Guías revisadas el {ultima_txt}.</span></p>
   </div>
-  <div class="hero-art cat-espresso">{icon('espresso')}</div>
+  <nav class="picker" aria-labelledby="picker-t" data-quiz>
+    <div class="pk-panel" data-panel="start">
+      <h2 id="picker-t" tabindex="-1">¿Qué quieres preparar en casa?</h2>
+      <ul>{picker}</ul>
+      <p class="picker-all"><a href="{link('guias')}">O mira todas las guías de compra</a></p>
+    </div>
+    {panels_html}
+    <p class="sr" aria-live="polite" data-live></p>
+  </nav>
 </section>
 
-<section class="band">
-  <div class="band-head"><h2>Lo que uso cada día.</h2><a class="more" href="{link('productos')}">Ver todos los productos</a></div>
-  <ul class="pgrid">{''.join(card(p) for p in mios)}</ul>
-</section>
-
-<section class="band">
-  <div class="band-head"><h2>Guías de compra.</h2><a class="more" href="{link('guias')}">Ver todas las guías</a></div>
-  {guide_feature(guias, 7)}
-</section>
-
-<section class="trust">
-  <h2>Por qué fiarte de lo que lees aquí.</h2>
+<section class="trust" aria-label="Por qué fiarte">
   <ul>
-    <li><strong>Lo uso de verdad.</strong><span>Cuando un producto lo tengo en casa, lo verás marcado. Mi cafetera, mi molinillo y mi café de cada día están aquí.</span></li>
-    <li><strong>Te cuento lo malo.</strong><span>El ruido, el goteo, lo que no me convenció. Si algo tiene defectos, los vas a leer antes de comprar.</span></li>
-    <li><strong>Ninguna marca me paga.</strong><span>Si compras desde mis enlaces, Amazon me da una pequeña comisión. Las opiniones son mías.</span></li>
+    <li>{ticon('casa')}<p><strong>Lo uso de verdad.</strong> Mi cafetera, mi molinillo y mi café de cada día están marcados.</p></li>
+    <li>{ticon('lupa')}<p><strong>Te cuento lo malo.</strong> El ruido, el goteo, lo que no me convenció: antes de que compres.</p></li>
+    <li>{ticon('mano')}<p><strong>Ninguna marca me paga.</strong> Amazon me da una pequeña comisión; las opiniones son mías. <a href="{link('afiliados')}">Cómo elijo</a></p></li>
   </ul>
 </section>
 
+<section class="band">
+  <div class="band-head"><h2>Guías de compra</h2><a class="more" href="{link('guias')}">Todas las guías</a></div>
+  {guide_feature(guias, 6)}
+</section>
+
+<section class="band">
+  <div class="band-head"><h2>Lo que uso cada día</h2><a class="more" href="{link('productos')}">Todo el catálogo</a></div>
+  <ul class="pgrid home">{''.join(card(p, badge=False) for p in top)}</ul>
+  {f'<p class="also">También en mi encimera: {resto_html}.</p>' if resto else ''}
+</section>
+
 <section class="founder">
-  <div class="founder-art cat-cafe">{icon('cafe')}</div>
+  <figure class="founder-art">
+    <img class="founder-photo" src="{BASE}/img/eric.jpg" alt="Eric, autor de Grano y Taza" width="800" height="1000" loading="lazy">
+    <img class="founder-kit" src="{BASE}/img/kit-cecotec-power-espresso-20.jpg" alt="Mi equipo actual: cafetera Cecotec Power Espresso 20 y molinillo SHARDOR" width="800" height="1062" loading="lazy">
+    <figcaption>Yo y mi rincón del café, tal cual.</figcaption></figure>
   <div class="founder-text">
     <h2>Hola, soy Eric.</h2>
     <p>En casa somos dos y el café con leche de la mañana es sagrado. He pasado por tres cafeteras de brazo, he cambiado el café de paquete por grano recién molido y he probado unos cuantos cafés por el camino.</p>
     <p>Esta web es lo que me habría gustado encontrar al empezar: pocas recomendaciones, explicadas con calma y con lo bueno y lo malo de cada cosa.</p>
-    <p class="hero-cta"><a class="ghost" href="{link('sobre-mi')}">Conóceme un poco más</a></p>
+    <p><a class="ghost" href="{link('sobre-mi')}">Conóceme un poco más</a></p>
+    {contact_html("contact contact-home")}
   </div>
 </section>
 
 <section class="band">
-  <div class="band-head"><h2>Reseñas.</h2><a class="more" href="{link('resenas')}">Ver todas las reseñas</a></div>
+  <div class="band-head"><h2>Reseñas</h2><a class="more" href="{link('resenas')}">Todas las reseñas</a></div>
   {review_rows(resenas, 3)}
 </section>
 
+<!-- PENDIENTE (futuro): bloque "¿Te aviso si bajan de precio?" para captar correos antes de
+     campañas como el Black Friday. Hace falta elegir un servicio de correo (Brevo, Buttondown,
+     MailerLite…), añadir el formulario aquí y mencionarlo en la política de privacidad. -->
+
 <section class="band">
-  <div class="band-head"><h2>Del blog.</h2><a class="more" href="{link('blog')}">Ver todo el blog</a></div>
-  {story_rows(blog, 3)}
+  <div class="band-head"><h2>Del blog</h2><a class="more" href="{link('blog')}">Todo el blog</a></div>
+  {blog_list(blog, 4)}
 </section>
 
-{igband}
 """
 
 
@@ -758,11 +932,22 @@ def page_html(meta, content, articles=()):
       <div class="aside-sticky">
         {f'<p class="aside-title">En esta página</p><ul class="toc">{toc}</ul>' if toc else ''}
         <div class="aside-card">
+          <img class="aside-avatar" src="{BASE}/img/eric-avatar.jpg" alt="" width="56" height="56" loading="lazy">
           <p><strong>Escrito por {E(CFG['author'])}</strong>, que prepara su café cada mañana con una cafetera de brazo y grano recién molido.</p>
+          {f'<p>¿Dudas? <a href="mailto:{CFG["contact_email"]}">{CFG["contact_email"]}</a></p>' if CFG.get("contact_email") else ''}
           <p><a href="{link('sobre-mi')}">Sobre mí</a>{f' · <a href="{ig}" rel="me noopener" target="_blank">Instagram</a>' if ig else ''}</p>
         </div>
       </div>
     </aside>"""
+        sticky = ""
+        if meta["section"] == "resenas" and BYID.get(meta.get("producto")):
+            rp = BYID[meta["producto"]]
+            sticky = sticky_html(rp["nombre"], prod_url(rp), precio_txt(rp))
+        elif meta["section"] == "guias":
+            first = re.search(r'<(?:section|li) class="(?:product|pcard)[^"]*"[^>]*?data-name="([^"]*)" data-url="([^"]*)" data-price="([^"]*)"', content)
+            if first:
+                sticky = sticky_html(html.unescape(first.group(1)), html.unescape(first.group(2)),
+                                     html.unescape(first.group(3)), "Mi elección:")
         main = f"""
 <article class="article">
   <header class="article-head">
@@ -777,15 +962,19 @@ def page_html(meta, content, articles=()):
       <p class="disclosure">Los enlaces a Amazon de esta página son de afiliado: si compras a través de ellos, recibo una pequeña comisión sin que a ti te cueste más. <a href="{link('afiliados')}">Cómo elijo los productos</a>.</p>
       {content}
       {f'<p class="pricenote">{E(PRICE_NOTE)}</p>' if PRICE_NOTE and ('prange real' in content or meta['section'] == 'resenas') else ''}
+      {contact_html() if meta['section'] == 'guias' else ''}
     </div>{aside}
   </div>
-</article>"""
+</article>{sticky}"""
     elif slug == "":
         main = home_html(meta, articles)
     elif meta.get("layout") == "section":
         main = f'<header class="section-head"><h1>{E(meta["title"])}</h1><p class="lede">{E(meta["description"])}</p></header>{content}'
     else:
-        if meta.get("arte"):
+        if meta.get("foto"):
+            main = (f'<div class="page-split"><div class="prose page">{content}</div>'
+                    f'<figure class="page-photo"><img src="{BASE}/{meta["foto"]}" alt="{E(meta.get("foto_alt", ""))}" width="800" height="1000"></figure></div>')
+        elif meta.get("arte"):
             main = (f'<div class="page-split"><div class="prose page">{content}</div>'
                     f'<div class="page-art cat-{meta["arte"]}">{icon(meta["arte"])}</div></div>')
         else:
@@ -796,8 +985,9 @@ def page_html(meta, content, articles=()):
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<meta name="theme-color" content="#2E241F">
-<script>try{{if(localStorage.getItem("tema")==="light")document.documentElement.dataset.theme="light"}}catch(e){{}}</script>
+<meta name="theme-color" content="#FAF6EF" media="(prefers-color-scheme: light)">
+<meta name="theme-color" content="#1B1612" media="(prefers-color-scheme: dark)">
+<script>try{{var t=localStorage.getItem("tema");if(t==="light"||t==="dark")document.documentElement.dataset.theme=t}}catch(e){{}}</script>
 <title>{E(title)}</title>
 <meta name="description" content="{E(desc)}">
 <link rel="canonical" href="{canonical}">
@@ -825,7 +1015,8 @@ def page_html(meta, content, articles=()):
 {aviso}
 <header class="site-head">
   <a class="brand" href="{link('')}"><svg viewBox="0 0 32 32" aria-hidden="true"><ellipse cx="16" cy="16" rx="10" ry="13" transform="rotate(30 16 16)"/><path d="M11 6c6 6-2 14 4 20"/></svg>{CFG['title']}</a>
-  <nav aria-label="Apartados"><ul>{nav}{ig_link}<li><button class="theme-toggle" type="button" aria-label="Cambiar a modo claro" title="Modo claro / oscuro"><svg class="moon" viewBox="0 0 24 24" aria-hidden="true"><path d="M20 14.5A8 8 0 1 1 9.5 4a6.5 6.5 0 0 0 10.5 10.5z"/></svg><svg class="sun" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="4"/><path d="M12 2v2M12 20v2M4.9 4.9l1.4 1.4M17.7 17.7l1.4 1.4M2 12h2M20 12h2M4.9 19.1l1.4-1.4M17.7 6.3l1.4-1.4"/></svg></button></li></ul></nav>
+  <nav aria-label="Apartados"><ul>{nav}{ig_link}</ul></nav>
+  <button class="theme-toggle" type="button" aria-label="Cambiar de modo de color" title="Modo claro / oscuro"><svg class="moon" viewBox="0 0 24 24" aria-hidden="true"><path d="M20 14.5A8 8 0 1 1 9.5 4a6.5 6.5 0 0 0 10.5 10.5z"/></svg><svg class="sun" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="4"/><path d="M12 2v2M12 20v2M4.9 4.9l1.4 1.4M17.7 17.7l1.4 1.4M2 12h2M20 12h2M4.9 19.1l1.4-1.4M17.7 6.3l1.4-1.4"/></svg></button>
 </header>
 <main id="contenido">{main}</main>
 <footer class="site-foot">
@@ -840,10 +1031,15 @@ def page_html(meta, content, articles=()):
   </ul>
   <p>© {dt.date.today().year} {CFG['title']}</p>
 </footer>
-<script>(function(){{var b=document.querySelector(".theme-toggle");if(!b)return;var r=document.documentElement;
-function lbl(){{b.setAttribute("aria-label",r.dataset.theme==="light"?"Cambiar a modo oscuro":"Cambiar a modo claro")}}lbl();
-b.addEventListener("click",function(){{r.classList.add("theme-anim");b.classList.add("spin");setTimeout(function(){{b.classList.remove("spin")}},180);clearTimeout(window._ta);window._ta=setTimeout(function(){{r.classList.remove("theme-anim")}},400);var l=r.dataset.theme!=="light";if(l)r.dataset.theme="light";else delete r.dataset.theme;
-try{{localStorage.setItem("tema",l?"light":"dark")}}catch(e){{}}lbl()}})}})();</script>
+<script>(function(){{var b=document.querySelector(".theme-toggle");if(!b)return;var r=document.documentElement,mq=matchMedia("(prefers-color-scheme: dark)");
+function dark(){{return r.dataset.theme?r.dataset.theme==="dark":mq.matches}}
+function lbl(){{b.setAttribute("aria-label",dark()?"Cambiar a modo claro":"Cambiar a modo oscuro")}}lbl();mq.addEventListener("change",lbl);
+b.addEventListener("click",function(){{r.classList.add("theme-anim");clearTimeout(window._ta);window._ta=setTimeout(function(){{r.classList.remove("theme-anim")}},400);var n=dark()?"light":"dark";r.dataset.theme=n;
+try{{localStorage.setItem("tema",n)}}catch(e){{}}lbl()}})}})();</script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js" defer></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js" defer></script>
+<script src="{BASE}/motion.js" defer></script>
+<script src="{BASE}/site.js" defer></script>
 </body>
 </html>"""
 
