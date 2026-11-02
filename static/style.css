@@ -638,3 +638,6 @@ img.avatar { object-fit: cover; padding: 0; }
 .founder-art .founder-photo { max-width: 20rem; }
 .gfeat-art { width: min(42%, 11rem); margin-top: .5rem; }
 .gfeat strong { font-size: clamp(1.7rem, 2.6vw, 2.2rem); }
+
+/* Fotos dentro de los artículos */
+.prose p > img { display: block; width: 100%; height: auto; border-radius: 20px; outline: 1px solid var(--outline); outline-offset: -1px; }

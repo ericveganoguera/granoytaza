@@ -77,6 +77,8 @@ Lo que más se elogia también coincide: buen café con crema, relación calidad
 
 ## El problema de las dos salidas
 
+![El portafiltro de mi Cecotec Power Espresso 20 visto desde arriba, con el filtro de dos tazas puesto]({{base}}/img/cecotec-portafiltro.jpg)
+
 Recientemente he notado que, al hacer dos cafés a la vez, la salida derecha del portafiltro echa menos café que la izquierda. Es un problema típico cuando se acumulan restos de café y cal en el portafiltro, así que es lo que toca revisar después de un año:
 
 - **Limpia el portafiltro y el filtro a fondo.** Desmonta el filtro, ponlo en remojo con agua caliente y frota los agujeros y las dos salidas con un cepillo pequeño. Si quedan restos, una aguja fina ayuda.
