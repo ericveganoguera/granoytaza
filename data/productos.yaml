@@ -294,6 +294,7 @@ productos:
     anadido: 2026-10-21
     asin: B0763N7WMP
     propio: true
+    foto: img/cecotec-power-espresso-20.jpg
     resumen: "La cafetera de brazo más vendida de Amazon España: 20 bares, depósito de 1,5 l y vaporizador. Es la que uso a diario."
     resena: resenas/cecotec-power-espresso-20
 
@@ -308,6 +309,7 @@ productos:
     asin: B0BZ8GMQPR
     propio: true
     etiqueta: "La tuve en casa"
+    foto: img/create-thera-retro.jpg
     resumen: "Cafetera de brazo de estética retro con termómetro frontal y filtro presurizado. Fue mi cafetera anterior."
     guia: guias/cecotec-power-espresso-20-vs-create-thera-retro
 
@@ -321,6 +323,7 @@ productos:
     anadido: 2026-10-21
     asin: B099WNLCCT
     propio: true
+    foto: img/shardor-molinillo.jpg
     resumen: "Molinillo de muelas cónicas de acero con tolva, 31 ajustes de molienda y temporizador. Lo uso siempre en la más fina, para espresso."
     guia: blog/molinillo-de-cuchillas-mi-experiencia
 
@@ -386,6 +389,7 @@ productos:
     anadido: 2026-11-02
     asin: B0C1BCKFK4
     propio: true
+    foto: img/vicloon-prensador.jpg
     resumen: "Prensador de 51 mm de acero con mango de madera. El que uso cada mañana con mi cafetera."
     guia: guias/accesorios-cafetera-espresso
 
@@ -452,6 +456,7 @@ productos:
     asin: B0049U0DMC
     propio: true
     etiqueta: "Lo he probado"
+    foto: img/lavazza-qualita-oro.jpg
     resumen: "100% arábica de tueste medio. Mi segundo favorito de los que he probado."
     guia: guias/cafes-en-grano-que-he-probado
 
