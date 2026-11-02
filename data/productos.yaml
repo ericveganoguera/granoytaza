@@ -337,6 +337,7 @@ productos:
     anadido: 2026-10-21
     asin: B0BRHVDLSX
     propio: true
+    icono: espumador
     resumen: "Espumador automático: pones la leche, pulsas y trabaja solo mientras preparas el café. El que uso cada mañana."
     guia: resenas/cecotec-power-espresso-20
 
@@ -417,6 +418,7 @@ productos:
     anadido: 2026-11-02
     asin: B0BR5WGDWF
     propio: true
+    icono: dosificador
     resumen: "Vaso de acero donde cae el café del molinillo para pasarlo al portafiltro sin ensuciar. Lo tengo siempre bajo mi SHARDOR."
     guia: guias/accesorios-cafetera-espresso
 
