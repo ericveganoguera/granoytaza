@@ -1,6 +1,7 @@
 ---
 title: "Cecotec Power Espresso 20 vs CREATE Thera Retro: he tenido las dos"
-description: "Comparativa real entre la Cecotec Power Espresso 20 y la CREATE Thera Retro de alguien que ha usado ambas: diferencias, durabilidad y cuál comprar."
+seo_title: "Cecotec Power Espresso 20 vs CREATE Thera Retro"
+description: "He tenido las dos: comparativa real de la Cecotec Power Espresso 20 y la CREATE Thera Retro. Diferencias, durabilidad y cuál comprar."
 lede: "Tuve la CREATE Thera Retro unos dos años y llevo uno con la Cecotec Power Espresso 20. Dos cafeteras de brazo de precio parecido, comparadas desde el uso diario."
 summary: "Dos cafeteras de brazo de precio parecido, comparadas por alguien que ha usado las dos."
 layout: article

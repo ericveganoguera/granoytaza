@@ -1,6 +1,7 @@
 ---
 title: "Cómo limpiar y descalcificar una cafetera de brazo paso a paso (y cada cuánto)"
-description: "Guía práctica para limpiar y descalcificar una cafetera espresso de brazo: qué hacer después de cada café, cada semana y cada pocos meses, con qué producto descalcificar y los errores que acortan su vida."
+seo_title: "Cómo descalcificar una cafetera de brazo paso a paso"
+description: "Cómo limpiar y descalcificar una cafetera espresso de brazo: qué hacer cada día, cada semana y cada pocos meses, y con qué producto."
 lede: "Mis dos primeras cafeteras de brazo acabaron perdiendo agua por debajo. Desde entonces me fijo mucho más en el mantenimiento: esto es lo que he aprendido y lo que hago con la tercera."
 summary: "Qué limpiar después de cada café, cada semana y cada pocos meses, y cómo descalcificar sin estropear la cafetera."
 updated: 2026-10-26
