@@ -1,7 +1,8 @@
 ---
 title: "Mejores cafeteras para casa en 2026: las de mejor calidad-precio según cómo tomas el café"
+seo_title: "Mejores cafeteras para casa calidad-precio 2026"
 nav: "Cafeteras para casa"
-description: "Las mejores cafeteras para casa en 2026 con la mejor relación calidad-precio: italiana, filtro, espresso y superautomática, ordenadas por presupuesto y por cómo tomas el café."
+description: "Qué cafetera comprar para casa en 2026: italiana, prensa, espresso o superautomática, con la mejor calidad-precio en cada presupuesto."
 lede: "No existe una cafetera mejor para todo el mundo, pero sí una mejor para ti. Te ayudo a elegirla en tres preguntas, con mis recomendaciones de calidad-precio en cada presupuesto."
 summary: "Italiana, filtro, espresso o superautomática: la mejor calidad-precio según cómo tomas el café."
 layout: article

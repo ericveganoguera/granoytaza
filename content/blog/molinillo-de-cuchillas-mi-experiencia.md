@@ -1,6 +1,7 @@
 ---
 title: "Por qué empecé a moler el café en casa (y qué tal un molinillo de cuchillas)"
-description: "Mi experiencia pasando de café molido de paquete a moler el grano en casa con un molinillo de cuchillas: qué cambia, sus límites y cómo sacarle partido."
+seo_title: "Molinillo de cuchillas: mi experiencia moliendo en casa"
+description: "Qué cambia al pasar del café molido de paquete a moler en casa con un molinillo de cuchillas: ventajas, límites y cómo sacarle partido."
 lede: "Compraba paquetes de medio kilo de café molido y a los pocos días perdían el aroma. Moler el grano en casa fue la mejora más grande que he hecho en mi café."
 summary: "De café molido de paquete a moler en casa: qué cambia y qué da de sí un molinillo de cuchillas."
 updated: 2026-10-21

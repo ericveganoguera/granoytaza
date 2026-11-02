@@ -1,7 +1,8 @@
 ---
 title: "Mejores molinillos de café en 2026: eléctricos y manuales para casa"
+seo_title: "Mejor molinillo de café eléctrico y manual (2026)"
 nav: "Molinillos"
-description: "El mejor molinillo de café eléctrico o manual para tu casa según cómo preparas el café (espresso, italiana o filtro) y tu presupuesto."
+description: "El mejor molinillo de café eléctrico o manual para casa según cómo preparas el café: espresso, italiana o filtro. Opciones por presupuesto."
 lede: "El molinillo es la compra que más mejora tu café. Cinco modelos, manuales y eléctricos, separados según cómo preparas el café."
 summary: "La compra que más mejora tu café: manuales y eléctricos para espresso, italiana o filtro."
 layout: article

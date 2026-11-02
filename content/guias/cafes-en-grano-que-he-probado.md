@@ -1,6 +1,7 @@
 ---
 title: "Mejores cafés en grano: mi ranking de los que he probado en casa"
-description: "Los mejores cafés en grano de supermercado que he probado con mi cafetera espresso: Novell, Lavazza Qualità Oro, Marcilla Gran Aroma y Bonka, más el pack de Incapto, y cómo elegir un buen café en grano."
+seo_title: "Mejores cafés en grano: mi ranking de 2026"
+description: "Los mejores cafés en grano de supermercado que he probado en casa: Novell, Lavazza, Marcilla y Bonka. Cuál comprar y cómo elegir."
 lede: "He probado varios cafés en grano de los que encuentras en Amazon y en el supermercado. Este es mi orden de preferencia, con el que tomo cada mañana en primer lugar."
 summary: "Novell, Lavazza, Marcilla y Bonka en grano: mi ranking tras probarlos en casa."
 layout: article

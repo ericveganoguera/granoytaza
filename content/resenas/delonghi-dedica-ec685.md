@@ -1,6 +1,7 @@
 ---
 title: "De'Longhi Dedica Style EC685 opiniones: análisis de la cafetera de brazo más vendida"
-description: "Opiniones y análisis de la De'Longhi Dedica Style EC685: qué tal hace el espresso y la leche, sus límites y si merece la pena como primera cafetera de brazo."
+seo_title: "De'Longhi Dedica EC685: opiniones y análisis"
+description: "Opiniones de la De'Longhi Dedica Style EC685: qué tal hace el espresso y la leche, sus límites y si merece la pena como primera cafetera."
 lede: "Compacta, rápida y barata. Qué puedes esperar de ella, dónde se queda corta y cómo sacarle bastante más con dos cambios pequeños."
 summary: "Compacta, rápida y barata: lo que hace bien, sus límites y cómo mejorarla."
 producto: dedica-ec685

@@ -1,5 +1,6 @@
 ---
 title: "Cómo hacer un buen espresso en casa: receta y errores comunes"
+seo_title: "Cómo hacer espresso en casa: receta y errores comunes"
 description: "La receta base del espresso (dosis, rendimiento y tiempo), cómo ajustar la molienda y qué hacer si tu café sale amargo o ácido."
 lede: "Una receta de partida, tres números que conviene vigilar y una tabla para corregir el sabor cuando algo no cuadra."
 summary: "La receta base, cómo ajustar la molienda y qué hacer si sale amargo o ácido."

@@ -1,7 +1,8 @@
 ---
 title: "Mejores cafeteras espresso (express) para casa en 2026: calidad-precio por presupuesto"
+seo_title: "Mejores cafeteras espresso para casa (2026)"
 nav: "Cafeteras espresso"
-description: "Las mejores cafeteras espresso o express de brazo para casa en 2026, ordenadas por presupuesto y calidad-precio: modelos de entrada, gama media y alta explicados sin jerga."
+description: "Las mejores cafeteras espresso, express o de brazo para casa en 2026 por presupuesto: De'Longhi, Gaggia y Sage. Calidad-precio sin jerga."
 lede: "Seis cafeteras de brazo (portafiltro) que tienen sentido en 2026, ordenadas por presupuesto, y qué cambia de verdad al subir de precio."
 summary: "De la primera cafetera de brazo a una máquina para toda la vida, ordenadas por presupuesto."
 layout: article

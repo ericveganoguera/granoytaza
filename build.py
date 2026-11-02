@@ -694,7 +694,9 @@ def home_html(meta, articles):
 
 def page_html(meta, content, articles=()):
     slug = meta["slug"]
-    title = meta["title"] if slug == "" else f"{meta['title']} | {CFG['title']}"
+    # Título para Google: seo_title si existe; la marca solo se añade si cabe en 60 caracteres
+    base_t = meta.get("seo_title", meta["title"])
+    title = base_t if slug == "" or len(base_t) + len(CFG["title"]) + 3 > 60 else f"{base_t} | {CFG['title']}"
     desc = meta.get("description", CFG["description"])
     canonical = CFG["url"] + CFG["baseurl"].rstrip("/") + "/" + (slug + "/" if slug else "")
     is_article = meta.get("layout") == "article"
@@ -800,7 +802,7 @@ def page_html(meta, content, articles=()):
 <meta name="description" content="{E(desc)}">
 <link rel="canonical" href="{canonical}">
 <meta property="og:type" content="{'article' if is_article else 'website'}">
-<meta property="og:title" content="{E(meta['title'])}">
+<meta property="og:title" content="{E(base_t)}">
 <meta property="og:description" content="{E(desc)}">
 <meta property="og:url" content="{canonical}">
 <meta property="og:site_name" content="{CFG['title']}">

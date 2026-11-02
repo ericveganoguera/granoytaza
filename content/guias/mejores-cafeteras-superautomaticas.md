@@ -1,7 +1,8 @@
 ---
 title: "Mejores cafeteras superautomáticas en 2026: cuál comprar según tu presupuesto"
+seo_title: "Mejores cafeteras superautomáticas 2026: cuál comprar"
 nav: "Superautomáticas"
-description: "Las mejores cafeteras superautomáticas de 2026 según tu presupuesto y cuánta leche tomas: modelos calidad-precio recomendados y en qué fijarse antes de comprar."
+description: "Las mejores cafeteras superautomáticas de 2026 por presupuesto: De'Longhi Magnifica S, Philips LatteGo y más. En qué fijarte antes de comprar."
 lede: "Café en grano recién molido con un botón. Cinco superautomáticas que merecen la pena, y cómo elegir según cuánta leche tomas en casa."
 summary: "Café en grano con un botón: qué modelo elegir según tu presupuesto y cuánta leche tomas."
 layout: article

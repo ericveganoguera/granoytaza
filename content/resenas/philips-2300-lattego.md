@@ -1,6 +1,7 @@
 ---
 title: "Philips Serie 2300 LatteGo: reseña de la superautomática más cómoda con leche"
-description: "Análisis de la Philips 2300 LatteGo: calidad del café, sistema de leche LatteGo, limpieza y para quién merece la pena."
+seo_title: "Philips 2300 LatteGo: opiniones y análisis"
+description: "Opiniones de la Philips Serie 2300 LatteGo: calidad del café, sistema de leche, limpieza y para quién merece la pena esta superautomática."
 lede: "Capuchino con un botón y un sistema de leche que se lava en segundos. Lo que la hace tan popular y lo que conviene saber antes de comprarla."
 summary: "Capuchino con un botón y un sistema de leche que se lava en segundos."
 producto: philips-2300-lattego
