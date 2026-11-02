@@ -84,6 +84,7 @@ GUIA_CORTA = {
     "blog/molinillo-de-cuchillas-mi-experiencia": "molinillo de cuchillas",
     "guias/cecotec-power-espresso-20-vs-create-thera-retro": "Cecotec vs CREATE",
     "resenas/cecotec-power-espresso-20": "Cecotec Power Espresso 20",
+    "guias/accesorios-cafetera-espresso": "accesorios",
 }
 NAV = [("guias", "Guías"), ("resenas", "Reseñas"), ("productos", "Productos"), ("blog", "Blog")]
 AMAZON_QUERY = {
