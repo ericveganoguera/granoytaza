@@ -34,7 +34,7 @@ updated: 2026-10-25
 
 **Necesitarás molinillo** salvo que la cafetera lo lleve integrado. Si tu presupuesto total es ajustado, reparte: una cafetera de entrada con un buen molinillo supera a una cafetera cara con café ya molido. Lo explico en la [guía de molinillos]({{base}}/guias/mejores-molinillos-de-cafe/).
 
-## Gama de entrada
+## Cafeteras espresso baratas (menos de 200 €)
 
 ::: producto
 nombre: De'Longhi Dedica EC685
@@ -56,7 +56,7 @@ pros: ["Precio muy bajo", "Sencilla de usar", "Vaporizador manual incluido"]
 contras: ["Mucho plástico", "Resultados irregulares si haces varios cafés seguidos", "Poco margen para mejorar"]
 :::
 
-## Gama media
+## Cafeteras espresso de gama media (de 400 a 700 €)
 
 ::: producto
 nombre: Sage Bambino Plus
@@ -88,7 +88,7 @@ pros: ["Portafiltro profesional de 58 mm", "Robusta y reparable", "Vaporizador p
 contras: ["Curva de aprendizaje", "Espera entre café y vapor", "Sin molinillo"]
 :::
 
-## Gama alta
+## Cafeteras espresso de gama alta (1.200 € o más)
 
 ::: producto
 nombre: Sage Barista Touch Impress
@@ -112,7 +112,7 @@ Para la mayoría, la mejor primera cafetera espresso es la [De'Longhi Dedica Sty
 
 ### ¿Cafetera express o cafetera espresso?
 
-Son lo mismo. "Express" es como se dice a menudo en España y "espresso" es el nombre italiano. Las dos se refieren a cafeteras que hacen pasar agua caliente a presión por el café molido. En esta guía hablo de las de brazo (portafiltro); si prefieres que la máquina muela y lo haga todo, mira las [superautomáticas]({{base}}/guias/mejores-cafeteras-superautomaticas/).
+Son lo mismo. "Express" o "expresso" es como se dice a menudo en España, y "espresso" es el nombre italiano. Las dos se refieren a cafeteras que hacen pasar agua caliente a presión por el café molido. En esta guía hablo de las de brazo (portafiltro); si prefieres que la máquina muela y lo haga todo, mira las [superautomáticas]({{base}}/guias/mejores-cafeteras-superautomaticas/).
 
 ### ¿Cuánto hay que gastar para un espresso bueno de verdad?
 

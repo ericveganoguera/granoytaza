@@ -48,3 +48,5 @@ Descalcifícala cuando se encienda el aviso y usa agua baja en minerales si vive
 Las tienes todas comparadas en la [guía de cafeteras espresso]({{base}}/guias/mejores-cafeteras-espresso/), y si dudas entre tipos de cafetera, en las [mejores cafeteras para casa]({{base}}/guias/mejores-cafeteras-para-casa/).
 
 <!-- AÑADE AQUÍ TU PRUEBA: fotos de la máquina en tu cocina, de un espresso y de un café con leche, y tus impresiones tras unas semanas de uso. -->
+
+Si buscas la mejor cafetera para tu presupuesto, mira la [guía de cafeteras para casa calidad-precio]({{base}}/guias/mejores-cafeteras-para-casa/).

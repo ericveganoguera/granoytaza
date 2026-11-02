@@ -31,7 +31,7 @@ El café pierde aroma muy deprisa una vez molido. Además, para que el agua extr
 
 **Espresso exige más.** Necesita una molienda muy fina y ajustes muy pequeños entre pasos. Muchos molinillos pensados para filtro no llegan, así que fíjate en que el modelo diga expresamente que sirve para espresso.
 
-## Manuales
+## Molinillos de café manuales
 
 ::: producto
 nombre: Timemore Chestnut C3
@@ -53,7 +53,7 @@ pros: ["Calidad de molienda de referencia", "Construcción excelente", "Sin cabl
 contras: ["Precio alto", "Moler para espresso cansa", "El ajuste fino para espresso se compra aparte"]
 :::
 
-## Eléctricos
+## Molinillos de café eléctricos
 
 ::: producto
 nombre: Baratza Encore

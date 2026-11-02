@@ -12,7 +12,7 @@ order: 1
 updated: 2026-10-26
 ---
 
-## Respuesta rápida
+## La mejor cafetera para casa según tu caso
 
 | Si tú… | Mi elección calidad-precio |
 |---|---|
