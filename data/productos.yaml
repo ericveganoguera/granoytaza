@@ -153,6 +153,42 @@ productos:
     resumen: "De los mejores espressos en automático, con construcción para muchos años."
     guia: guias/mejores-cafeteras-superautomaticas
 
+  - id: magnifica-start-milk
+    nombre: "De'Longhi Magnifica Start con espumador automático"
+    marca: "De'Longhi"
+    categoria: superautomatica
+    gama: basica
+    precio: 370
+    relevancia: 80
+    anadido: 2026-11-09
+    buscar: "DeLonghi Magnifica Start espumador automatico leche"
+    resumen: "La versión actual de la Magnifica con jarra de leche: capuchino y latte macchiato con un botón."
+    guia: guias/mejores-superautomaticas-menos-400-euros
+
+  - id: philips-2200
+    nombre: "Philips Serie 2200 (EP2220)"
+    marca: "Philips"
+    categoria: superautomatica
+    gama: basica
+    precio: 280
+    relevancia: 77
+    anadido: 2026-11-09
+    buscar: "Philips Serie 2200 EP2220/10"
+    resumen: "Superautomática sencilla con molinillo cerámico, filtro AquaClean y vaporizador para la leche."
+    guia: guias/mejores-superautomaticas-menos-400-euros
+
+  - id: krups-roma
+    nombre: "Krups Roma (EA8108)"
+    marca: "Krups"
+    categoria: superautomatica
+    gama: basica
+    precio: 270
+    relevancia: 60
+    anadido: 2026-11-09
+    buscar: "Krups Roma EA810870 cafetera superautomatica"
+    resumen: "Una de las superautomáticas más baratas de marca conocida, con vaporizador. Grupo fijo, no se saca."
+    guia: guias/mejores-superautomaticas-menos-400-euros
+
   - id: timemore-c3
     nombre: "Timemore Chestnut C3"
     marca: "Timemore"
