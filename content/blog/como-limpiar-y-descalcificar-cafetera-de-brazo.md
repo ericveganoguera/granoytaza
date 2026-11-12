@@ -133,6 +133,8 @@ No hace falta gastar mucho: un descalcificador, un cepillo y, si tu agua es dura
   nota: "Mi cafetera actual, la que mantengo con esta rutina."
 :::
 
+Si la cafetera ya ha dejado de sacar agua o gotea donde no debe, tienes las comprobaciones por orden en [mi cafetera no saca agua o pierde agua]({{base}}/blog/cafetera-no-saca-agua-o-pierde-agua/).
+
 ## Preguntas frecuentes
 
 ### ¿Por qué gotea la cafetera después de usarla?
