@@ -32,7 +32,7 @@ updated: 2026-10-21
 
 La tuve unos dos años y, mientras funcionó, funcionó muy bien. El problema llegó al final: se rompió el conducto del agua, el agua dejó de llegar al café y empezó a perder por debajo. Ahí tuve que cambiarla.
 
-Con lo que sé ahora, creo que un mantenimiento más regular (sobre todo descalcificar) podría haberle alargado la vida. La cal es la causa más habitual de averías en las cafeteras domésticas.
+Con lo que sé ahora, creo que un mantenimiento más regular (sobre todo descalcificar) podría haberle alargado la vida. La cal es la causa más habitual de averías en las cafeteras domésticas. Si a la tuya le pasa algo parecido, mira [qué revisar cuando una cafetera no saca agua o pierde agua]({{base}}/blog/cafetera-no-saca-agua-o-pierde-agua/).
 
 ## Mi experiencia con la Cecotec Power Espresso 20
 
