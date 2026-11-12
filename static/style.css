@@ -641,3 +641,13 @@ img.avatar { object-fit: cover; padding: 0; }
 
 /* Fotos dentro de los artículos */
 .prose p > img { display: block; width: 100%; height: auto; border-radius: 20px; outline: 1px solid var(--outline); outline-offset: -1px; }
+
+/* Página /enlaces/: tarjetas grandes para quien llega desde Instagram */
+.ig-grid { display: grid; grid-template-columns: 1fr; gap: 1rem; max-width: 34rem; margin: 1rem auto 0; }
+.ig-grid a { display: block; border-radius: 1.4rem; overflow: hidden; box-shadow: 0 10px 30px rgba(36, 24, 19, .14); transition: transform .15s ease; }
+.ig-grid a:hover { transform: translateY(-3px); }
+.ig-grid a:active { transform: scale(.98); }
+.ig-grid a:focus-visible { outline: 3px solid var(--accent, #2F6B4F); outline-offset: 3px; }
+.ig-grid img { display: block; width: 100%; height: auto; }
+@media (min-width: 760px) { .ig-grid { grid-template-columns: 1fr 1fr; max-width: 60rem; } }
+@media (prefers-reduced-motion: reduce) { .ig-grid a { transition: none; } }
