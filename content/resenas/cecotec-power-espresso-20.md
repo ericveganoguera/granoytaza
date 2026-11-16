@@ -27,14 +27,14 @@ Llevo aproximadamente un año con la Cecotec Power Espresso 20. Llegó a casa pa
 
 En casa somos dos y casi siempre tomamos café con leche: uno al día entre semana, por la mañana, y un par cada uno los fines de semana. No es un uso intensivo, pero sí diario.
 
-<!-- FOTO: la cafetera en tu encimera, de frente y de tres cuartos. -->
+![Mi Cecotec Power Espresso 20 en la encimera de casa, junto al molinillo SHARDOR]({{base}}/img/kit-cecotec-power-espresso-20.jpg)
 
 ## Mi rutina con ella
 
 Así preparo un café con leche cada mañana:
 
 1. Enciendo la cafetera para que vaya calentando.
-2. Pongo la leche en el [espumador]({{base}}/productos/?q=burnnove) y le doy al botón.
+2. Pongo la leche en el [espumador](amazon:B0BRHVDLSX) y le doy al botón.
 3. Mientras, muelo el grano con mi [molinillo]({{base}}/blog/molinillo-de-cuchillas-mi-experiencia/) en la molienda más fina, lo pongo en el portafiltro, lo remuevo con unas varillas finas para que no queden grumos y lo prenso con un prensador.
 4. Extraigo el café y le añado la leche, que para entonces ya está lista.
 
@@ -52,7 +52,7 @@ Todo junto lleva unos pocos minutos. Es más tiempo que con una cápsula, pero e
 
 ## Lo que menos me gusta
 
-**Es ancha.** Ocupa bastante más encimera que otras cafeteras de brazo como la [De'Longhi Dedica]({{base}}/resenas/delonghi-dedica-ec685/), que es muy estrecha. Mide unos 25 cm de ancho: mídelo antes de comprarla si tu cocina es pequeña.
+**Es ancha.** Ocupa bastante más encimera que otras cafeteras de brazo como la De'Longhi Dedica, que es muy estrecha. Mide unos 25 cm de ancho: mídelo antes de comprarla si tu cocina es pequeña.
 
 **Hace bastante ruido y vibra.** Mientras saca el café, la bomba suena fuerte y la cafetera vibra. A mí nunca se me ha movido de su sitio, pero si madrugas antes que el resto de la casa, lo vas a notar.
 

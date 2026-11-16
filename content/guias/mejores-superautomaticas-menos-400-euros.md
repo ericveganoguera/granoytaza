@@ -64,7 +64,6 @@ pros: ["Sistema de leche muy fácil de limpiar", "Capuchino con un toque", "Grup
 contras: ["Pocas bebidas", "Espuma abundante pero algo gruesa", "Al límite de los 400 €"]
 :::
 
-Tienes el análisis completo en la [reseña de la Philips 2300 LatteGo]({{base}}/resenas/philips-2300-lattego/).
 
 ::: producto
 id: magnifica-start-milk
@@ -172,6 +171,5 @@ Vacía el cajón de posos y la bandeja cuando lo pida, enjuaga el sistema de lec
 ## Si te interesa, mira también
 
 - [Mejores cafeteras superautomáticas por presupuesto]({{base}}/guias/mejores-cafeteras-superautomaticas/), si puedes subir de 400 €
-- [Philips Serie 2300 LatteGo: reseña]({{base}}/resenas/philips-2300-lattego/)
 - [Ofertas de cafeteras del Black Friday]({{base}}/guias/black-friday-cafeteras/)
 - [Mejores cafés en grano que he probado]({{base}}/guias/cafes-en-grano-que-he-probado/)

@@ -32,7 +32,7 @@ Si ya sabes qué tipo de cafetera quieres, aquí tienes la búsqueda de ofertas 
 | **Espresso o express de brazo** | [Ver ofertas](amazon:cafetera+espresso+oferta) | [Mejores cafeteras espresso]({{base}}/guias/mejores-cafeteras-espresso/) |
 | **Molinillos de café** | [Ver ofertas](amazon:molinillo+cafe+electrico+oferta) | [Mejores molinillos]({{base}}/guias/mejores-molinillos-de-cafe/) |
 | **Cafeteras Cecotec** | [Ver ofertas](amazon:cafetera+Cecotec+oferta) | [Mi opinión de la Cecotec Power Espresso 20]({{base}}/resenas/cecotec-power-espresso-20/) |
-| **Cafeteras De'Longhi** | [Ver ofertas](amazon:cafetera+DeLonghi+oferta) | [Opiniones de la Dedica Style]({{base}}/resenas/delonghi-dedica-ec685/) |
+| **Cafeteras De'Longhi** | [Ver ofertas](amazon:cafetera+DeLonghi+oferta) | [La Dedica en la guía de espresso]({{base}}/guias/mejores-cafeteras-espresso/) |
 | **Café en grano** | [Ver ofertas](amazon:cafe+en+grano+oferta) | [Los cafés en grano que he probado]({{base}}/guias/cafes-en-grano-que-he-probado/) |
 
 ¿Todavía no sabes qué tipo te conviene? Empieza por las [mejores cafeteras para casa]({{base}}/guias/mejores-cafeteras-para-casa/) o la comparativa de [tipos de cafetera]({{base}}/blog/que-cafetera-comprar/).
@@ -81,7 +81,7 @@ La franja donde un descuento convierte una buena compra en una excelente.
   nota: "Eléctrico para filtro, goteo e italiana, muy fiable"
 :::
 
-Si dudas entre la Dedica y la Magnifica S, la pregunta es sencilla: ¿quieres aprender a preparar el espresso o que lo haga la máquina? Lo tienes explicado en la [reseña de la Dedica]({{base}}/resenas/delonghi-dedica-ec685/) y en la [guía de superautomáticas]({{base}}/guias/mejores-cafeteras-superautomaticas/).
+Si dudas entre la Dedica y la Magnifica S, la pregunta es sencilla: ¿quieres aprender a preparar el espresso o que lo haga la máquina? Lo tienes explicado en la [guía de cafeteras espresso]({{base}}/guias/mejores-cafeteras-espresso/) y en la [guía de superautomáticas]({{base}}/guias/mejores-cafeteras-superautomaticas/).
 
 ### De 300 a 600 €
 
