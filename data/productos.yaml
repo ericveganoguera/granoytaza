@@ -30,7 +30,6 @@ productos:
     buscar: "DeLonghi Dedica EC685"
     resumen: "La cafetera de brazo más compacta para empezar; perdona el café molido de paquete."
     guia: guias/mejores-cafeteras-espresso
-    resena: resenas/delonghi-dedica-ec685
 
   - id: stilosa-ec260
     nombre: "De'Longhi Stilosa EC260"
@@ -115,7 +114,6 @@ productos:
     buscar: "Philips 2300 LatteGo"
     resumen: "Capuchino con un toque y un sistema de leche sin tubos que se lava en segundos."
     guia: guias/mejores-cafeteras-superautomaticas
-    resena: resenas/philips-2300-lattego
 
   - id: philips-3300-lattego
     nombre: "Philips Serie 3300 LatteGo"

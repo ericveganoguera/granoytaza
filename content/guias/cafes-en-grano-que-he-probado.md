@@ -23,7 +23,9 @@ updated: 2026-10-25
 
 Todos los he preparado igual: en mi [Cecotec Power Espresso 20]({{base}}/resenas/cecotec-power-espresso-20/), molidos justo antes en la molienda más fina de mi [molinillo]({{base}}/blog/molinillo-de-cuchillas-mi-experiencia/), y casi siempre como café con leche, que es lo que tomamos en casa. Así que este ranking es el de alguien que toma café con leche cada mañana, no el de un catador profesional.
 
-<!-- FOTO: los paquetes de café juntos, o tu bote de café en grano. -->
+![Paquete de Novell 100 % arábica en grano, mi café de diario]({{base}}/img/novell-arabica.jpg)
+
+![Paquete de Lavazza Qualità Oro en grano, en mi cocina]({{base}}/img/lavazza-qualita-oro.jpg)
 
 ## 1. Novell 100% arábica natural: el que tomo cada día
 

@@ -14,7 +14,7 @@ En casa somos dos y el café con leche de la mañana es sagrado: uno al día ent
 
 Hace tiempo dejé el café molido de paquete y empecé a moler el grano en casa. Fue la mejora más grande que he hecho en mi café, y lo explico en [por qué empecé a moler el café en casa]({{base}}/blog/molinillo-de-cuchillas-mi-experiencia/).
 
-<!-- FOTO: tu rincón de café. -->
+![Mi rincón de café en casa: la cafetera, el molinillo y los botes de grano en la encimera]({{base}}/img/kit-create-prensador-varillas-molinillo.jpg)
 
 ## Por qué escribo esta web
 

@@ -33,7 +33,7 @@ El prensador, el anillo dosificador y los cacillos tienen que coincidir con el d
 
 | Medida | Cafeteras habituales |
 |---|---|
-| **51 mm** | [Cecotec Power Espresso 20]({{base}}/resenas/cecotec-power-espresso-20/), [De'Longhi Dedica]({{base}}/resenas/delonghi-dedica-ec685/) |
+| **51 mm** | [Cecotec Power Espresso 20]({{base}}/resenas/cecotec-power-espresso-20/), [De'Longhi Dedica]({{base}}/guias/mejores-cafeteras-espresso/) |
 | **54 mm** | Sage Bambino y Bambino Plus |
 | **58 mm** | Gaggia Classic Evo Pro y la mayoría de máquinas profesionales |
 
@@ -91,7 +91,7 @@ Si tomas café con leche, aquí tienes dos caminos:
 - **Jarra de acero** para montar la leche con el vaporizador de la cafetera. Más barata y es el método "de barista", pero requiere práctica y estar pendiente.
 - **Espumador eléctrico.** Pones la leche, pulsas un botón y trabaja solo.
 
-Yo uso un espumador eléctrico [BURNNOVE]({{base}}/productos/?q=burnnove). Me resulta más práctico: mientras se hace la leche, yo muelo y preparo el café. Cuando el café está listo, la leche también. Además, el vaporizador se queda limpio, sin leche seca en la boquilla.
+Yo uso un espumador eléctrico [BURNNOVE](amazon:B0BRHVDLSX). Me resulta más práctico: mientras se hace la leche, yo muelo y preparo el café. Cuando el café está listo, la leche también. Además, el vaporizador se queda limpio, sin leche seca en la boquilla.
 
 Si prefieres la jarra, busca una de acero inoxidable de unos 350 ml, suficiente para una o dos tazas.
 

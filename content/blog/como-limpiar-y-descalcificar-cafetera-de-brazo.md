@@ -43,7 +43,7 @@ La primera se ve y se limpia por fuera. La segunda va por dentro y no la ves has
 
 Un detalle que me ha servido con la Cecotec: gotea un rato al terminar y, si saco el portafiltro enseguida, cae un hilo de café y queda agua dentro. Ahora espero un poco antes de quitarlo y así ensucio menos. En las preguntas frecuentes, al final, te cuento a qué se debe.
 
-<!-- FOTO: el portafiltro desmontado junto al filtro, recién enjuagados. -->
+![El portafiltro de mi Cecotec con el filtro de dos tazas, la pieza que más limpieza necesita]({{base}}/img/cecotec-portafiltro.jpg)
 
 ## Cada semana (10 minutos)
 

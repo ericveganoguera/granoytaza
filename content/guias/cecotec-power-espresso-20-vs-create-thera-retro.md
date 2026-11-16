@@ -26,7 +26,9 @@ updated: 2026-10-21
 
 **La CREATE Thera Retro** destaca por su estética: diseño retro, varios colores y un termómetro frontal que le da aire de cafetera antigua. **La Cecotec Power Espresso 20** es más sobria y más ancha, pero tiene un depósito más grande y, de momento, me está dando menos problemas.
 
-<!-- FOTO: si conservas fotos de la CREATE, ponlas aquí junto a una de la Cecotec. -->
+![Mi antigua CREATE Thera Retro en la cocina, con su termómetro frontal]({{base}}/img/create-thera-retro.jpg)
+
+![La Cecotec Power Espresso 20 que uso ahora]({{base}}/img/cecotec-power-espresso-20.jpg)
 
 ## Mi experiencia con la CREATE Thera Retro
 
@@ -48,7 +50,7 @@ Las dos son cafeteras de brazo de entrada, con un precio parecido, filtros presu
 
 - **Si priorizas un depósito grande y un diseño discreto:** la Cecotec Power Espresso 20.
 - **Si la estética retro te enamora y vas a cuidar el mantenimiento:** la CREATE Thera Retro.
-- **Si tu encimera es pequeña:** ninguna de las dos; mira la [De'Longhi Dedica]({{base}}/resenas/delonghi-dedica-ec685/), mucho más estrecha.
+- **Si tu encimera es pequeña:** ninguna de las dos; mira la [De'Longhi Dedica]({{base}}/guias/mejores-cafeteras-espresso/), mucho más estrecha.
 
 Con cualquiera de las tres, descalcifica con regularidad. Es lo que más alarga la vida de una cafetera.
 
