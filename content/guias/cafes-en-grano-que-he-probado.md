@@ -6,7 +6,7 @@ lede: "He probado varios cafés en grano de los que encuentras en Amazon y en el
 summary: "Novell, Lavazza, Marcilla y Bonka en grano: mi ranking tras probarlos en casa."
 layout: article
 order: 6
-updated: 2026-10-25
+updated: 2026-11-16
 ---
 
 ## Respuesta rápida
@@ -37,19 +37,19 @@ Novell es una tostadora catalana, y este café es 100% arábica y de tueste natu
 
 Un clásico italiano 100% arábica de tueste medio, de los más fáciles de encontrar. Quedó segundo en mi ranking.
 
-<!-- TU OPINIÓN: una frase sobre por qué te gustó y qué le faltó para superar al Novell. -->
+Me gustó mucho: de sabor y aroma está a la par con el Novell. Lo que lo deja segundo es el precio. El Novell es más barato y, para un café de diario, esa diferencia pesa.
 
-## 3. Marcilla Gran Aroma Natural: intenso y popular
+## 3. Marcilla Gran Aroma Natural: mucho aroma
 
-Es uno de los cafés en grano más vendidos de Amazon España. Según su ficha, es de tueste oscuro y de intensidad 8 sobre 10, así que es un café con mucho cuerpo, pensado para quien lo quiere fuerte.
+Es uno de los cafés en grano más vendidos de Amazon España. Según su ficha, es de tueste oscuro y de intensidad 8 sobre 10.
 
-<!-- TU OPINIÓN: una frase sobre qué te pareció. -->
+Lo que más recuerdo es el aroma, que es muy bueno. De sabor, en cambio, me pareció menos intenso que el Novell y el Lavazza, y por eso no me quedé con él.
 
 ## 4. Bonka natural en grano
 
 Un café de supermercado de toda la vida. Es el que menos me convenció de los cuatro.
 
-<!-- TU OPINIÓN: una frase sobre por qué quedó el último. -->
+Tenía un sabor distinto a los otros tres, difícil de explicar, que no me terminó de gustar.
 
 ## Aparte: el pack degustación de Incapto
 
