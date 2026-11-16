@@ -556,3 +556,42 @@ productos:
     etiqueta: "Lo he probado"
     resumen: "Nueve cafés de distintos países y un descafeinado para catar. Con él empecé a descubrir el café de verdad."
     guia: guias/cafes-en-grano-que-he-probado
+
+  - id: aeroccino-3
+    nombre: "Nespresso Aeroccino 3"
+    marca: "Nespresso"
+    categoria: accesorio
+    gama: media
+    precio: 90
+    relevancia: 62
+    anadido: 2026-11-16
+    buscar: "Nespresso Aeroccino 3 espumador"
+    icono: espumador
+    resumen: "Espumador pequeño de un botón: espuma caliente, fría y leche caliente. Hasta 120 ml de espuma. La jarra se lava a mano."
+    guia: guias/mejores-espumadores-de-leche
+
+  - id: aeroccino-4
+    nombre: "Nespresso Aeroccino 4"
+    marca: "Nespresso"
+    categoria: accesorio
+    gama: alta
+    precio: 140
+    relevancia: 58
+    anadido: 2026-11-16
+    buscar: "Nespresso Aeroccino 4 espumador"
+    icono: espumador
+    resumen: "Cuatro botones para espuma fría, leche caliente, latte macchiato y capuchino. La jarra va al lavavajillas."
+    guia: guias/mejores-espumadores-de-leche
+
+  - id: severin-sm-3587
+    nombre: "Severin SM 3587 Spuma 700 Plus"
+    marca: "Severin"
+    categoria: accesorio
+    gama: alta
+    precio: 155
+    relevancia: 55
+    anadido: 2026-11-16
+    buscar: "Severin SM 3587 Spuma 700 Plus"
+    icono: espumador
+    resumen: "Espumador de inducción de gran capacidad: hasta 350 ml de espuma y 700 ml de leche caliente. Jarra de acero apta para lavavajillas."
+    guia: guias/mejores-espumadores-de-leche
