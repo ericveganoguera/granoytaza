@@ -55,6 +55,18 @@ productos:
     resumen: "Monta la leche sola con temperatura y textura a elegir. Lista en segundos."
     guia: guias/mejores-cafeteras-espresso
 
+  - id: sage-bambino
+    nombre: "Sage Bambino"
+    marca: "Sage"
+    categoria: espresso
+    gama: basica
+    precio: 290
+    relevancia: 78
+    anadido: 2026-11-20
+    asin: B0BG8SJ62P
+    resumen: "La hermana pequeña de la Bambino Plus: lista en segundos, portafiltro de 54 mm y varilla de vapor manual con buena potencia."
+    guia: guias/mejores-cafeteras-espresso
+
   - id: barista-express
     nombre: "Sage Barista Express"
     marca: "Sage"
@@ -186,6 +198,30 @@ productos:
     buscar: "Krups Roma EA810870 cafetera superautomatica"
     resumen: "Una de las superautomáticas más baratas de marca conocida, con vaporizador. Grupo fijo, no se saca."
     guia: guias/mejores-superautomaticas-menos-400-euros
+
+  - id: philips-5400-lattego
+    nombre: "Philips Serie 5400 LatteGo (EP5441/50)"
+    marca: "Philips"
+    categoria: superautomatica
+    gama: media
+    precio: 600
+    relevancia: 74
+    anadido: 2026-11-20
+    asin: B08CBJCQ39
+    resumen: "Doce bebidas, perfiles de usuario y el sistema de leche LatteGo sin tubos. Para casas donde cada uno toma un café distinto."
+    guia: guias/mejores-cafeteras-superautomaticas
+
+  - id: timemore-c5-esp-pro
+    nombre: "Timemore Chestnut C5 ESP Pro"
+    marca: "Timemore"
+    categoria: molinillo
+    gama: basica
+    precio: 115
+    relevancia: 72
+    anadido: 2026-11-20
+    asin: B0FHH9GG1M
+    resumen: "Molinillo manual con ajuste fino pensado para espresso. El paso siguiente al C3 si usas cafetera de brazo."
+    guia: guias/mejores-molinillos-de-cafe
 
   - id: timemore-c3
     nombre: "Timemore Chestnut C3"

@@ -7,7 +7,7 @@ summary: "Fechas, cómo detectar falsas ofertas y qué cafeteras y molinillos vi
 layout: article
 tema: superautomatica
 order: 0
-updated: 2026-10-26
+updated: 2026-11-20
 ---
 
 ## Respuesta rápida
@@ -15,7 +15,7 @@ updated: 2026-10-26
 | Qué | Cuándo o qué hacer |
 |---|---|
 | **Black Friday** | Viernes 27 de noviembre de 2026 |
-| **Semana de ofertas en Amazon** | Aún sin fechas oficiales. En 2025 fue del jueves 20 de noviembre al lunes 1 de diciembre, con ofertas anticipadas desde el 13 |
+| **Semana de ofertas en Amazon** | Ya en marcha: Amazon empezó a rebajar el jueves 19 de noviembre, y la semana fuerte va del 23 al 29 de noviembre |
 | **Cyber Monday** | Lunes 30 de noviembre |
 | **Lo que más merece la pena vigilar** | Superautomáticas de gama de entrada y media, cafeteras de brazo con molinillo y molinillos eléctricos |
 | **Antes de comprar** | Mira el historial de precios del producto (te explico cómo abajo) |
@@ -120,7 +120,24 @@ En estas compras grandes el ahorro en euros es mayor, así que merece la pena es
 <!-- ACTUALIZA ESTA SECCIÓN del 20 al 30 de noviembre con las ofertas reales que veas:
      producto, precio de oferta, precio habitual según Keepa y enlace. Cambia también la fecha "updated" de arriba. -->
 
-Esta sección se actualizará durante la semana del Black Friday con las rebajas reales que merezcan la pena, comprobadas con su historial de precios. Mientras tanto, puedes buscar directamente las [ofertas de cafeteras superautomáticas](amazon:cafetera+superautomatica+oferta), [cafeteras espresso](amazon:cafetera+espresso+oferta) y [molinillos de café](amazon:molinillo+cafe+electrico+oferta) en Amazon.
+*Actualizado el viernes 20 de noviembre de 2026.* Amazon ya ha empezado su semana de Black Friday y estas son las rebajas de cafeteras y molinillos que, a día de hoy, me parecen de verdad interesantes: productos que recomiendo, que bajan respecto a lo que han costado en las últimas semanas y no sobre un precio inflado. Las ofertas cambian cada pocas horas, así que comprueba el precio actual en el botón de cada producto (y su historial en Keepa) antes de comprar.
+
+::: productos
+- id: cecotec-power-espresso-20
+  nota: "La cafetera que uso cada día, muy por debajo de lo que suele costar. Si quieres empezar con el espresso gastando poco, es el momento"
+- id: magnifica-s
+  nota: "La superautomática de referencia vuelve a bajar en Amazon. Ojo: la versión rebajada es la ECAM11.112.B, con el mismo molinillo y vaporizador"
+- id: sage-bambino
+  nota: "Rebaja real frente a su precio más bajo del último mes. Calienta en segundos y monta mejor la leche que cualquier cafetera de su precio"
+- id: philips-5400-lattego
+  nota: "Cae muy por debajo de su precio habitual: más recetas y perfiles de usuario que la 2300 con el mismo sistema de leche fácil de lavar"
+- id: rivelia
+  nota: "Rebajada en Amazon por debajo del precio de la tienda oficial de De'Longhi. Buena ocasión si quieres alternar dos cafés"
+- id: timemore-c5-esp-pro
+  nota: "Molinillo manual para espresso más barato que en las últimas semanas; el complemento ideal para la Cecotec o la Bambino"
+:::
+
+Si buscas la Magnifica S en concreto, aquí tienes [la versión ECAM11.112.B en Amazon](amazon-dp:B0BWSFGQ49). Y si no ves tu modelo, puedes buscar directamente las [ofertas de cafeteras superautomáticas](amazon:cafetera+superautomatica+oferta), [cafeteras espresso](amazon:cafetera+espresso+oferta) y [molinillos de café](amazon:molinillo+cafe+electrico+oferta) en Amazon.
 
 ## Errores que conviene evitar
 
@@ -140,7 +157,7 @@ Esta sección se actualizará durante la semana del Black Friday con las rebajas
 
 ### ¿Cuándo empiezan las ofertas de cafeteras del Black Friday 2026?
 
-El Black Friday es el viernes 27 de noviembre, pero Amazon alarga las ofertas toda una semana. Todavía no ha anunciado las fechas de 2026; en 2025 su semana de Black Friday fue del jueves 20 de noviembre al lunes 1 de diciembre, con algunas ofertas anticipadas desde el 13. Actualizaré esta guía en cuanto se confirmen.
+El Black Friday es el viernes 27 de noviembre, pero Amazon alarga las ofertas toda una semana. En 2026 empezó a rebajar productos el jueves 19 de noviembre, y la semana fuerte de ofertas va del lunes 23 al domingo 29, con el Cyber Monday el día 30. Las ofertas que me parecen más interesantes las tienes arriba, en [ofertas destacadas de la semana](#ofertas-destacadas-de-la-semana).
 
 ### ¿Es mejor comprar la cafetera en Black Friday o esperar al Cyber Monday?
 
