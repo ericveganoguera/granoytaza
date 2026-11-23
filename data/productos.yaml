@@ -450,6 +450,18 @@ productos:
     resumen: "Jarra con filtro MAXTRA Pro que reduce la cal y el cloro del agua del grifo. Menos cal en la cafetera y mejor sabor."
     guia: blog/como-limpiar-y-descalcificar-cafetera-de-brazo
 
+  - id: alfombrilla-silicona-cafetera
+    nombre: "Alfombrilla de silicona para cafetera"
+    marca: "Varias marcas"
+    categoria: accesorio
+    gama: basica
+    precio: 14
+    relevancia: 45
+    anadido: 2026-11-23
+    buscar: "alfombrilla silicona cafetera antideslizante"
+    resumen: "Alfombrilla de silicona antideslizante para poner bajo la cafetera: amortigua la vibración sobre la encimera y recoge gotas y restos de café."
+    guia: blog/cafetera-hace-mucho-ruido-y-vibra
+
   # --- Accesorios de barista ---
   - id: vicloon-prensador-51
     nombre: "Vicloon prensador de café 51 mm"
