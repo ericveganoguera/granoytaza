@@ -1,13 +1,13 @@
 ---
-title: "Ofertas de cafeteras Black Friday 2026: cuáles merecen la pena y cómo detectar falsos descuentos"
-seo_title: "Cafeteras Black Friday 2026: ofertas que merecen la pena"
-description: "Ofertas de cafeteras en el Black Friday 2026 (27 de noviembre): superautomáticas y espresso que vigilar en Amazon y cómo detectar falsos descuentos."
-lede: "El Black Friday es el viernes 27 de noviembre, pero las ofertas llegan toda la semana. Qué cafeteras y molinillos vigilar según tu presupuesto, y cómo comprobar en un minuto si el descuento es de verdad."
-summary: "Fechas, cómo detectar falsas ofertas y qué cafeteras y molinillos vigilar según tu presupuesto."
+title: "Ofertas de cafeteras Black Friday y Cyber Monday 2026: cuáles merecen la pena y cómo detectar falsos descuentos"
+seo_title: "Cafeteras Black Friday y Cyber Monday 2026: ofertas reales"
+description: "Ofertas de cafeteras en el Black Friday (27 de noviembre) y el Cyber Monday (30 de noviembre) de 2026: qué superautomáticas y espresso vigilar en Amazon y cómo detectar falsos descuentos."
+lede: "El Black Friday es el viernes 27 de noviembre y las ofertas siguen hasta el Cyber Monday, el lunes 30. Qué cafeteras y molinillos vigilar según tu presupuesto, y cómo comprobar en un minuto si el descuento es de verdad."
+summary: "Fechas del Black Friday y el Cyber Monday, cómo detectar falsas ofertas y qué cafeteras y molinillos vigilar según tu presupuesto."
 layout: article
 tema: superautomatica
 order: 0
-updated: 2026-11-20
+updated: 2026-11-26
 ---
 
 ## Respuesta rápida
@@ -16,13 +16,13 @@ updated: 2026-11-20
 |---|---|
 | **Black Friday** | Viernes 27 de noviembre de 2026 |
 | **Semana de ofertas en Amazon** | Ya en marcha: Amazon empezó a rebajar el jueves 19 de noviembre, y la semana fuerte va del 23 al 29 de noviembre |
-| **Cyber Monday** | Lunes 30 de noviembre |
+| **Cyber Monday** | Lunes 30 de noviembre: último día de la campaña. Muchas ofertas de la semana siguen hasta esa noche |
 | **Lo que más merece la pena vigilar** | Superautomáticas de gama de entrada y media, cafeteras de brazo con molinillo y molinillos eléctricos |
 | **Antes de comprar** | Mira el historial de precios del producto (te explico cómo abajo) |
 
 Si aún no tienes claro qué comprar, decide primero sin prisa con mis guías de [mejores cafeteras para casa calidad-precio]({{base}}/guias/mejores-cafeteras-para-casa/), [mejores cafeteras espresso]({{base}}/guias/mejores-cafeteras-espresso/) y [mejores cafés en grano]({{base}}/guias/cafes-en-grano-que-he-probado/). Así el día de las ofertas solo tendrás que mirar el precio.
 
-## Ofertas de cafeteras del Black Friday por tipo
+## Ofertas de cafeteras del Black Friday y Cyber Monday por tipo
 
 Si ya sabes qué tipo de cafetera quieres, aquí tienes la búsqueda de ofertas en Amazon y mi guía para elegir el modelo:
 
@@ -47,7 +47,7 @@ El precio tachado no siempre dice la verdad. Hay productos que suben de precio e
 
 ## Qué vigilar según tu presupuesto
 
-Estos son los productos que recomiendo durante todo el año. Si alguno baja de precio en Black Friday, es una buena compra. Si no baja, sigue siendo una buena compra a su precio normal.
+Estos son los productos que recomiendo durante todo el año. Si alguno baja de precio entre el Black Friday y el Cyber Monday, es una buena compra. Si no baja, sigue siendo una buena compra a su precio normal.
 
 ### Menos de 150 €
 
@@ -118,7 +118,9 @@ En estas compras grandes el ahorro en euros es mayor, así que merece la pena es
 ## Ofertas destacadas de la semana
 
 <!-- ACTUALIZA ESTA SECCIÓN del 20 al 30 de noviembre con las ofertas reales que veas:
-     producto, precio de oferta, precio habitual según Keepa y enlace. Cambia también la fecha "updated" de arriba. -->
+     producto, precio de oferta, precio habitual según Keepa y enlace. Cambia también la fecha "updated" de arriba.
+     CYBER MONDAY: el sábado 28 o el domingo 29, quita las que ya no estén rebajadas, añade las nuevas
+     y cambia la línea "Actualizado el..." de abajo. -->
 
 *Actualizado el viernes 20 de noviembre de 2026.* Amazon ya ha empezado su semana de Black Friday y estas son las rebajas de cafeteras y molinillos que, a día de hoy, me parecen de verdad interesantes: productos que recomiendo, que bajan respecto a lo que han costado en las últimas semanas y no sobre un precio inflado. Las ofertas cambian cada pocas horas, así que comprueba el precio actual en el botón de cada producto (y su historial en Keepa) antes de comprar.
 
@@ -144,7 +146,7 @@ Si buscas la Magnifica S en concreto, aquí tienes [la versión ECAM11.112.B en 
 - **Comprar una cafetera de brazo sin molinillo.** Sin café recién molido no vas a sacarle partido. Si el presupuesto no da para las dos cosas, una superautomática tiene más sentido.
 - **Elegir superautomática sin pensar en la leche.** Si tomáis café con leche a diario, paga por un sistema de leche automático y fácil de limpiar; si no, acabará sin usarse.
 - **Dejarse llevar por descuentos enormes en marcas desconocidas.** Un 60 % de rebaja sobre un precio inflado sigue siendo caro. Mira las opiniones verificadas y el servicio técnico en España.
-- **Esperar al viernes para todo.** Muchas ofertas duran pocas horas y se agotan. Si un producto que querías está a buen precio el martes, cómpralo.
+- **Esperar al viernes o al lunes para todo.** Muchas ofertas duran pocas horas y se agotan. Si un producto que querías está a buen precio hoy, cómpralo: no hay garantía de que el Cyber Monday baje más.
 
 ## Antes de pulsar "Comprar"
 
@@ -159,9 +161,13 @@ Si buscas la Magnifica S en concreto, aquí tienes [la versión ECAM11.112.B en 
 
 El Black Friday es el viernes 27 de noviembre, pero Amazon alarga las ofertas toda una semana. En 2026 empezó a rebajar productos el jueves 19 de noviembre, y la semana fuerte de ofertas va del lunes 23 al domingo 29, con el Cyber Monday el día 30. Las ofertas que me parecen más interesantes las tienes arriba, en [ofertas destacadas de la semana](#ofertas-destacadas-de-la-semana).
 
+### ¿Hasta cuándo duran las ofertas de cafeteras del Cyber Monday?
+
+El Cyber Monday es el lunes 30 de noviembre de 2026 y es el último día de la campaña: muchas ofertas de la semana del Black Friday siguen activas hasta esa noche y algunas se renuevan con precios nuevos. A partir del 1 de diciembre los precios suelen volver a subir, así que si ves el modelo que quieres a buen precio el domingo o el lunes, no lo dejes para después.
+
 ### ¿Es mejor comprar la cafetera en Black Friday o esperar al Cyber Monday?
 
-Si ves el modelo que quieres a un precio bajo según su historial, cómpralo: las mejores ofertas de cafeteras suelen agotarse en pocas horas y no hay garantía de que vuelvan el lunes. El Cyber Monday tiene sobre todo ofertas de electrónica y repite muchas de la semana.
+Si ves el modelo que quieres a un precio bajo según su historial, cómpralo: las mejores ofertas de cafeteras suelen agotarse en pocas horas y no hay garantía de que vuelvan el lunes. El Cyber Monday tiene sobre todo ofertas de electrónica y repite muchas de la semana; en cafeteras rara vez mejora el precio del viernes, aunque a veces vuelve a aparecer una oferta que se había agotado.
 
 ### ¿Qué cafeteras bajan más de precio en Black Friday?
 

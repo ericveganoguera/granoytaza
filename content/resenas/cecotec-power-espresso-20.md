@@ -92,7 +92,7 @@ Recientemente he notado que, al hacer dos cafés a la vez, la salida derecha del
 
 Para que no me pase lo mismo que con la anterior: limpieza a fondo del portafiltro y la ducha, descalcificación completa y, a partir de ahora, enjuagar el portafiltro después de cada uso y descalcificar con más regularidad.
 
-**¿Esperas al Black Friday para comprarla?** Mira qué modelos vigilar y cómo saber si el descuento es real en las [ofertas de cafeteras del Black Friday]({{base}}/guias/black-friday-cafeteras/).
+**¿Esperas al Black Friday o al Cyber Monday para comprarla?** Mira qué modelos vigilar y cómo saber si el descuento es real en las [ofertas de cafeteras del Black Friday y Cyber Monday]({{base}}/guias/black-friday-cafeteras/).
 
 ## ¿A quién se la recomendaría?
 
