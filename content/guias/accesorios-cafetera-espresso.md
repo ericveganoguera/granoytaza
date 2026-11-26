@@ -25,6 +25,8 @@ Antes de comprar nada, **mira el diámetro de tu portafiltro**. Casi todos los a
 
 Si solo vas a comprar una cosa, que sea el molinillo. Si ya lo tienes, un prensador decente y unas varillas cuestan poco y se notan.
 
+**¿Buscas un regalo?** Tengo una guía de [regalos para amantes del café]({{base}}/guias/regalos-para-cafeteros/) por presupuesto, con lo que uso yo.
+
 **¿Esperas al Black Friday o al Cyber Monday?** Los accesorios también bajan. Mira qué vigilar en las [ofertas de cafeteras del Black Friday y Cyber Monday]({{base}}/guias/black-friday-cafeteras/).
 
 ## Primero: ¿de cuántos milímetros es tu portafiltro?
@@ -91,7 +93,7 @@ Si tomas café con leche, aquí tienes dos caminos:
 - **Jarra de acero** para montar la leche con el vaporizador de la cafetera. Más barata y es el método "de barista", pero requiere práctica y estar pendiente.
 - **Espumador eléctrico.** Pones la leche, pulsas un botón y trabaja solo.
 
-Yo uso un espumador eléctrico [BURNNOVE](amazon:B0BRHVDLSX). Me resulta más práctico: mientras se hace la leche, yo muelo y preparo el café. Cuando el café está listo, la leche también. Además, el vaporizador se queda limpio, sin leche seca en la boquilla.
+Yo uso un espumador eléctrico [BURNNOVE](amazon-dp:B0BRHVDLSX). Me resulta más práctico: mientras se hace la leche, yo muelo y preparo el café. Cuando el café está listo, la leche también. Además, el vaporizador se queda limpio, sin leche seca en la boquilla.
 
 Si prefieres la jarra, busca una de acero inoxidable de unos 350 ml, suficiente para una o dos tazas.
 
