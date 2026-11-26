@@ -48,9 +48,11 @@ a:hover { color: var(--link-hover); }
 img { max-width: 100%; }
 .skip { position: absolute; left: -999px; top: 0; background: var(--ink); color: var(--paper); padding: .5rem 1rem; z-index: 10; }
 .skip:focus { left: 1rem; }
-.aviso { margin: 0; background: var(--band); color: var(--band-ink); text-align: center; font-size: .95rem; padding: .65rem 1rem; }
-.aviso a { color: var(--band-accent); font-weight: 700; margin-left: .35rem; text-underline-offset: 3px; }
-.aviso a:hover { color: var(--band-ink); }
+.aviso { display: block; margin: 0; background: var(--band); color: var(--band-ink); text-align: center; font-size: .95rem; padding: .65rem 1rem; text-decoration: none; }
+.aviso strong { color: var(--band-accent); margin-left: .35rem; white-space: nowrap; text-decoration: underline; text-underline-offset: 3px; }
+.aviso:hover { color: var(--band-ink); }
+.aviso:hover strong { color: var(--band-ink); }
+@media (max-width: 640px) { .aviso { font-size: .84rem; line-height: 1.4; padding: .5rem .9rem; } }
 .site-head { max-width: 76rem; margin: 0 auto; padding: 1.4rem 1rem; display: flex; flex-wrap: wrap; gap: .75rem 2rem; align-items: center; justify-content: space-between; }
 .brand { display: inline-flex; align-items: center; gap: .55rem; font: 1.6rem/1 var(--serif); color: var(--ink); text-decoration: none; }
 .brand svg { width: 30px; height: 30px; fill: var(--accent); stroke: var(--paper); stroke-width: 2; stroke-linecap: round; }
@@ -148,7 +150,7 @@ h1, h2, h3 { text-wrap: balance; }
 .product h3 { font: 400 1.5rem/1.2 var(--serif); margin: .25rem 0; }
 .product h3 a { color: inherit; text-decoration: none; }
 .product h3 a:hover { color: var(--link); text-decoration: underline; }
-.gama { display: flex; align-items: center; gap: .5rem; margin: 0; font-size: .9rem; color: var(--muted); }
+.gama { display: flex; flex-wrap: wrap; align-items: center; gap: .5rem; margin: 0; font-size: .9rem; color: var(--muted); }
 .ideal { margin: 0 0 .75rem; font-weight: 600; }
 .procon { display: grid; grid-template-columns: 1fr 1fr; gap: 1rem 1.5rem; margin: 1rem 0 1.25rem; }
 .procon h4 { margin: 0 0 .25rem; font-size: .95rem; }
@@ -158,7 +160,8 @@ h1, h2, h3 { text-wrap: balance; }
 .article-head { max-width: var(--measure); }
 .crumbs { font-size: .9rem; color: var(--muted); margin: 0; }
 .crumbs a { color: var(--muted); }
-.byline { color: var(--muted); font-size: .95rem; margin: 0 0 .75rem; }
+.byline { display: flex; align-items: center; gap: .6rem; color: var(--muted); font-size: .95rem; margin: 0 0 .75rem; }
+.byline-avatar { flex: none; width: 36px; height: 36px; border-radius: 50%; object-fit: cover; box-shadow: inset 0 0 0 1px var(--outline); }
 .disclosure { font-size: .86rem; color: var(--muted); background: var(--panel); border-radius: 14px; padding: .8rem 1rem; margin: 0 0 2rem; }
 .prose table { width: 100%; border-collapse: collapse; margin: 1.5rem 0; font-size: .95rem; display: block; overflow-x: auto; }
 .prose th, .prose td { text-align: left; padding: .65rem .75rem; border-bottom: 1px solid var(--line); vertical-align: top; }
@@ -244,7 +247,7 @@ h1, h2, h3 { text-wrap: balance; }
 .article-grid .prose { max-width: none; font-size: 1.1rem; }
 .article-grid .prose p, .article-grid .prose li { max-width: none; }
 .article-grid .prose .pgrid.inline { grid-template-columns: repeat(auto-fill, minmax(14rem, 1fr)); }
-.article-grid .prose table { display: table; }
+@media (min-width: 1001px) { .article-grid .prose table { display: table; } }
 .article-aside { position: relative; height: 100%; }
 .aside-sticky { position: sticky; top: 1.5rem; display: grid; gap: 1.5rem; }
 .aside-title { margin: 0 0 .6rem; font-weight: 700; font-size: .95rem; }
@@ -260,7 +263,7 @@ h1, h2, h3 { text-wrap: balance; }
 .page-art { border-radius: 32px; display: grid; place-items: center; aspect-ratio: 4 / 5; position: sticky; top: 1.5rem; }
 .page-art svg { width: 80%; height: auto; }
 @media (max-width: 1000px) {
-  .article-grid, .page-split { grid-template-columns: 1fr; gap: 2rem; }
+  .article-grid, .page-split { grid-template-columns: minmax(0, 1fr); gap: 2rem; }
   .article-aside { display: none; }
   .page-art { position: static; aspect-ratio: 16 / 9; order: -1; }
 }
@@ -498,7 +501,8 @@ p, li { text-wrap: pretty; }
 @media (max-width: 640px) {
   .hero { padding-top: 1rem; gap: 1.5rem; }
   .hero .intro { font-size: 1.05rem; margin-bottom: 0; }
-  .hero-by { display: none; }
+  .hero-by { font-size: .88rem; gap: .65rem; }
+  .hero-by .avatar { width: 36px; height: 36px; }
   .picker h2 { font-size: 1.2rem; margin-bottom: .6rem; }
   .picker li a { padding: .45rem; }
 }
@@ -651,3 +655,17 @@ img.avatar { object-fit: cover; padding: 0; }
 .ig-grid img { display: block; width: 100%; height: auto; }
 @media (min-width: 760px) { .ig-grid { grid-template-columns: 1fr 1fr; max-width: 60rem; } }
 @media (prefers-reduced-motion: reduce) { .ig-grid a { transition: none; } }
+
+/* Móvil: que el primer pantallazo de un artículo enseñe algo más que el título */
+@media (max-width: 640px) {
+  .article-head h1 { font-size: 1.95rem; line-height: 1.1; margin-bottom: .7rem; }
+  .article-head .lede { font-size: 1.08rem; line-height: 1.5; }
+  .prose table { font-size: .9rem; }
+  .prose th, .prose td { padding: .55rem .5rem; }
+  .prose td a[rel~="sponsored"]:not(.buy) { padding: .3rem .65rem; font-size: .88rem; }
+}
+.ig-intro { max-width: 34rem; margin: 0 auto 1.2rem; color: var(--muted); font-size: 1rem; line-height: 1.5; }
+/* Probado / no probado: que se vea sin tener que leer el texto */
+.mine.no { color: var(--muted); box-shadow: none; background: var(--panel); opacity: .92; }
+.tested { display: inline-block; margin-left: .6rem; font-size: .78rem; font-weight: 700; padding: .15rem .6rem; border-radius: 99px; background: var(--soft); color: var(--muted); vertical-align: middle; }
+.tested.yes { background: var(--accent-soft); color: var(--accent); }
