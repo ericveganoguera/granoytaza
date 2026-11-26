@@ -1218,11 +1218,13 @@ def main():
 
     if not PREVIEW:
         root = CFG["url"] + CFG["baseurl"].rstrip("/")
-        urls = [root + "/" + (p["slug"] + "/" if p["slug"] else "") for p in pages
+        # lastmod sale de "updated" para que Google sepa qué páginas han cambiado y las vuelva a rastrear
+        urls = [(root + "/" + (p["slug"] + "/" if p["slug"] else ""), p.get("updated")) for p in pages
                 if not p.get("noindex")]
         (OUT / "sitemap.xml").write_text(
             '<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n'
-            + "".join(f"  <url><loc>{u}</loc></url>\n" for u in urls) + "</urlset>\n", encoding="utf-8")
+            + "".join(f"  <url><loc>{u}</loc>" + (f"<lastmod>{d}</lastmod>" if d else "") + "</url>\n"
+                      for u, d in urls) + "</urlset>\n", encoding="utf-8")
         (OUT / "robots.txt").write_text(f"User-agent: *\nAllow: /\n# Variantes con filtros de /productos/ (?q=, ?precio=, ?cat=, ?orden=): no aportan nada a Google\nDisallow: /*?\nSitemap: {root}/sitemap.xml\n")
         (OUT / ".nojekyll").write_text("")
     print(f"OK: {len(pages)} páginas en {OUT}")
