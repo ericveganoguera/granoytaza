@@ -12,6 +12,9 @@ Sintaxis extra en los .md:
   [texto](amazon-dp:B0XXXXXXX)          -> ficha concreta (ASIN) con tu ID
   [texto](catalogo:molinillo)           -> cuadrícula de productos filtrada por categoría
   ::: producto ... :::                  -> ficha de producto (ver README)
+
+Imagen al compartir (og:image): por defecto, la foto de la página en content/enlaces.md.
+Para elegir otra, añade `imagen: img/archivo.jpg` (600 px de ancho o más) al .md.
 """
 import datetime as dt
 import html
@@ -880,6 +883,89 @@ def home_html(meta, articles):
 """
 
 
+def img_size(path):
+    """Ancho y alto de un JPEG o PNG leyendo solo la cabecera (sin dependencias). None si no se sabe."""
+    try:
+        data = path.read_bytes()
+    except OSError:
+        return None
+    if data[:8] == b"\x89PNG\r\n\x1a\n":
+        return int.from_bytes(data[16:20], "big"), int.from_bytes(data[20:24], "big")
+    if data[:2] == b"\xff\xd8":
+        i = 2
+        while i + 9 < len(data):
+            if data[i] != 0xFF:
+                i += 1
+                continue
+            marker = data[i + 1]
+            if marker in (0xD8, 0x01) or 0xD0 <= marker <= 0xD7:
+                i += 2
+                continue
+            seg = int.from_bytes(data[i + 2:i + 4], "big")
+            if 0xC0 <= marker <= 0xCF and marker not in (0xC4, 0xC8, 0xCC):
+                return int.from_bytes(data[i + 7:i + 9], "big"), int.from_bytes(data[i + 5:i + 7], "big")
+            i += 2 + seg
+    return None
+
+
+_SIZES = {}
+
+
+def local_img_size(src):
+    """Tamaño de una imagen de static/ a partir de su src ("/img/x.jpg"); None si es externa."""
+    if BASE and src.startswith(BASE + "/"):
+        src = src[len(BASE):]
+    if not src.startswith("/") or src.startswith("//"):
+        return None
+    if src not in _SIZES:
+        _SIZES[src] = img_size(ROOT / "static" / src.lstrip("/").split("?")[0])
+    return _SIZES[src]
+
+
+def add_img_dims(htmltext):
+    """Pone width y height a las imágenes locales que no los llevan (evita saltos de diseño, CLS)."""
+    def fix(m):
+        tag = m.group(0)
+        if re.search(r"\swidth=", tag) or re.search(r"\sheight=", tag):
+            return tag
+        src = re.search(r'\ssrc="([^"]+)"', tag)
+        size = local_img_size(src.group(1)) if src else None
+        if not size:
+            return tag
+        end = " />" if tag.endswith("/>") else ">"
+        return tag[:-len(end)].rstrip() + f' width="{size[0]}" height="{size[1]}"' + end
+    return re.sub(r"<img\b[^>]*>", fix, htmltext)
+
+
+def share_images():
+    """Foto de cada página para compartir en redes: la de su tarjeta en content/enlaces.md."""
+    f = ROOT / "content" / "enlaces.md"
+    if not f.exists():
+        return {}
+    pairs = re.findall(r'<a href="\{\{base\}\}/([^"]*?)/?"[^>]*>\s*<img[^>]*?src="\{\{base\}\}/([^"]+)"',
+                       f.read_text(encoding="utf-8"))
+    return {slug: img for slug, img in pairs}
+
+
+SHARE_IMG = share_images()
+
+
+def og_image(meta, content):
+    """Imagen og:image de la página: campo `imagen` del .md, su foto de content/enlaces.md,
+    la primera foto propia del texto (de 600 px o más) o, si no hay ninguna, og.png. Devuelve (ruta, ancho, alto)."""
+    cands = [meta.get("imagen"), SHARE_IMG.get(meta["slug"])]
+    if meta.get("layout") == "article":
+        cands += re.findall(r'<p>\s*<img\b[^>]*?src="([^"]+)"', content)
+    for c in cands:
+        if not c:
+            continue
+        c = "/" + c.lstrip("/") if not c.startswith(BASE + "/") else c[len(BASE):]
+        size = local_img_size(c)
+        if size and size[0] >= 600:
+            return c, size[0], size[1]
+    return "/og.png", 1200, 630
+
+
 def page_html(meta, content, articles=()):
     slug = meta["slug"]
     # Título para Google: seo_title si existe; la marca solo se añade si cabe en 60 caracteres
@@ -888,6 +974,9 @@ def page_html(meta, content, articles=()):
     desc = meta.get("description", CFG["description"])
     canonical = CFG["url"] + CFG["baseurl"].rstrip("/") + "/" + (slug + "/" if slug else "")
     is_article = meta.get("layout") == "article"
+    og_src, og_w, og_h = og_image(meta, content)
+    og_alt = (meta["title"] if og_src != "/og.png"
+              else "Grano y Taza: guías y reseñas reales para hacer buen café en casa")
     current = meta.get("section") or meta.get("section_key") or slug.split("/")[0]
     jsonld = ""
     if is_article:
@@ -1029,10 +1118,10 @@ def page_html(meta, content, articles=()):
 <meta property="og:url" content="{canonical}">
 <meta property="og:site_name" content="{CFG['title']}">
 <meta property="og:locale" content="es_ES">
-<meta property="og:image" content="{CFG['url']}{CFG['baseurl'].rstrip('/')}/og.png">
-<meta property="og:image:width" content="1200">
-<meta property="og:image:height" content="630">
-<meta property="og:image:alt" content="Grano y Taza: guías y reseñas reales para hacer buen café en casa">
+<meta property="og:image" content="{CFG['url']}{CFG['baseurl'].rstrip('/')}{og_src}">
+<meta property="og:image:width" content="{og_w}">
+<meta property="og:image:height" content="{og_h}">
+<meta property="og:image:alt" content="{E(og_alt)}">
 <meta name="twitter:card" content="summary_large_image">
 {'<meta name="robots" content="noindex">' if meta.get('noindex') else ''}
 <link rel="icon" href="{BASE}/favicon.svg" type="image/svg+xml">
@@ -1119,7 +1208,7 @@ def main():
         slug = meta["slug"]
         dest = OUT / "404.html" if slug == "404" else (OUT / slug / "index.html" if slug else OUT / "index.html")
         dest.parent.mkdir(parents=True, exist_ok=True)
-        out = page_html(meta, content, articles)
+        out = add_img_dims(page_html(meta, content, articles))
         if PREVIEW:
             depth = len(dest.relative_to(OUT).parts) - 1
             css = (ROOT / "static" / "style.css").read_text(encoding="utf-8")
