@@ -5,6 +5,8 @@ description: "Los artículos que aparecen en los últimos vídeos de @granoytaza
 
 # Visto en Instagram
 
+<p class="ig-intro">Toca la imagen del vídeo que has visto para abrir la guía completa. Las escribo yo, <a href="{{base}}/sobre-mi/">Eric</a>, y marco claramente lo que he tenido o probado; lo demás lleva «No lo he probado».</p>
+
 <div class="ig-grid">
 <a href="{{base}}/guias/regalos-para-cafeteros/"><img src="{{base}}/img/enlace-regalos.jpg" alt="Regalos para amantes del café por presupuesto" width="1200" height="960"></a>
 <a href="{{base}}/guias/black-friday-cafeteras/"><img src="{{base}}/img/enlace-black-friday.jpg" alt="Ofertas de cafeteras del Black Friday y Cyber Monday" width="1200" height="960"></a>

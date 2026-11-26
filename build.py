@@ -95,7 +95,7 @@ AMAZON_QUERY = {
     "molinillo": "molinillo cafe", "italiana": "cafetera italiana", "cafe": "cafe en grano",
     "filtro": "cafetera filtro manual", "accesorio": "accesorios cafe barista",
 }
-RANGOS = [(0, 50, "Menos de 50 €"), (50, 150, "50–150 €"), (150, 300, "150–300 €"),
+RANGOS = [(0, 20, "Menos de 20 €"), (20, 50, "20–50 €"), (50, 150, "50–150 €"), (150, 300, "150–300 €"),
           (300, 600, "300–600 €"), (600, 1000, "600–1.000 €"), (1000, 10**6, "Más de 1.000 €")]
 
 INK, CREAM, RED, CARAMEL, STEEL, STEEL_D, KRAFT, KRAFT_D, WHITE = (
@@ -431,12 +431,14 @@ def render_product(block):
     cons = "".join(f"<li>{E(x)}</li>" for x in p.get("contras", []))
     review = (f' <a class="more" href="{link(p["resena"])}">Leer la reseña completa</a>'
               if p.get("resena") else "")
+    tested = (f'<span class="tested yes">{E(p.get("etiqueta", "Lo uso en casa"))}</span>' if p.get("propio")
+              else '<span class="tested">No lo he probado</span>') if p.get("categoria") else ""
     return f"""
 <section class="product{' has-media' if p.get('categoria') else ''}" data-gama="{gama}" data-name="{E(p['nombre'])}" data-url="{E(prod_url(p))}" data-price="{E(precio_txt(p))}">
   {media_html(p, "product-media") if p.get("categoria") else ""}
   <div class="product-main">
   <header class="product-head">
-    <p class="gama"><span class="roast roast-{gama}" aria-hidden="true"></span>{GAMAS.get(gama, gama)}</p>
+    <p class="gama"><span class="roast roast-{gama}" aria-hidden="true"></span>{GAMAS.get(gama, gama)}{tested}</p>
     <h3><a href="{E(prod_url(p))}" {SPONSORED}>{E(p['nombre'])}</a></h3>
     <p class="ideal">Ideal para: {E(p.get('ideal', ''))}</p>
   </header>
@@ -459,8 +461,11 @@ def card(p, heading="h3", nota=None, badge=True):
         corto = GUIA_CORTA.get(p["guia"])
         extra = f'<a class="more" href="{link(p["guia"])}">{"Guía: " + corto if corto else "En la guía"}</a>'
     gama = p.get("gama", "media")
-    mine = (f'<p class="mine">{E(p.get("etiqueta", "Lo uso en casa"))}</p>'
-            if p.get("propio") and badge else '')
+    # Transparencia: lo que Eric usa lleva "Lo uso en casa"; el resto dice claramente que no lo ha probado.
+    mine = ""
+    if badge:
+        mine = (f'<p class="mine">{E(p.get("etiqueta", "Lo uso en casa"))}</p>' if p.get("propio")
+                else '<p class="mine no">No lo he probado</p>')
     return f"""<li class="pcard" data-cat="{p['categoria']}" data-gama="{gama}" data-precio="{p['precio']}" data-name="{E(p['nombre'])}" data-url="{E(prod_url(p))}" data-price="{E(precio_txt(p))}"
  data-rel="{p.get('relevancia', 50)}" data-fecha="{p.get('anadido', '')}" data-marca="{E(p.get('marca', ''))}"
  data-texto="{E((p['nombre'] + ' ' + p.get('marca', '') + ' ' + p.get('resumen', '')).lower())}">
@@ -1059,7 +1064,9 @@ def page_html(meta, content, articles=()):
         for k, label in NAV)
 
     av = CFG.get("aviso") or {}
-    aviso = (f'<p class="aviso">{E(av.get("texto", ""))} <a href="{link(av.get("enlace", ""))}">{E(av.get("boton", "Leer"))}</a></p>'
+    # Toda la barra es el enlace: en móvil es más fácil de tocar que un enlace pequeño al final del texto.
+    aviso = (f'<a class="aviso" href="{link(av.get("enlace", ""))}"><span>{E(av.get("texto", ""))}</span> '
+             f'<strong>{E(av.get("boton", "Leer"))} →</strong></a>'
              if av.get("texto") else "")
     ig_link = (f'<li class="ig"><a href="{CFG["instagram"]}" rel="me noopener" target="_blank" aria-label="Instagram">'
                '<svg viewBox="0 0 24 24" aria-hidden="true"><rect x="3" y="3" width="18" height="18" rx="5"/>'
@@ -1098,7 +1105,8 @@ def page_html(meta, content, articles=()):
     <p class="crumbs"><a href="{link('')}">Inicio</a> / <a href="{link(meta['section'])}">{sec['title']}</a></p>
     <h1>{E(meta['title'])}</h1>
     <p class="lede">{E(meta.get('lede', desc))}</p>
-    <p class="byline">Por <a href="{link('sobre-mi')}">{E(CFG['author'])}</a>. Actualizado el {fecha_es(upd)}.</p>
+    <p class="byline"><img class="byline-avatar" src="{BASE}/img/eric-avatar.jpg" alt="" width="36" height="36">
+      <span>Por <a href="{link('sobre-mi')}">{E(CFG['author'])}</a>. Actualizado el {fecha_es(upd)}.</span></p>
   </header>
   {review_box(meta) if meta['section'] == 'resenas' else ''}
   <div class="article-grid">
