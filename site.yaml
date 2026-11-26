@@ -17,6 +17,6 @@ lang: "es-ES"
 
 # Barra de aviso de la parte superior (déjalo vacío para ocultarla)
 aviso:
-  texto: "Regalos de café para Navidad y Reyes: qué cafetera o molinillo comprar y cuándo pedirlo."
+  texto: "Regalos de café para Navidad y Reyes: ideas por presupuesto para acertar."
   boton: "Ver la guía"
-  enlace: "guias/black-friday-cafeteras"
+  enlace: "guias/regalos-para-cafeteros"

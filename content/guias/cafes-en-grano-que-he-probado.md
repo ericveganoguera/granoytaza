@@ -9,6 +9,9 @@ order: 6
 updated: 2026-10-25
 ---
 
+
+**¿Es para regalar?** Mira las ideas de [regalos para amantes del café]({{base}}/guias/regalos-para-cafeteros/): café, molinillo y accesorios por presupuesto.
+
 ## Respuesta rápida
 
 | Puesto | Café | En una frase |

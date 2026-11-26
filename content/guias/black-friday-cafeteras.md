@@ -24,6 +24,8 @@ updated: 2026-12-01
 | **Próximo Black Friday** | Viernes 26 de noviembre de 2027 |
 | **Antes de comprar** | Mira el historial de precios del producto (te explico cómo abajo) |
 
+¿Buscas ideas concretas para regalar? Tengo una guía aparte de [regalos para amantes del café]({{base}}/guias/regalos-para-cafeteros/) ordenada por presupuesto, con lo que uso yo.
+
 Si aún no tienes claro qué comprar, decide primero sin prisa con mis guías de [mejores cafeteras para casa calidad-precio]({{base}}/guias/mejores-cafeteras-para-casa/), [mejores cafeteras espresso]({{base}}/guias/mejores-cafeteras-espresso/) y [mejores cafés en grano]({{base}}/guias/cafes-en-grano-que-he-probado/).
 
 ## Ofertas de cafeteras por tipo
@@ -48,7 +50,7 @@ El precio tachado no siempre dice la verdad. Hay productos que suben de precio a
 
 ## Regalos de café según tu presupuesto
 
-Son los mismos productos que recomiendo todo el año. Si alguno está rebajado, mejor; si no, sigue siendo una buena compra a su precio normal.
+Son los mismos productos que recomiendo todo el año. Si buscas más ideas, como accesorios o cafés para regalar, mira la [guía de regalos para cafeteros]({{base}}/guias/regalos-para-cafeteros/). Si alguno está rebajado, mejor; si no, sigue siendo una buena compra a su precio normal.
 
 ### Menos de 150 €
 
