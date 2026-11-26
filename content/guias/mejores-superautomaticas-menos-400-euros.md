@@ -23,7 +23,7 @@ updated: 2026-11-09
 
 **La decisión importante no es la marca, es la leche.** Si en casa se toma sobre todo café con leche, paga por un sistema de leche automático. Si tomas café solo o no te importa montar la leche, una con vaporizador manual te sale más barata y tiene menos piezas que limpiar.
 
-**¿Esperas al Black Friday?** Es el viernes 27 de noviembre. Casi todas estas cafeteras bajan de precio en algún momento del año. Te explico cómo saber si el descuento es real en las [ofertas de cafeteras del Black Friday]({{base}}/guias/black-friday-cafeteras/).
+**¿Esperas al Black Friday o al Cyber Monday?** Son el viernes 27 y el lunes 30 de noviembre. Casi todas estas cafeteras bajan de precio en algún momento del año. Te explico cómo saber si el descuento es real en las [ofertas de cafeteras del Black Friday y Cyber Monday]({{base}}/guias/black-friday-cafeteras/).
 
 ## Por qué estoy mirando superautomáticas
 
@@ -171,5 +171,5 @@ Vacía el cajón de posos y la bandeja cuando lo pida, enjuaga el sistema de lec
 ## Si te interesa, mira también
 
 - [Mejores cafeteras superautomáticas por presupuesto]({{base}}/guias/mejores-cafeteras-superautomaticas/), si puedes subir de 400 €
-- [Ofertas de cafeteras del Black Friday]({{base}}/guias/black-friday-cafeteras/)
+- [Ofertas de cafeteras del Black Friday y Cyber Monday]({{base}}/guias/black-friday-cafeteras/)
 - [Mejores cafés en grano que he probado]({{base}}/guias/cafes-en-grano-que-he-probado/)

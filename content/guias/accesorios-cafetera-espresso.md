@@ -25,7 +25,7 @@ Antes de comprar nada, **mira el diámetro de tu portafiltro**. Casi todos los a
 
 Si solo vas a comprar una cosa, que sea el molinillo. Si ya lo tienes, un prensador decente y unas varillas cuestan poco y se notan.
 
-**¿Esperas al Black Friday?** Los accesorios también bajan. Mira qué vigilar en las [ofertas de cafeteras del Black Friday]({{base}}/guias/black-friday-cafeteras/).
+**¿Esperas al Black Friday o al Cyber Monday?** Los accesorios también bajan. Mira qué vigilar en las [ofertas de cafeteras del Black Friday y Cyber Monday]({{base}}/guias/black-friday-cafeteras/).
 
 ## Primero: ¿de cuántos milímetros es tu portafiltro?
 

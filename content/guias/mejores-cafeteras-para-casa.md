@@ -23,7 +23,7 @@ updated: 2026-10-26
 | Quieres café de grano recién molido con un botón | [De'Longhi Magnifica S](amazon:DeLonghi+Magnifica+S) |
 | Tomáis café con leche cada día y no queréis complicaros | [Philips Serie 2300 LatteGo](amazon:Philips+2300+LatteGo) |
 
-**¿Esperas al Black Friday?** Mira qué modelos vigilar y cómo saber si el descuento es real en las [ofertas de cafeteras del Black Friday]({{base}}/guias/black-friday-cafeteras/).
+**¿Esperas al Black Friday o al Cyber Monday?** Mira qué modelos vigilar y cómo saber si el descuento es real en las [ofertas de cafeteras del Black Friday y Cyber Monday]({{base}}/guias/black-friday-cafeteras/).
 
 ## Cómo elegir en tres preguntas
 
