@@ -6,6 +6,7 @@ description: "Los artículos que aparecen en los últimos vídeos de @granoytaza
 # Visto en Instagram
 
 <div class="ig-grid">
+<a href="{{base}}/guias/regalos-para-cafeteros/"><img src="{{base}}/img/enlace-regalos.jpg" alt="Regalos para amantes del café por presupuesto" width="1200" height="960"></a>
 <a href="{{base}}/guias/black-friday-cafeteras/"><img src="{{base}}/img/enlace-black-friday.jpg" alt="Ofertas de cafeteras del Black Friday y Cyber Monday" width="1200" height="960"></a>
 <a href="{{base}}/guias/mejores-superautomaticas-menos-400-euros/"><img src="{{base}}/img/enlace-superautomaticas.jpg" alt="Mejores superautomáticas por menos de 400 €" width="1200" height="960"></a>
 <a href="{{base}}/blog/como-limpiar-y-descalcificar-cafetera-de-brazo/"><img src="{{base}}/img/enlace-descalcificar.jpg" alt="Cómo limpiar y descalcificar la cafetera paso a paso" width="1200" height="960" loading=lazy></a>

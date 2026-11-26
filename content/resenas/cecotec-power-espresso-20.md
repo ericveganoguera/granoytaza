@@ -34,7 +34,7 @@ En casa somos dos y casi siempre tomamos café con leche: uno al día entre sema
 Así preparo un café con leche cada mañana:
 
 1. Enciendo la cafetera para que vaya calentando.
-2. Pongo la leche en el [espumador](amazon:B0BRHVDLSX) y le doy al botón.
+2. Pongo la leche en el [espumador](amazon-dp:B0BRHVDLSX) y le doy al botón.
 3. Mientras, muelo el grano con mi [molinillo]({{base}}/blog/molinillo-de-cuchillas-mi-experiencia/) en la molienda más fina, lo pongo en el portafiltro, lo remuevo con unas varillas finas para que no queden grumos y lo prenso con un prensador.
 4. Extraigo el café y le añado la leche, que para entonces ya está lista.
 
