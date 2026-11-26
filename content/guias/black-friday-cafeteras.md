@@ -1,28 +1,32 @@
 ---
-title: "Ofertas de cafeteras Black Friday y Cyber Monday 2026: cuáles merecen la pena y cómo detectar falsos descuentos"
-seo_title: "Cafeteras Black Friday y Cyber Monday 2026: ofertas reales"
-description: "Ofertas de cafeteras en el Black Friday (27 de noviembre) y el Cyber Monday (30 de noviembre) de 2026: qué superautomáticas y espresso vigilar en Amazon y cómo detectar falsos descuentos."
-lede: "El Black Friday es el viernes 27 de noviembre y las ofertas siguen hasta el Cyber Monday, el lunes 30. Qué cafeteras y molinillos vigilar según tu presupuesto, y cómo comprobar en un minuto si el descuento es de verdad."
-summary: "Fechas del Black Friday y el Cyber Monday, cómo detectar falsas ofertas y qué cafeteras y molinillos vigilar según tu presupuesto."
+title: "Ofertas de cafeteras en Navidad y rebajas de enero 2027: qué comprar y cuándo"
+seo_title: "Cafeteras en Navidad y rebajas 2027: qué merece la pena"
+description: "Qué cafetera o molinillo regalar en Navidad y Reyes, cuándo pedirlo para que llegue a tiempo, cómo funcionan las devoluciones navideñas de Amazon y qué esperar de las rebajas de enero de 2027."
+lede: "El Black Friday ya ha pasado, pero aún quedan buenas ocasiones: los regalos de Navidad y Reyes y las rebajas de enero. Qué cafeteras y molinillos merecen la pena según tu presupuesto, cuándo pedirlos y cómo saber si el descuento es de verdad."
+summary: "Regalos de café por presupuesto, fechas de pedido para Navidad y Reyes y cómo aprovechar las rebajas de enero."
 layout: article
 tema: superautomatica
 order: 0
-updated: 2026-11-26
+updated: 2026-12-01
 ---
+
+<!-- REVISA LAS FECHAS DE LA TABLA antes de publicar: Amazon anuncia cada año sus fechas límite de envío
+     para Navidad y Reyes y su política de devoluciones navideñas. Las de abajo son las habituales, no las confirmadas de 2026. -->
 
 ## Respuesta rápida
 
 | Qué | Cuándo o qué hacer |
 |---|---|
-| **Black Friday** | Viernes 27 de noviembre de 2026 |
-| **Semana de ofertas en Amazon** | Ya en marcha: Amazon empezó a rebajar el jueves 19 de noviembre, y la semana fuerte va del 23 al 29 de noviembre |
-| **Cyber Monday** | Lunes 30 de noviembre: último día de la campaña. Muchas ofertas de la semana siguen hasta esa noche |
-| **Lo que más merece la pena vigilar** | Superautomáticas de gama de entrada y media, cafeteras de brazo con molinillo y molinillos eléctricos |
+| **Para que llegue en Nochebuena** | Pídelo, como tarde, hacia el 20 de diciembre (con Prime, un par de días más) |
+| **Para que llegue el día de Reyes** | Pídelo, como tarde, hacia el 2 de enero |
+| **Devoluciones de regalos** | Lo que compras en Amazon desde el 1 de noviembre se puede devolver hasta el 31 de enero |
+| **Rebajas de enero** | A partir del 7 de enero de 2027 en la mayoría de tiendas; algunas, como Amazon, empiezan antes |
+| **Próximo Black Friday** | Viernes 26 de noviembre de 2027 |
 | **Antes de comprar** | Mira el historial de precios del producto (te explico cómo abajo) |
 
-Si aún no tienes claro qué comprar, decide primero sin prisa con mis guías de [mejores cafeteras para casa calidad-precio]({{base}}/guias/mejores-cafeteras-para-casa/), [mejores cafeteras espresso]({{base}}/guias/mejores-cafeteras-espresso/) y [mejores cafés en grano]({{base}}/guias/cafes-en-grano-que-he-probado/). Así el día de las ofertas solo tendrás que mirar el precio.
+Si aún no tienes claro qué comprar, decide primero sin prisa con mis guías de [mejores cafeteras para casa calidad-precio]({{base}}/guias/mejores-cafeteras-para-casa/), [mejores cafeteras espresso]({{base}}/guias/mejores-cafeteras-espresso/) y [mejores cafés en grano]({{base}}/guias/cafes-en-grano-que-he-probado/).
 
-## Ofertas de cafeteras del Black Friday y Cyber Monday por tipo
+## Ofertas de cafeteras por tipo
 
 Si ya sabes qué tipo de cafetera quieres, aquí tienes la búsqueda de ofertas en Amazon y mi guía para elegir el modelo:
 
@@ -31,27 +35,24 @@ Si ya sabes qué tipo de cafetera quieres, aquí tienes la búsqueda de ofertas 
 | **Superautomáticas** | [Ver ofertas](amazon:cafetera+superautomatica+oferta) | [Mejores superautomáticas]({{base}}/guias/mejores-cafeteras-superautomaticas/) |
 | **Espresso o express de brazo** | [Ver ofertas](amazon:cafetera+espresso+oferta) | [Mejores cafeteras espresso]({{base}}/guias/mejores-cafeteras-espresso/) |
 | **Molinillos de café** | [Ver ofertas](amazon:molinillo+cafe+electrico+oferta) | [Mejores molinillos]({{base}}/guias/mejores-molinillos-de-cafe/) |
-| **Cafeteras Cecotec** | [Ver ofertas](amazon:cafetera+Cecotec+oferta) | [Mi opinión de la Cecotec Power Espresso 20]({{base}}/resenas/cecotec-power-espresso-20/) |
-| **Cafeteras De'Longhi** | [Ver ofertas](amazon:cafetera+DeLonghi+oferta) | [La Dedica en la guía de espresso]({{base}}/guias/mejores-cafeteras-espresso/) |
+| **Accesorios para regalar** | [Ver ofertas](amazon:accesorios+cafe+barista+regalo) | [Accesorios para cafetera espresso]({{base}}/guias/accesorios-cafetera-espresso/) |
 | **Café en grano** | [Ver ofertas](amazon:cafe+en+grano+oferta) | [Los cafés en grano que he probado]({{base}}/guias/cafes-en-grano-que-he-probado/) |
-
-¿Todavía no sabes qué tipo te conviene? Empieza por las [mejores cafeteras para casa]({{base}}/guias/mejores-cafeteras-para-casa/) o la comparativa de [tipos de cafetera]({{base}}/blog/que-cafetera-comprar/).
 
 ## Cómo saber si una oferta es real
 
-El precio tachado no siempre dice la verdad. Hay productos que suben de precio en las semanas previas para que el descuento parezca mayor. Tres comprobaciones rápidas:
+El precio tachado no siempre dice la verdad. Hay productos que suben de precio antes de Navidad o de las rebajas para que el descuento parezca mayor. Tres comprobaciones rápidas:
 
 1. **Mira el historial de precios.** La extensión gratuita **Keepa** para el navegador añade a cada ficha de Amazon una gráfica con la evolución del precio en los últimos meses. Si el precio "rebajado" es el mismo que el producto tuvo en septiembre, no es una oferta.
 2. **Fíjate en el precio de referencia.** En España, cuando una tienda anuncia una rebaja, el precio anterior que muestra debe ser el más bajo que ha tenido en los 30 días previos. Si ves un descuento enorme sobre un precio que nunca se ha cobrado, desconfía.
 3. **Compara con otras tiendas.** Un comparador como Idealo te dice en segundos si otra tienda lo tiene más barato.
 
-## Qué vigilar según tu presupuesto
+## Regalos de café según tu presupuesto
 
-Estos son los productos que recomiendo durante todo el año. Si alguno baja de precio entre el Black Friday y el Cyber Monday, es una buena compra. Si no baja, sigue siendo una buena compra a su precio normal.
+Son los mismos productos que recomiendo todo el año. Si alguno está rebajado, mejor; si no, sigue siendo una buena compra a su precio normal.
 
 ### Menos de 150 €
 
-Para empezar a hacer buen café o mejorar el que ya haces.
+Regalos pequeños que de verdad se usan, o para empezar a hacer buen café en casa.
 
 ::: productos
 - id: timemore-c3
@@ -68,7 +69,7 @@ Para empezar a hacer buen café o mejorar el que ya haces.
 
 ### De 150 a 300 €
 
-La franja donde un descuento convierte una buena compra en una excelente.
+El regalo grande "para la casa" sin irse de presupuesto.
 
 ::: productos
 - id: dedica-ec685
@@ -102,7 +103,7 @@ Aquí están las mejores compras para quien toma café con leche a diario.
 
 ### Más de 600 €
 
-En estas compras grandes el ahorro en euros es mayor, así que merece la pena esperar a una buena rebaja.
+En estas compras grandes el ahorro en euros es mayor: si no es para regalar ya, compensa vigilar las rebajas de enero.
 
 ::: productos
 - id: barista-express
@@ -115,60 +116,40 @@ En estas compras grandes el ahorro en euros es mayor, así que merece la pena es
   nota: "El molinillo para quien se toma el espresso en serio"
 :::
 
-## Ofertas destacadas de la semana
+<!-- TU EXPERIENCIA: si has regalado (o te han regalado) alguno de estos, una frase aquí lo hace mucho más creíble. -->
 
-<!-- ACTUALIZA ESTA SECCIÓN del 20 al 30 de noviembre con las ofertas reales que veas:
-     producto, precio de oferta, precio habitual según Keepa y enlace. Cambia también la fecha "updated" de arriba.
-     CYBER MONDAY: el sábado 28 o el domingo 29, quita las que ya no estén rebajadas, añade las nuevas
-     y cambia la línea "Actualizado el..." de abajo. -->
+## Regalar una cafetera: lo que conviene saber
 
-*Actualizado el viernes 20 de noviembre de 2026.* Amazon ya ha empezado su semana de Black Friday y estas son las rebajas de cafeteras y molinillos que, a día de hoy, me parecen de verdad interesantes: productos que recomiendo, que bajan respecto a lo que han costado en las últimas semanas y no sobre un precio inflado. Las ofertas cambian cada pocas horas, así que comprueba el precio actual en el botón de cada producto (y su historial en Keepa) antes de comprar.
+- **Una cafetera de brazo sin molinillo es medio regalo.** Sin café recién molido no se le saca partido. Si no da para las dos cosas, regala una superautomática o añade un buen café ya molido para espresso.
+- **Pregunta (con disimulo) cómo toma el café.** Si es con leche a diario, una superautomática con sistema de leche automático acierta casi siempre; si es solo o de filtro, un buen molinillo suele hacer más ilusión de lo que parece.
+- **Guarda la caja y el ticket regalo.** Con la devolución ampliada de Amazon hay margen hasta finales de enero si no acierta.
+- **No te fíes de descuentos enormes en marcas desconocidas.** Un 60 % de rebaja sobre un precio inflado sigue siendo caro. Mira las opiniones verificadas y el servicio técnico en España.
 
-::: productos
-- id: cecotec-power-espresso-20
-  nota: "La cafetera que uso cada día, muy por debajo de lo que suele costar. Si quieres empezar con el espresso gastando poco, es el momento"
-- id: magnifica-s
-  nota: "La superautomática de referencia vuelve a bajar en Amazon. Ojo: la versión rebajada es la ECAM11.112.B, con el mismo molinillo y vaporizador"
-- id: sage-bambino
-  nota: "Rebaja real frente a su precio más bajo del último mes. Calienta en segundos y monta mejor la leche que cualquier cafetera de su precio"
-- id: philips-5400-lattego
-  nota: "Cae muy por debajo de su precio habitual: más recetas y perfiles de usuario que la 2300 con el mismo sistema de leche fácil de lavar"
-- id: rivelia
-  nota: "Rebajada en Amazon por debajo del precio de la tienda oficial de De'Longhi. Buena ocasión si quieres alternar dos cafés"
-- id: timemore-c5-esp-pro
-  nota: "Molinillo manual para espresso más barato que en las últimas semanas; el complemento ideal para la Cecotec o la Bambino"
-:::
+## ¿Compro ahora o espero a las rebajas de enero?
 
-Si buscas la Magnifica S en concreto, aquí tienes [la versión ECAM11.112.B en Amazon](amazon-dp:B0BWSFGQ49). Y si no ves tu modelo, puedes buscar directamente las [ofertas de cafeteras superautomáticas](amazon:cafetera+superautomatica+oferta), [cafeteras espresso](amazon:cafetera+espresso+oferta) y [molinillos de café](amazon:molinillo+cafe+electrico+oferta) en Amazon.
-
-## Errores que conviene evitar
-
-- **Comprar una cafetera de brazo sin molinillo.** Sin café recién molido no vas a sacarle partido. Si el presupuesto no da para las dos cosas, una superautomática tiene más sentido.
-- **Elegir superautomática sin pensar en la leche.** Si tomáis café con leche a diario, paga por un sistema de leche automático y fácil de limpiar; si no, acabará sin usarse.
-- **Dejarse llevar por descuentos enormes en marcas desconocidas.** Un 60 % de rebaja sobre un precio inflado sigue siendo caro. Mira las opiniones verificadas y el servicio técnico en España.
-- **Esperar al viernes o al lunes para todo.** Muchas ofertas duran pocas horas y se agotan. Si un producto que querías está a buen precio hoy, cómpralo: no hay garantía de que el Cyber Monday baje más.
+Si es un regalo, cómpralo ahora: en las rebajas no llega a tiempo y en diciembre muchas cafeteras se mantienen cerca del precio del Black Friday. Si es para ti y no tienes prisa, las rebajas de enero suelen traer descuentos parecidos en superautomáticas y cafeteras de brazo, sobre todo en los modelos del año anterior. En los dos casos, la comprobación es la misma: el historial de precios en Keepa.
 
 ## Antes de pulsar "Comprar"
 
 1. ¿El precio es el más bajo de los últimos meses según Keepa?
 2. ¿Lo vende y envía Amazon o un vendedor con buenas valoraciones?
-3. ¿Encaja con cómo tomas el café? Si dudas, la [comparativa de tipos de cafetera]({{base}}/blog/que-cafetera-comprar/) te ayuda a decidir en cinco minutos.
-4. Si es un regalo, revisa el plazo de devolución ampliado que Amazon suele ofrecer en compras navideñas.
+3. ¿Llega a tiempo? Mira la fecha de entrega estimada en la ficha antes de pagar.
+4. ¿Encaja con cómo toma el café quien lo va a usar? Si dudas, la [comparativa de tipos de cafetera]({{base}}/blog/que-cafetera-comprar/) te ayuda a decidir en cinco minutos.
 
 ## Preguntas frecuentes
 
-### ¿Cuándo empiezan las ofertas de cafeteras del Black Friday 2026?
+### ¿Cuándo empiezan las rebajas de enero de 2027?
 
-El Black Friday es el viernes 27 de noviembre, pero Amazon alarga las ofertas toda una semana. En 2026 empezó a rebajar productos el jueves 19 de noviembre, y la semana fuerte de ofertas va del lunes 23 al domingo 29, con el Cyber Monday el día 30. Las ofertas que me parecen más interesantes las tienes arriba, en [ofertas destacadas de la semana](#ofertas-destacadas-de-la-semana).
+En la mayoría de tiendas en España, el 7 de enero, justo después de Reyes. Amazon y algunas tiendas online suelen adelantar parte de los descuentos a los primeros días de enero. Cuando empiecen, actualizaré esta guía con las que me parezcan de verdad interesantes.
 
-### ¿Hasta cuándo duran las ofertas de cafeteras del Cyber Monday?
+### ¿Hasta cuándo puedo devolver una cafetera comprada para Navidad?
 
-El Cyber Monday es el lunes 30 de noviembre de 2026 y es el último día de la campaña: muchas ofertas de la semana del Black Friday siguen activas hasta esa noche y algunas se renuevan con precios nuevos. A partir del 1 de diciembre los precios suelen volver a subir, así que si ves el modelo que quieres a buen precio el domingo o el lunes, no lo dejes para después.
+En Amazon, lo que compras desde el 1 de noviembre se puede devolver hasta el 31 de enero, aunque el plazo normal sea de 30 días. En otras tiendas depende de cada una, así que mira sus condiciones antes de comprar.
 
-### ¿Es mejor comprar la cafetera en Black Friday o esperar al Cyber Monday?
+### ¿Qué cafetera regalar si no sé cómo toma el café?
 
-Si ves el modelo que quieres a un precio bajo según su historial, cómpralo: las mejores ofertas de cafeteras suelen agotarse en pocas horas y no hay garantía de que vuelvan el lunes. El Cyber Monday tiene sobre todo ofertas de electrónica y repite muchas de la semana; en cafeteras rara vez mejora el precio del viernes, aunque a veces vuelve a aparecer una oferta que se había agotado.
+Una buena italiana con un paquete de café de calidad casi nunca falla y cuesta poco. Si el presupuesto es mayor y en esa casa se toma café con leche, una superautomática como la [Magnifica S]({{base}}/guias/mejores-cafeteras-superautomaticas/) es la apuesta más segura.
 
-### ¿Qué cafeteras bajan más de precio en Black Friday?
+### ¿Cuándo es el Black Friday de 2027?
 
-Por lo general, las superautomáticas y las cafeteras de brazo con molinillo integrado, porque tienen un precio de partida alto y un descuento se nota más en euros. Las cafeteras de entrada, como mi Cecotec, y las italianas bajan menos, pero también suelen tener alguna rebaja.
+El viernes 26 de noviembre de 2027, con el Cyber Monday el lunes 29. Antes de esas fechas volveré a actualizar esta guía con las ofertas que merezca la pena vigilar.

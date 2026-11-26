@@ -17,6 +17,6 @@ lang: "es-ES"
 
 # Barra de aviso de la parte superior (déjalo vacío para ocultarla)
 aviso:
-  texto: "Black Friday y Cyber Monday, hasta el lunes 30: las ofertas de cafeteras y molinillos que merecen la pena."
+  texto: "Regalos de café para Navidad y Reyes: qué cafetera o molinillo comprar y cuándo pedirlo."
   boton: "Ver la guía"
   enlace: "guias/black-friday-cafeteras"
