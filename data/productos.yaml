@@ -28,6 +28,7 @@ productos:
     relevancia: 95
     anadido: 2026-10-21
     buscar: "DeLonghi Dedica EC685"
+    enlace: "https://link.amazon/B04dqyHhm"   # SiteStripe de Eric
     resumen: "La cafetera de brazo más compacta para empezar; perdona el café molido de paquete."
     guia: guias/mejores-cafeteras-espresso
 
@@ -40,6 +41,7 @@ productos:
     relevancia: 70
     anadido: 2026-10-21
     buscar: "DeLonghi Stilosa EC260"
+    enlace: "https://link.amazon/B0gPm6NZ6"   # SiteStripe de Eric
     resumen: "La forma más barata de probar el espresso en casa con una marca con servicio técnico."
     guia: guias/mejores-cafeteras-espresso
 
@@ -52,6 +54,7 @@ productos:
     relevancia: 88
     anadido: 2026-10-21
     buscar: "Sage Bambino Plus"
+    enlace: "https://link.amazon/B0gCxISff"   # SiteStripe de Eric
     resumen: "Monta la leche sola con temperatura y textura a elegir. Lista en segundos."
     guia: guias/mejores-cafeteras-espresso
 
@@ -76,6 +79,7 @@ productos:
     relevancia: 85
     anadido: 2026-10-21
     buscar: "Sage Barista Express"
+    enlace: "https://link.amazon/B000wrnYd"   # SiteStripe de Eric
     resumen: "Cafetera de brazo con molinillo integrado: todo en un solo aparato."
     guia: guias/mejores-cafeteras-espresso
 
@@ -88,6 +92,7 @@ productos:
     relevancia: 80
     anadido: 2026-10-21
     buscar: "Gaggia Classic Evo Pro"
+    enlace: "https://link.amazon/B0isc6xYm"   # SiteStripe de Eric
     resumen: "Clásico italiano de acero con portafiltro profesional de 58 mm. Para aprender y durar."
     guia: guias/mejores-cafeteras-espresso
 
@@ -100,6 +105,7 @@ productos:
     relevancia: 75
     anadido: 2026-10-21
     buscar: "Sage Barista Touch Impress"
+    enlace: "https://link.amazon/B02m6Kr1R"   # SiteStripe de Eric
     resumen: "Te guía en pantalla, prensa el café por ti y monta la leche en automático."
     guia: guias/mejores-cafeteras-espresso
 
@@ -112,6 +118,7 @@ productos:
     relevancia: 92
     anadido: 2026-10-21
     buscar: "DeLonghi Magnifica S ECAM22.110"
+    enlace: "https://link.amazon/B0bxOtcAs"   # SiteStripe de Eric
     resumen: "La superautomática de referencia por precio: grano recién molido con dos botones."
     guia: guias/mejores-cafeteras-superautomaticas
 
@@ -124,6 +131,7 @@ productos:
     relevancia: 94
     anadido: 2026-10-21
     buscar: "Philips 2300 LatteGo"
+    enlace: "https://link.amazon/B06wnSBkD"   # SiteStripe de Eric
     resumen: "Capuchino con un toque y un sistema de leche sin tubos que se lava en segundos."
     guia: guias/mejores-cafeteras-superautomaticas
 
@@ -136,6 +144,7 @@ productos:
     relevancia: 78
     anadido: 2026-10-21
     buscar: "Philips 3300 LatteGo"
+    enlace: "https://link.amazon/B0eFV5xUw"   # SiteStripe de Eric
     resumen: "Más recetas y ajustes que la 2300 con el mismo sistema de leche fácil de limpiar."
     guia: guias/mejores-cafeteras-superautomaticas
 
@@ -148,6 +157,7 @@ productos:
     relevancia: 76
     anadido: 2026-10-21
     buscar: "DeLonghi Rivelia"
+    enlace: "https://link.amazon/B04XlEa7R"   # SiteStripe de Eric
     resumen: "Tolvas de grano intercambiables para alternar café normal y descafeinado."
     guia: guias/mejores-cafeteras-superautomaticas
 
