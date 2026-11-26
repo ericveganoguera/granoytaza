@@ -379,7 +379,30 @@ def amazon_url(query=None, asin=None):
 def prod_url(p):
     if p.get("api", {}).get("url"):
         return p["api"]["url"]
-    return amazon_url(asin=p["asin"]) if p.get("asin") else amazon_url(p.get("buscar", p["nombre"]))
+    if p.get("asin"):
+        return amazon_url(asin=p["asin"])
+    if p.get("enlace"):  # enlace corto de SiteStripe (ya lleva tu etiqueta)
+        return p["enlace"]
+    return amazon_url(p.get("buscar", p["nombre"]))
+
+
+def _clave(t):
+    return re.sub(r"[^a-z0-9]", "", str(t).lower())
+
+
+# [texto](amazon:Busqueda) que coincide con un producto del catálogo -> su ficha, no una búsqueda
+BYBUSCAR = {}
+for _p in PRODUCTOS:
+    for _t in (_p.get("buscar"), _p["nombre"]):
+        if _t:
+            BYBUSCAR.setdefault(_clave(_t), _p)
+
+
+def search_or_product(query):
+    p = BYBUSCAR.get(_clave(query.replace("+", " ")))
+    if p and (p.get("asin") or p.get("enlace") or p.get("api", {}).get("url")):
+        return prod_url(p)
+    return amazon_url(query)
 
 
 def link(path):
@@ -667,7 +690,7 @@ def render_body(text):
         kind, val = m.group(1), html.unescape(m.group(2))
         if kind == "catalogo":
             return f'<a href="{link("productos")}?cat={E(val)}"'
-        url = amazon_url(asin=val) if kind == "amazon-dp" else amazon_url(val)
+        url = amazon_url(asin=val) if kind == "amazon-dp" else search_or_product(val)
         return f'<a href="{E(url)}" {SPONSORED}'
     out = re.sub(r'<a href="(amazon|amazon-dp|catalogo):([^"]+)"', fix, out)
     # cualquier enlace "Ver en Amazon" escrito en el texto se muestra como botón
